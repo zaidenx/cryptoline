@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+ulimit -s unlimited || true
+
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
 CV="${CV:-$ROOT/_build/default/cv.exe}"
 SRC="${1:-$ROOT/examples}"
@@ -56,6 +58,7 @@ for in_path in "${FILES[@]}"; do
   run_cv() {
     local retry_args="${1:-}"
     # shellcheck disable=SC2086
+    OCAMLRUNPARAM="${OCAMLRUNPARAM:-s=2G}" \
     $CV $EXTRA_ARGS $retry_args \
       -save-mix "$out_base" "$in_path" \
       >"${out_base}.log" 2>"${out_base}.err" || true
