@@ -576,17 +576,10 @@ let anon file =
        () in
      let (_, s) = Common.parse_and_check file in
      let _ = if SS.cardinal (tagged_spec_tags s) > 1 then failwith ("Multi-track cuts are not supported.") in
-     let processed_spec =
-       tagged_spec_untag s
-       |> ssa_spec
-       |> normalize_spec
-       |> (if !apply_rewrite_mov then rewrite_mov_ssa_spec else Fun.id) in
-     let ss =
-       try Ast.Cryptoline.cut_spec processed_spec
-       with Failure msg ->
-         if String.equal msg "The function cut_spec cannot cut single algebra or range side"
-         then [remove_cut_spec processed_spec]
-         else raise (Failure msg) in
+     let ss = Ast.Cryptoline.cut_spec (
+         tagged_spec_untag s |> ssa_spec |> normalize_spec
+         |> (if !apply_rewrite_mov then rewrite_mov_ssa_spec else Fun.id)
+       ) in
      let smtlibs_rev =
        List.fold_left
          (fun smtlibs s ->
