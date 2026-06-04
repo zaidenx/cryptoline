@@ -351,9 +351,9 @@ assert limbs 64 [rcxo, r8o, r9o, r10o] * 0x26
   && true;
 
 
-assert eqmod limbs 64 [0, 0, 0, 0, rcxo, r8o, r9o, r10o] 
-             limbs 64 [rdi, rsi, rcx, r8, r9]
-             limbs 64 [m0, m1, m2, m3]
+assert eqmod (limbs 64 [0, 0, 0, 0, rcxo, r8o, r9o, r10o] )
+             (limbs 64 [rdi, rsi, rcx, r8, r9])
+             (limbs 64 [m0, m1, m2, m3])
   && true;
 
 (* add    %rdi,%r12                                #! PC = 0x402451 *)
@@ -398,9 +398,9 @@ assume carry = 0 && true;
 
 
 assert eqmod
-       limbs 64 [x0, x1, x2, x3] * limbs 64 [y0, y1, y2, y3] 
-       limbs 64 [r12, r13, r14, r15]
-       limbs 64 [m0, m1, m2, m3]
+       (limbs 64 [x0, x1, x2, x3] * limbs 64 [y0, y1, y2, y3] )
+       (limbs 64 [r12, r13, r14, r15])
+       (limbs 64 [m0, m1, m2, m3])
  && true;
 ghost r12o@uint64, r13o@uint64, r14o@uint64, r15o@uint64:
      and[r12o = r12, r13o = r13, r14o = r14, r15o = r15]

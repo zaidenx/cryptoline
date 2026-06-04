@@ -155,15 +155,15 @@ mov c4 L0x7fffffffd9c0;
 mov c5 L0x7fffffffd9c8;
 
 assert true && and[eqmod
-                   limbs 64 [c0, c1, c2, c3, c4, c5]
-                   limbs 64 [x0, x1, x2, x3, x4, x5] + limbs 64 [y0, y1, y2, y3, y4, y5]
-                   limbs 64 [m0, m1, m2, m3, m4, m5],
+                   (limbs 64 [c0, c1, c2, c3, c4, c5])
+                   (limbs 64 [x0, x1, x2, x3, x4, x5] + limbs 64 [y0, y1, y2, y3, y4, y5])
+                   (limbs 64 [m0, m1, m2, m3, m4, m5]),
                    limbs 64 [c0, c1, c2, c3, c4, c5] <u limbs 64 [m0, m1, m2, m3, m4, m5]
                    ];
 assume and[eqmod
-           limbs 64 [c0, c1, c2, c3, c4, c5]
-           limbs 64 [x0, x1, x2, x3, x4, x5] + limbs 64 [y0, y1, y2, y3, y4, y5]
-           limbs 64 [m0, m1, m2, m3, m4, m5]
+           (limbs 64 [c0, c1, c2, c3, c4, c5])
+           (limbs 64 [x0, x1, x2, x3, x4, x5] + limbs 64 [y0, y1, y2, y3, y4, y5])
+           (limbs 64 [m0, m1, m2, m3, m4, m5])
            ] && true;
 
 (* mov    0x10(%rsp),%rsi                          #! EA = L0x7fffffffd990; Value = 0x00007fffffffdb50; PC = 0x93824992312116 *)
@@ -274,17 +274,17 @@ mov d4 L0x7fffffffd9f0;
 mov d5 L0x7fffffffd9f8;
 
 assert and[eqmod
-           limbs 64 [d0, d1, d2, d3, d4, d5]
-           limbs 64 [x0, x1, x2, x3, x4, x5] - limbs 64 [y0, y1, y2, y3, y4, y5]
-           limbs 64 [m0, m1, m2, m3, m4, m5]
+           (limbs 64 [d0, d1, d2, d3, d4, d5])
+           (limbs 64 [x0, x1, x2, x3, x4, x5] - limbs 64 [y0, y1, y2, y3, y4, y5])
+           (limbs 64 [m0, m1, m2, m3, m4, m5])
            ] &&
        limbs 64 [d0, d1, d2, d3, d4, d5] <u limbs 64 [m0, m1, m2, m3, m4, m5];
 
 assume true &&
        and[eqmod
-           limbs 64 [d0, d1, d2, d3, d4, d5]
-           limbs 64 [x0, x1, x2, x3, x4, x5] - limbs 64 [y0, y1, y2, y3, y4, y5]
-           limbs 64 [m0, m1, m2, m3, m4, m5]];
+           (limbs 64 [d0, d1, d2, d3, d4, d5])
+           (limbs 64 [x0, x1, x2, x3, x4, x5] - limbs 64 [y0, y1, y2, y3, y4, y5])
+           (limbs 64 [m0, m1, m2, m3, m4, m5])];
 
 cut and[m0 = 0xb9feffffffffaaab,
         m1 = 0x1eabfffeb153ffff,
@@ -306,13 +306,13 @@ cut and[m0 = 0xb9feffffffffaaab,
         L0x7fffffffd980 = n0,
         
         eqmod
-        limbs 64 [c0, c1, c2, c3, c4, c5]
-        limbs 64 [x0, x1, x2, x3, x4, x5] + limbs 64 [y0, y1, y2, y3, y4, y5]
-        limbs 64 [m0, m1, m2, m3, m4, m5],
+        (limbs 64 [c0, c1, c2, c3, c4, c5])
+        (limbs 64 [x0, x1, x2, x3, x4, x5] + limbs 64 [y0, y1, y2, y3, y4, y5])
+        (limbs 64 [m0, m1, m2, m3, m4, m5]),
         eqmod
-        limbs 64 [d0, d1, d2, d3, d4, d5]
-        limbs 64 [x0, x1, x2, x3, x4, x5] - limbs 64 [y0, y1, y2, y3, y4, y5]
-        limbs 64 [m0, m1, m2, m3, m4, m5]
+        (limbs 64 [d0, d1, d2, d3, d4, d5])
+        (limbs 64 [x0, x1, x2, x3, x4, x5] - limbs 64 [y0, y1, y2, y3, y4, y5])
+        (limbs 64 [m0, m1, m2, m3, m4, m5])
 
         ] &&
     and[m0 = 0xb9feffffffffaaab@64,
@@ -329,13 +329,13 @@ cut and[m0 = 0xb9feffffffffaaab,
         L0x7fffffffd980 = n0,
 
         eqmod
-        limbs 64 [c0, c1, c2, c3, c4, c5]
-        limbs 64 [x0, x1, x2, x3, x4, x5] + limbs 64 [y0, y1, y2, y3, y4, y5]
-        limbs 64 [m0, m1, m2, m3, m4, m5],
+        (limbs 64 [c0, c1, c2, c3, c4, c5])
+        (limbs 64 [x0, x1, x2, x3, x4, x5] + limbs 64 [y0, y1, y2, y3, y4, y5])
+        (limbs 64 [m0, m1, m2, m3, m4, m5]),
         eqmod
-        limbs 64 [d0, d1, d2, d3, d4, d5]
-        limbs 64 [x0, x1, x2, x3, x4, x5] - limbs 64 [y0, y1, y2, y3, y4, y5]
-        limbs 64 [m0, m1, m2, m3, m4, m5],
+        (limbs 64 [d0, d1, d2, d3, d4, d5])
+        (limbs 64 [x0, x1, x2, x3, x4, x5] - limbs 64 [y0, y1, y2, y3, y4, y5])
+        (limbs 64 [m0, m1, m2, m3, m4, m5]),
 
         limbs 64 [x0, x1, x2, x3, x4, x5] <u limbs 64 [m0, m1, m2, m3, m4, m5],
         limbs 64 [y0, y1, y2, y3, y4, y5] <u limbs 64 [m0, m1, m2, m3, m4, m5],
@@ -1643,7 +1643,7 @@ mov q6 r12;
 assert eqmod (limbs 64 [0, 0, 0, 0, 0, 0, q0, q1, q2, q3, q4, q5, q6])
              ((limbs 64 [x0, x1, x2, x3, x4, x5]) * (limbs 64 [y0, y1, y2, y3, y4, y5]))
              (limbs 64 [m0, m1, m2, m3, m4, m5]) && true;
-assume true && eqmod (limbs 64 [q0, q1, q2, q3, q4, q5, q6]) * const 448 (2*384)
+assume true && eqmod ((limbs 64 [q0, q1, q2, q3, q4, q5, q6]) * const 448 (2*384))
                ((limbs 64 [x0, x1, x2, x3, x4, x5, 0@64]) * (limbs 64 [y0, y1, y2, y3, y4, y5, 0@64]))
                (limbs 64 [m0, m1, m2, m3, m4, m5, 0@64]);
 
@@ -1817,18 +1817,18 @@ cut and[m0 = 0xb9feffffffffaaab,
         L0x7fffffffd980 = n0,
         
         eqmod
-        limbs 64 [c0, c1, c2, c3, c4, c5]
-        limbs 64 [x0, x1, x2, x3, x4, x5] + limbs 64 [y0, y1, y2, y3, y4, y5]
-        limbs 64 [m0, m1, m2, m3, m4, m5],
+        (limbs 64 [c0, c1, c2, c3, c4, c5])
+        (limbs 64 [x0, x1, x2, x3, x4, x5] + limbs 64 [y0, y1, y2, y3, y4, y5])
+        (limbs 64 [m0, m1, m2, m3, m4, m5]),
         eqmod
-        limbs 64 [d0, d1, d2, d3, d4, d5]
-        limbs 64 [x0, x1, x2, x3, x4, x5] - limbs 64 [y0, y1, y2, y3, y4, y5]
-        limbs 64 [m0, m1, m2, m3, m4, m5],
+        (limbs 64 [d0, d1, d2, d3, d4, d5])
+        (limbs 64 [x0, x1, x2, x3, x4, x5] - limbs 64 [y0, y1, y2, y3, y4, y5])
+        (limbs 64 [m0, m1, m2, m3, m4, m5]),
 
         eqmod
-        limbs 64 [f0, f1, f2, f3, f4, f5] * (2**383)
-        limbs 64 [x0, x1, x2, x3, x4, x5] * limbs 64 [y0, y1, y2, y3, y4, y5]
-        limbs 64 [m0, m1, m2, m3, m4, m5]
+        (limbs 64 [f0, f1, f2, f3, f4, f5] * (2**383))
+        (limbs 64 [x0, x1, x2, x3, x4, x5] * limbs 64 [y0, y1, y2, y3, y4, y5])
+        (limbs 64 [m0, m1, m2, m3, m4, m5])
         ] &&
     and[m0 = 0xb9feffffffffaaab@64,
         m1 = 0x1eabfffeb153ffff@64,
@@ -1844,13 +1844,13 @@ cut and[m0 = 0xb9feffffffffaaab,
         L0x7fffffffd980 = n0,
 
         eqmod
-        limbs 64 [c0, c1, c2, c3, c4, c5]
-        limbs 64 [x0, x1, x2, x3, x4, x5] + limbs 64 [y0, y1, y2, y3, y4, y5]
-        limbs 64 [m0, m1, m2, m3, m4, m5],
+        (limbs 64 [c0, c1, c2, c3, c4, c5])
+        (limbs 64 [x0, x1, x2, x3, x4, x5] + limbs 64 [y0, y1, y2, y3, y4, y5])
+        (limbs 64 [m0, m1, m2, m3, m4, m5]),
         eqmod
-        limbs 64 [d0, d1, d2, d3, d4, d5]
-        limbs 64 [x0, x1, x2, x3, x4, x5] - limbs 64 [y0, y1, y2, y3, y4, y5]
-        limbs 64 [m0, m1, m2, m3, m4, m5],
+        (limbs 64 [d0, d1, d2, d3, d4, d5])
+        (limbs 64 [x0, x1, x2, x3, x4, x5] - limbs 64 [y0, y1, y2, y3, y4, y5])
+        (limbs 64 [m0, m1, m2, m3, m4, m5]),
 
         limbs 64 [x0, x1, x2, x3, x4, x5] <u limbs 64 [m0, m1, m2, m3, m4, m5],
         limbs 64 [y0, y1, y2, y3, y4, y5] <u limbs 64 [m0, m1, m2, m3, m4, m5],
@@ -3245,10 +3245,10 @@ assert true && limbs 64 [e0, e1, e2, e3, e4, e5] <u limbs 64 [m0, m1, m2, m3, m4
 
 {
   and[eqmod
-      (limbs 64 [e0, e1, e2, e3, e4, e5] + limbs 64 [f0, f1, f2, f3, f4, f5] * I) * (2**384)
+      ((limbs 64 [e0, e1, e2, e3, e4, e5] + limbs 64 [f0, f1, f2, f3, f4, f5] * I) * (2**384))
 
-      (limbs 64 [x0, x1, x2, x3, x4, x5] + limbs 64 [y0, y1, y2, y3, y4, y5] * I) *
-      (limbs 64 [x0, x1, x2, x3, x4, x5] + limbs 64 [y0, y1, y2, y3, y4, y5] * I)
+      ((limbs 64 [x0, x1, x2, x3, x4, x5] + limbs 64 [y0, y1, y2, y3, y4, y5] * I) *
+      (limbs 64 [x0, x1, x2, x3, x4, x5] + limbs 64 [y0, y1, y2, y3, y4, y5] * I))
       
       [limbs 64 [m0, m1, m2, m3, m4, m5], I * I + 1]
       ]

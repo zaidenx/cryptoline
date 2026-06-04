@@ -7548,7 +7548,7 @@ ecut
   (mod (limbs 64 [0xb9feffffffffaaab, 0x1eabfffeb153ffff,
          0x6730d2a0f6b0f624, 0x64774b84f38512bf,
         0x4b1ba7b6434bacd7, 0x1a0111ea397fe69a]))
- ] prove with all ghosts, all cuts;
+ ] prove with [all ghosts, all cuts];
  /* && */
   /* and [ */
   /*     limbs 64 [A0_0, A0_1, A0_2, A0_3, A0_4, A0_5] < */
@@ -7621,7 +7621,7 @@ ecut
   (mod (limbs 64 [0xb9feffffffffaaab, 0x1eabfffeb153ffff,
          0x6730d2a0f6b0f624, 0x64774b84f38512bf,
         0x4b1ba7b6434bacd7, 0x1a0111ea397fe69a]))
- ] prove with all ghosts, all cuts;
+ ] prove with [all ghosts, all cuts];
 
 /* mov T20_0 L0x7fffffffd210; */
 /* mov T20_1 L0x7fffffffd218; */
@@ -7680,7 +7680,7 @@ ecut
   (mod (limbs 64 [0xb9feffffffffaaab, 0x1eabfffeb153ffff,
          0x6730d2a0f6b0f624, 0x64774b84f38512bf,
         0x4b1ba7b6434bacd7, 0x1a0111ea397fe69a]))
- ] prove with all ghosts, all cuts;
+ ] prove with [all ghosts, all cuts];
 (* #retq                                           #! PC = 0x4313227 *)
 #retq                                           #! 0x4313227 = 0x4313227;
 
@@ -7927,7 +7927,7 @@ ecut
   (mod (limbs 64 [0xb9feffffffffaaab, 0x1eabfffeb153ffff,
          0x6730d2a0f6b0f624, 0x64774b84f38512bf,
          0x4b1ba7b6434bacd7, 0x1a0111ea397fe69a]))
- ] prove with all ghosts, all cuts;
+ ] prove with [all ghosts, all cuts];
 
 /* ghost D0_0@uint64, D0_1@uint64, D0_2@uint64, D0_3@uint64, D0_4@uint64, D0_5@uint64, */
 /*       D1_0@uint64, D1_1@uint64, D1_2@uint64, D1_3@uint64, D1_4@uint64, D1_5@uint64: */
@@ -7957,7 +7957,7 @@ ecut
 /*   (mod (limbs 64 [0xb9feffffffffaaab, 0x1eabfffeb153ffff, */
 /*          0x6730d2a0f6b0f624, 0x64774b84f38512bf, */
 /*          0x4b1ba7b6434bacd7, 0x1a0111ea397fe69a])) */
-/*  ] prove with all ghosts, all cuts; */
+/*  ] prove with [all ghosts, all cuts]; */
 
 
 /* E = (x1 + y1)^2 - A - B. */
@@ -8030,7 +8030,7 @@ ecut
   (mod (limbs 64 [0xb9feffffffffaaab, 0x1eabfffeb153ffff,
          0x6730d2a0f6b0f624, 0x64774b84f38512bf,
          0x4b1ba7b6434bacd7, 0x1a0111ea397fe69a]))
- ] prove with all ghosts, all cuts;
+ ] prove with [all ghosts, all cuts];
 
 
 
@@ -8119,7 +8119,7 @@ ecut
   (mod (limbs 64 [0xb9feffffffffaaab, 0x1eabfffeb153ffff,
          0x6730d2a0f6b0f624, 0x64774b84f38512bf,
          0x4b1ba7b6434bacd7, 0x1a0111ea397fe69a]))
- ] prove with all ghosts, all cuts;
+ ] prove with [all ghosts, all cuts];
 
 /* G = 3D. */
 /* NOTE: fp2_dbl(t6, t3); */
@@ -8178,7 +8178,7 @@ ecut
   (mod (limbs 64 [0xb9feffffffffaaab, 0x1eabfffeb153ffff,
          0x6730d2a0f6b0f624, 0x64774b84f38512bf,
          0x4b1ba7b6434bacd7, 0x1a0111ea397fe69a]))
- ] prove with all ghosts, all cuts;
+ ] prove with [all ghosts, all cuts];
 
 /* x3 = E * (B - G). */
 /* NOTE: fp2_sub(r->x, t1, t6); */
@@ -8207,7 +8207,7 @@ ecut
   (mod (limbs 64 [0xb9feffffffffaaab, 0x1eabfffeb153ffff,
          0x6730d2a0f6b0f624, 0x64774b84f38512bf,
          0x4b1ba7b6434bacd7, 0x1a0111ea397fe69a]))
- ] prove with all ghosts, all cuts;
+ ] prove with [all ghosts, all cuts];
 
 /* NOTE: fp2_mul(r->x, r->x, t4); */
 (* #callq  0x42c1c0 <fp2_mul_integ>                #! PC = 0x4293129 *)
@@ -8246,7 +8246,7 @@ ecut
   (mod (limbs 64 [0xb9feffffffffaaab, 0x1eabfffeb153ffff,
          0x6730d2a0f6b0f624, 0x64774b84f38512bf,
          0x4b1ba7b6434bacd7, 0x1a0111ea397fe69a]))
- ] prove with all ghosts, all cuts;
+ ] prove with [all ghosts, all cuts];
 
 /* y3 = (B + G)^2 -12D^2. */
 /* NOTE: fp2_add(t6, t6, t1); */
@@ -8373,7 +8373,7 @@ inline fp2_sub(T60_0, T60_1, T60_2, T60_3, T60_4, T60_5, T61_0, T61_1, T61_2, T6
 /*   (mod (limbs 64 [0xb9feffffffffaaab, 0x1eabfffeb153ffff, */
 /*          0x6730d2a0f6b0f624, 0x64774b84f38512bf, */
 /*          0x4b1ba7b6434bacd7, 0x1a0111ea397fe69a])) */
- /* ] prove with all ghosts, all cuts; */
+ /* ] prove with [all ghosts, all cuts]; */
 ecut
   and [
   (limbs 64 [0, 0, 0, 0, 0, 0, RY0_0, RY0_1, RY0_2, RY0_3, RY0_4, RY0_5])

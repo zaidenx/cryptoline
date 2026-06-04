@@ -156,9 +156,9 @@ mov c3 L0x7fffffffdb78;
   true
   &&
   and[eqmod
-  	  limbs 64 [x0, x1, x2, x3, 0@64] * 3@320
-      limbs 64 [c0, c1, c2, c3, 0@64]
-	  limbs 64 [m0, m1, m2, m3, 0@64],
+  	  (limbs 64 [x0, x1, x2, x3, 0@64] * 3@320)
+      (limbs 64 [c0, c1, c2, c3, 0@64])
+	  (limbs 64 [m0, m1, m2, m3, 0@64]),
 
       limbs 64 [c0, c1, c2, c3] <u limbs 64 [m0, m1, m2, m3]
       ]

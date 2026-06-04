@@ -394,9 +394,9 @@ mov L0x7fffffffdf68 r14;
 
 assert 
 and[
-    eqmod limbs 64 [x0, x1] * limbs 64 [y0, y1] + limbs 64 [x2, x3] * limbs 64 [y4, y5] 
-          limbs 64 [L0x7fffffffdf50, L0x7fffffffdf58, L0x7fffffffdf60, L0x7fffffffdf68]
-          limbs 64 [m0, m1, m2, m3]
+    eqmod (limbs 64 [x0, x1] * limbs 64 [y0, y1] + limbs 64 [x2, x3] * limbs 64 [y4, y5] )
+          (limbs 64 [L0x7fffffffdf50, L0x7fffffffdf58, L0x7fffffffdf60, L0x7fffffffdf68])
+          (limbs 64 [m0, m1, m2, m3])
 ] 
 && true;
 
@@ -1483,18 +1483,18 @@ mov c15 L0x7fffffffdfc8;
 
 {
   and[
-    eqmod limbs 64 [x0, x1] * limbs 64 [y0, y1] + limbs 64 [x2, x3] * limbs 64 [y4, y5]
-	  limbs 64 [c0 , c1 , c2 , c3 ] 
-          limbs 64 [m0, m1, m2, m3],
-    eqmod limbs 64 [x0, x1] * limbs 64 [y2, y3] + limbs 64 [x2, x3] * limbs 64 [y6, y7]
-	  limbs 64 [c4 , c5 , c6 , c7 ] 
-          limbs 64 [m0, m1, m2, m3],
-    eqmod limbs 64 [x4, x5] * limbs 64 [y0, y1] + limbs 64 [x6, x7] * limbs 64 [y4, y5]
-	  limbs 64 [c8 , c9 , c10, c11] 
-          limbs 64 [m0, m1, m2, m3],
-    eqmod limbs 64 [x4, x5] * limbs 64 [y2, y3] + limbs 64 [x6, x7] * limbs 64 [y6, y7]
-	  limbs 64 [c12, c13, c14, c15] 
-          limbs 64 [m0, m1, m2, m3]
+    eqmod (limbs 64 [x0, x1] * limbs 64 [y0, y1] + limbs 64 [x2, x3] * limbs 64 [y4, y5])
+	  (limbs 64 [c0 , c1 , c2 , c3 ] )
+          (limbs 64 [m0, m1, m2, m3]),
+    eqmod (limbs 64 [x0, x1] * limbs 64 [y2, y3] + limbs 64 [x2, x3] * limbs 64 [y6, y7])
+	  (limbs 64 [c4 , c5 , c6 , c7 ] )
+          (limbs 64 [m0, m1, m2, m3]),
+    eqmod (limbs 64 [x4, x5] * limbs 64 [y0, y1] + limbs 64 [x6, x7] * limbs 64 [y4, y5])
+	  (limbs 64 [c8 , c9 , c10, c11] )
+          (limbs 64 [m0, m1, m2, m3]),
+    eqmod (limbs 64 [x4, x5] * limbs 64 [y2, y3] + limbs 64 [x6, x7] * limbs 64 [y6, y7])
+	  (limbs 64 [c12, c13, c14, c15] )
+          (limbs 64 [m0, m1, m2, m3])
   ]
  &&
   and[

@@ -6202,896 +6202,896 @@ cut (* 0 *)
   (* algebraic *)
   and [
     (* inp_poly_0 *)
-    eqmod 2 * (inp_poly_0 * inp_poly_0)
+    eqmod (2 * (inp_poly_0 * inp_poly_0))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3)
           )
           [3329, x**2 - 17],
     (* inp_poly_1 *)
-    eqmod 2 * (inp_poly_1 * inp_poly_1)
+    eqmod (2 * (inp_poly_1 * inp_poly_1))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3)
           )
           [3329, x**2 - 3312],
     (* inp_poly_2 *)
-    eqmod 2 * (inp_poly_2 * inp_poly_2)
+    eqmod (2 * (inp_poly_2 * inp_poly_2))
           (
             L0x2001a538 * (x**0) + L0x2001a53a * (x**1) + 
             L0x2001a53c * (x**2) + L0x2001a53e * (x**3)
           )
           [3329, x**2 - 2761],
     (* inp_poly_3 *)
-    eqmod 2 * (inp_poly_3 * inp_poly_3)
+    eqmod (2 * (inp_poly_3 * inp_poly_3))
           (
             L0x2001a538 * (x**0) + L0x2001a53a * (x**1) + 
             L0x2001a53c * (x**2) + L0x2001a53e * (x**3)
           )
           [3329, x**2 - 568],
     (* inp_poly_4 *)
-    eqmod 2 * (inp_poly_4 * inp_poly_4)
+    eqmod (2 * (inp_poly_4 * inp_poly_4))
           (
             L0x2001a540 * (x**0) + L0x2001a542 * (x**1) + 
             L0x2001a544 * (x**2) + L0x2001a546 * (x**3)
           )
           [3329, x**2 - 583],
     (* inp_poly_5 *)
-    eqmod 2 * (inp_poly_5 * inp_poly_5)
+    eqmod (2 * (inp_poly_5 * inp_poly_5))
           (
             L0x2001a540 * (x**0) + L0x2001a542 * (x**1) + 
             L0x2001a544 * (x**2) + L0x2001a546 * (x**3)
           )
           [3329, x**2 - 2746],
     (* inp_poly_6 *)
-    eqmod 2 * (inp_poly_6 * inp_poly_6)
+    eqmod (2 * (inp_poly_6 * inp_poly_6))
           (
             L0x2001a548 * (x**0) + L0x2001a54a * (x**1) + 
             L0x2001a54c * (x**2) + L0x2001a54e * (x**3)
           )
           [3329, x**2 - 2649],
     (* inp_poly_7 *)
-    eqmod 2 * (inp_poly_7 * inp_poly_7)
+    eqmod (2 * (inp_poly_7 * inp_poly_7))
           (
             L0x2001a548 * (x**0) + L0x2001a54a * (x**1) + 
             L0x2001a54c * (x**2) + L0x2001a54e * (x**3)
           )
           [3329, x**2 - 680],
     (* inp_poly_8 *)
-    eqmod 2 * (inp_poly_8 * inp_poly_8)
+    eqmod (2 * (inp_poly_8 * inp_poly_8))
           (
             L0x2001a550 * (x**0) + L0x2001a552 * (x**1) + 
             L0x2001a554 * (x**2) + L0x2001a556 * (x**3)
           )
           [3329, x**2 - 1637],
     (* inp_poly_9 *)
-    eqmod 2 * (inp_poly_9 * inp_poly_9)
+    eqmod (2 * (inp_poly_9 * inp_poly_9))
           (
             L0x2001a550 * (x**0) + L0x2001a552 * (x**1) + 
             L0x2001a554 * (x**2) + L0x2001a556 * (x**3)
           )
           [3329, x**2 - 1692],
     (* inp_poly_10 *)
-    eqmod 2 * (inp_poly_10 * inp_poly_10)
+    eqmod (2 * (inp_poly_10 * inp_poly_10))
           (
             L0x2001a558 * (x**0) + L0x2001a55a * (x**1) + 
             L0x2001a55c * (x**2) + L0x2001a55e * (x**3)
           )
           [3329, x**2 - 723],
     (* inp_poly_11 *)
-    eqmod 2 * (inp_poly_11 * inp_poly_11)
+    eqmod (2 * (inp_poly_11 * inp_poly_11))
           (
             L0x2001a558 * (x**0) + L0x2001a55a * (x**1) + 
             L0x2001a55c * (x**2) + L0x2001a55e * (x**3)
           )
           [3329, x**2 - 2606],
     (* inp_poly_12 *)
-    eqmod 2 * (inp_poly_12 * inp_poly_12)
+    eqmod (2 * (inp_poly_12 * inp_poly_12))
           (
             L0x2001a560 * (x**0) + L0x2001a562 * (x**1) + 
             L0x2001a564 * (x**2) + L0x2001a566 * (x**3)
           )
           [3329, x**2 - 2288],
     (* inp_poly_13 *)
-    eqmod 2 * (inp_poly_13 * inp_poly_13)
+    eqmod (2 * (inp_poly_13 * inp_poly_13))
           (
             L0x2001a560 * (x**0) + L0x2001a562 * (x**1) + 
             L0x2001a564 * (x**2) + L0x2001a566 * (x**3)
           )
           [3329, x**2 - 1041],
     (* inp_poly_14 *)
-    eqmod 2 * (inp_poly_14 * inp_poly_14)
+    eqmod (2 * (inp_poly_14 * inp_poly_14))
           (
             L0x2001a568 * (x**0) + L0x2001a56a * (x**1) + 
             L0x2001a56c * (x**2) + L0x2001a56e * (x**3)
           )
           [3329, x**2 - 1100],
     (* inp_poly_15 *)
-    eqmod 2 * (inp_poly_15 * inp_poly_15)
+    eqmod (2 * (inp_poly_15 * inp_poly_15))
           (
             L0x2001a568 * (x**0) + L0x2001a56a * (x**1) + 
             L0x2001a56c * (x**2) + L0x2001a56e * (x**3)
           )
           [3329, x**2 - 2229],
     (* inp_poly_16 *)
-    eqmod 2 * (inp_poly_16 * inp_poly_16)
+    eqmod (2 * (inp_poly_16 * inp_poly_16))
           (
             L0x2001a570 * (x**0) + L0x2001a572 * (x**1) + 
             L0x2001a574 * (x**2) + L0x2001a576 * (x**3)
           )
           [3329, x**2 - 1409],
     (* inp_poly_17 *)
-    eqmod 2 * (inp_poly_17 * inp_poly_17)
+    eqmod (2 * (inp_poly_17 * inp_poly_17))
           (
             L0x2001a570 * (x**0) + L0x2001a572 * (x**1) + 
             L0x2001a574 * (x**2) + L0x2001a576 * (x**3)
           )
           [3329, x**2 - 1920],
     (* inp_poly_18 *)
-    eqmod 2 * (inp_poly_18 * inp_poly_18)
+    eqmod (2 * (inp_poly_18 * inp_poly_18))
           (
             L0x2001a578 * (x**0) + L0x2001a57a * (x**1) + 
             L0x2001a57c * (x**2) + L0x2001a57e * (x**3)
           )
           [3329, x**2 - 2662],
     (* inp_poly_19 *)
-    eqmod 2 * (inp_poly_19 * inp_poly_19)
+    eqmod (2 * (inp_poly_19 * inp_poly_19))
           (
             L0x2001a578 * (x**0) + L0x2001a57a * (x**1) + 
             L0x2001a57c * (x**2) + L0x2001a57e * (x**3)
           )
           [3329, x**2 - 667],
     (* inp_poly_20 *)
-    eqmod 2 * (inp_poly_20 * inp_poly_20)
+    eqmod (2 * (inp_poly_20 * inp_poly_20))
           (
             L0x2001a580 * (x**0) + L0x2001a582 * (x**1) + 
             L0x2001a584 * (x**2) + L0x2001a586 * (x**3)
           )
           [3329, x**2 - 3281],
     (* inp_poly_21 *)
-    eqmod 2 * (inp_poly_21 * inp_poly_21)
+    eqmod (2 * (inp_poly_21 * inp_poly_21))
           (
             L0x2001a580 * (x**0) + L0x2001a582 * (x**1) + 
             L0x2001a584 * (x**2) + L0x2001a586 * (x**3)
           )
           [3329, x**2 - 48],
     (* inp_poly_22 *)
-    eqmod 2 * (inp_poly_22 * inp_poly_22)
+    eqmod (2 * (inp_poly_22 * inp_poly_22))
           (
             L0x2001a588 * (x**0) + L0x2001a58a * (x**1) + 
             L0x2001a58c * (x**2) + L0x2001a58e * (x**3)
           )
           [3329, x**2 - 233],
     (* inp_poly_23 *)
-    eqmod 2 * (inp_poly_23 * inp_poly_23)
+    eqmod (2 * (inp_poly_23 * inp_poly_23))
           (
             L0x2001a588 * (x**0) + L0x2001a58a * (x**1) + 
             L0x2001a58c * (x**2) + L0x2001a58e * (x**3)
           )
           [3329, x**2 - 3096],
     (* inp_poly_24 *)
-    eqmod 2 * (inp_poly_24 * inp_poly_24)
+    eqmod (2 * (inp_poly_24 * inp_poly_24))
           (
             L0x2001a590 * (x**0) + L0x2001a592 * (x**1) + 
             L0x2001a594 * (x**2) + L0x2001a596 * (x**3)
           )
           [3329, x**2 - 756],
     (* inp_poly_25 *)
-    eqmod 2 * (inp_poly_25 * inp_poly_25)
+    eqmod (2 * (inp_poly_25 * inp_poly_25))
           (
             L0x2001a590 * (x**0) + L0x2001a592 * (x**1) + 
             L0x2001a594 * (x**2) + L0x2001a596 * (x**3)
           )
           [3329, x**2 - 2573],
     (* inp_poly_26 *)
-    eqmod 2 * (inp_poly_26 * inp_poly_26)
+    eqmod (2 * (inp_poly_26 * inp_poly_26))
           (
             L0x2001a598 * (x**0) + L0x2001a59a * (x**1) + 
             L0x2001a59c * (x**2) + L0x2001a59e * (x**3)
           )
           [3329, x**2 - 2156],
     (* inp_poly_27 *)
-    eqmod 2 * (inp_poly_27 * inp_poly_27)
+    eqmod (2 * (inp_poly_27 * inp_poly_27))
           (
             L0x2001a598 * (x**0) + L0x2001a59a * (x**1) + 
             L0x2001a59c * (x**2) + L0x2001a59e * (x**3)
           )
           [3329, x**2 - 1173],
     (* inp_poly_28 *)
-    eqmod 2 * (inp_poly_28 * inp_poly_28)
+    eqmod (2 * (inp_poly_28 * inp_poly_28))
           (
             L0x2001a5a0 * (x**0) + L0x2001a5a2 * (x**1) + 
             L0x2001a5a4 * (x**2) + L0x2001a5a6 * (x**3)
           )
           [3329, x**2 - 3015],
     (* inp_poly_29 *)
-    eqmod 2 * (inp_poly_29 * inp_poly_29)
+    eqmod (2 * (inp_poly_29 * inp_poly_29))
           (
             L0x2001a5a0 * (x**0) + L0x2001a5a2 * (x**1) + 
             L0x2001a5a4 * (x**2) + L0x2001a5a6 * (x**3)
           )
           [3329, x**2 - 314],
     (* inp_poly_30 *)
-    eqmod 2 * (inp_poly_30 * inp_poly_30)
+    eqmod (2 * (inp_poly_30 * inp_poly_30))
           (
             L0x2001a5a8 * (x**0) + L0x2001a5aa * (x**1) + 
             L0x2001a5ac * (x**2) + L0x2001a5ae * (x**3)
           )
           [3329, x**2 - 3050],
     (* inp_poly_31 *)
-    eqmod 2 * (inp_poly_31 * inp_poly_31)
+    eqmod (2 * (inp_poly_31 * inp_poly_31))
           (
             L0x2001a5a8 * (x**0) + L0x2001a5aa * (x**1) + 
             L0x2001a5ac * (x**2) + L0x2001a5ae * (x**3)
           )
           [3329, x**2 - 279],
     (* inp_poly_32 *)
-    eqmod 2 * (inp_poly_32 * inp_poly_32)
+    eqmod (2 * (inp_poly_32 * inp_poly_32))
           (
             L0x2001a5b0 * (x**0) + L0x2001a5b2 * (x**1) + 
             L0x2001a5b4 * (x**2) + L0x2001a5b6 * (x**3)
           )
           [3329, x**2 - 1703],
     (* inp_poly_33 *)
-    eqmod 2 * (inp_poly_33 * inp_poly_33)
+    eqmod (2 * (inp_poly_33 * inp_poly_33))
           (
             L0x2001a5b0 * (x**0) + L0x2001a5b2 * (x**1) + 
             L0x2001a5b4 * (x**2) + L0x2001a5b6 * (x**3)
           )
           [3329, x**2 - 1626],
     (* inp_poly_34 *)
-    eqmod 2 * (inp_poly_34 * inp_poly_34)
+    eqmod (2 * (inp_poly_34 * inp_poly_34))
           (
             L0x2001a5b8 * (x**0) + L0x2001a5ba * (x**1) + 
             L0x2001a5bc * (x**2) + L0x2001a5be * (x**3)
           )
           [3329, x**2 - 1651],
     (* inp_poly_35 *)
-    eqmod 2 * (inp_poly_35 * inp_poly_35)
+    eqmod (2 * (inp_poly_35 * inp_poly_35))
           (
             L0x2001a5b8 * (x**0) + L0x2001a5ba * (x**1) + 
             L0x2001a5bc * (x**2) + L0x2001a5be * (x**3)
           )
           [3329, x**2 - 1678],
     (* inp_poly_36 *)
-    eqmod 2 * (inp_poly_36 * inp_poly_36)
+    eqmod (2 * (inp_poly_36 * inp_poly_36))
           (
             L0x2001a5c0 * (x**0) + L0x2001a5c2 * (x**1) + 
             L0x2001a5c4 * (x**2) + L0x2001a5c6 * (x**3)
           )
           [3329, x**2 - 2789],
     (* inp_poly_37 *)
-    eqmod 2 * (inp_poly_37 * inp_poly_37)
+    eqmod (2 * (inp_poly_37 * inp_poly_37))
           (
             L0x2001a5c0 * (x**0) + L0x2001a5c2 * (x**1) + 
             L0x2001a5c4 * (x**2) + L0x2001a5c6 * (x**3)
           )
           [3329, x**2 - 540],
     (* inp_poly_38 *)
-    eqmod 2 * (inp_poly_38 * inp_poly_38)
+    eqmod (2 * (inp_poly_38 * inp_poly_38))
           (
             L0x2001a5c8 * (x**0) + L0x2001a5ca * (x**1) + 
             L0x2001a5cc * (x**2) + L0x2001a5ce * (x**3)
           )
           [3329, x**2 - 1789],
     (* inp_poly_39 *)
-    eqmod 2 * (inp_poly_39 * inp_poly_39)
+    eqmod (2 * (inp_poly_39 * inp_poly_39))
           (
             L0x2001a5c8 * (x**0) + L0x2001a5ca * (x**1) + 
             L0x2001a5cc * (x**2) + L0x2001a5ce * (x**3)
           )
           [3329, x**2 - 1540],
     (* inp_poly_40 *)
-    eqmod 2 * (inp_poly_40 * inp_poly_40)
+    eqmod (2 * (inp_poly_40 * inp_poly_40))
           (
             L0x2001a5d0 * (x**0) + L0x2001a5d2 * (x**1) + 
             L0x2001a5d4 * (x**2) + L0x2001a5d6 * (x**3)
           )
           [3329, x**2 - 1847],
     (* inp_poly_41 *)
-    eqmod 2 * (inp_poly_41 * inp_poly_41)
+    eqmod (2 * (inp_poly_41 * inp_poly_41))
           (
             L0x2001a5d0 * (x**0) + L0x2001a5d2 * (x**1) + 
             L0x2001a5d4 * (x**2) + L0x2001a5d6 * (x**3)
           )
           [3329, x**2 - 1482],
     (* inp_poly_42 *)
-    eqmod 2 * (inp_poly_42 * inp_poly_42)
+    eqmod (2 * (inp_poly_42 * inp_poly_42))
           (
             L0x2001a5d8 * (x**0) + L0x2001a5da * (x**1) + 
             L0x2001a5dc * (x**2) + L0x2001a5de * (x**3)
           )
           [3329, x**2 - 952],
     (* inp_poly_43 *)
-    eqmod 2 * (inp_poly_43 * inp_poly_43)
+    eqmod (2 * (inp_poly_43 * inp_poly_43))
           (
             L0x2001a5d8 * (x**0) + L0x2001a5da * (x**1) + 
             L0x2001a5dc * (x**2) + L0x2001a5de * (x**3)
           )
           [3329, x**2 - 2377],
     (* inp_poly_44 *)
-    eqmod 2 * (inp_poly_44 * inp_poly_44)
+    eqmod (2 * (inp_poly_44 * inp_poly_44))
           (
             L0x2001a5e0 * (x**0) + L0x2001a5e2 * (x**1) + 
             L0x2001a5e4 * (x**2) + L0x2001a5e6 * (x**3)
           )
           [3329, x**2 - 1461],
     (* inp_poly_45 *)
-    eqmod 2 * (inp_poly_45 * inp_poly_45)
+    eqmod (2 * (inp_poly_45 * inp_poly_45))
           (
             L0x2001a5e0 * (x**0) + L0x2001a5e2 * (x**1) + 
             L0x2001a5e4 * (x**2) + L0x2001a5e6 * (x**3)
           )
           [3329, x**2 - 1868],
     (* inp_poly_46 *)
-    eqmod 2 * (inp_poly_46 * inp_poly_46)
+    eqmod (2 * (inp_poly_46 * inp_poly_46))
           (
             L0x2001a5e8 * (x**0) + L0x2001a5ea * (x**1) + 
             L0x2001a5ec * (x**2) + L0x2001a5ee * (x**3)
           )
           [3329, x**2 - 2687],
     (* inp_poly_47 *)
-    eqmod 2 * (inp_poly_47 * inp_poly_47)
+    eqmod (2 * (inp_poly_47 * inp_poly_47))
           (
             L0x2001a5e8 * (x**0) + L0x2001a5ea * (x**1) + 
             L0x2001a5ec * (x**2) + L0x2001a5ee * (x**3)
           )
           [3329, x**2 - 642],
     (* inp_poly_48 *)
-    eqmod 2 * (inp_poly_48 * inp_poly_48)
+    eqmod (2 * (inp_poly_48 * inp_poly_48))
           (
             L0x2001a5f0 * (x**0) + L0x2001a5f2 * (x**1) + 
             L0x2001a5f4 * (x**2) + L0x2001a5f6 * (x**3)
           )
           [3329, x**2 - 939],
     (* inp_poly_49 *)
-    eqmod 2 * (inp_poly_49 * inp_poly_49)
+    eqmod (2 * (inp_poly_49 * inp_poly_49))
           (
             L0x2001a5f0 * (x**0) + L0x2001a5f2 * (x**1) + 
             L0x2001a5f4 * (x**2) + L0x2001a5f6 * (x**3)
           )
           [3329, x**2 - 2390],
     (* inp_poly_50 *)
-    eqmod 2 * (inp_poly_50 * inp_poly_50)
+    eqmod (2 * (inp_poly_50 * inp_poly_50))
           (
             L0x2001a5f8 * (x**0) + L0x2001a5fa * (x**1) + 
             L0x2001a5fc * (x**2) + L0x2001a5fe * (x**3)
           )
           [3329, x**2 - 2308],
     (* inp_poly_51 *)
-    eqmod 2 * (inp_poly_51 * inp_poly_51)
+    eqmod (2 * (inp_poly_51 * inp_poly_51))
           (
             L0x2001a5f8 * (x**0) + L0x2001a5fa * (x**1) + 
             L0x2001a5fc * (x**2) + L0x2001a5fe * (x**3)
           )
           [3329, x**2 - 1021],
     (* inp_poly_52 *)
-    eqmod 2 * (inp_poly_52 * inp_poly_52)
+    eqmod (2 * (inp_poly_52 * inp_poly_52))
           (
             L0x2001a600 * (x**0) + L0x2001a602 * (x**1) + 
             L0x2001a604 * (x**2) + L0x2001a606 * (x**3)
           )
           [3329, x**2 - 2437],
     (* inp_poly_53 *)
-    eqmod 2 * (inp_poly_53 * inp_poly_53)
+    eqmod (2 * (inp_poly_53 * inp_poly_53))
           (
             L0x2001a600 * (x**0) + L0x2001a602 * (x**1) + 
             L0x2001a604 * (x**2) + L0x2001a606 * (x**3)
           )
           [3329, x**2 - 892],
     (* inp_poly_54 *)
-    eqmod 2 * (inp_poly_54 * inp_poly_54)
+    eqmod (2 * (inp_poly_54 * inp_poly_54))
           (
             L0x2001a608 * (x**0) + L0x2001a60a * (x**1) + 
             L0x2001a60c * (x**2) + L0x2001a60e * (x**3)
           )
           [3329, x**2 - 2388],
     (* inp_poly_55 *)
-    eqmod 2 * (inp_poly_55 * inp_poly_55)
+    eqmod (2 * (inp_poly_55 * inp_poly_55))
           (
             L0x2001a608 * (x**0) + L0x2001a60a * (x**1) + 
             L0x2001a60c * (x**2) + L0x2001a60e * (x**3)
           )
           [3329, x**2 - 941],
     (* inp_poly_56 *)
-    eqmod 2 * (inp_poly_56 * inp_poly_56)
+    eqmod (2 * (inp_poly_56 * inp_poly_56))
           (
             L0x2001a610 * (x**0) + L0x2001a612 * (x**1) + 
             L0x2001a614 * (x**2) + L0x2001a616 * (x**3)
           )
           [3329, x**2 - 733],
     (* inp_poly_57 *)
-    eqmod 2 * (inp_poly_57 * inp_poly_57)
+    eqmod (2 * (inp_poly_57 * inp_poly_57))
           (
             L0x2001a610 * (x**0) + L0x2001a612 * (x**1) + 
             L0x2001a614 * (x**2) + L0x2001a616 * (x**3)
           )
           [3329, x**2 - 2596],
     (* inp_poly_58 *)
-    eqmod 2 * (inp_poly_58 * inp_poly_58)
+    eqmod (2 * (inp_poly_58 * inp_poly_58))
           (
             L0x2001a618 * (x**0) + L0x2001a61a * (x**1) + 
             L0x2001a61c * (x**2) + L0x2001a61e * (x**3)
           )
           [3329, x**2 - 2337],
     (* inp_poly_59 *)
-    eqmod 2 * (inp_poly_59 * inp_poly_59)
+    eqmod (2 * (inp_poly_59 * inp_poly_59))
           (
             L0x2001a618 * (x**0) + L0x2001a61a * (x**1) + 
             L0x2001a61c * (x**2) + L0x2001a61e * (x**3)
           )
           [3329, x**2 - 992],
     (* inp_poly_60 *)
-    eqmod 2 * (inp_poly_60 * inp_poly_60)
+    eqmod (2 * (inp_poly_60 * inp_poly_60))
           (
             L0x2001a620 * (x**0) + L0x2001a622 * (x**1) + 
             L0x2001a624 * (x**2) + L0x2001a626 * (x**3)
           )
           [3329, x**2 - 268],
     (* inp_poly_61 *)
-    eqmod 2 * (inp_poly_61 * inp_poly_61)
+    eqmod (2 * (inp_poly_61 * inp_poly_61))
           (
             L0x2001a620 * (x**0) + L0x2001a622 * (x**1) + 
             L0x2001a624 * (x**2) + L0x2001a626 * (x**3)
           )
           [3329, x**2 - 3061],
     (* inp_poly_62 *)
-    eqmod 2 * (inp_poly_62 * inp_poly_62)
+    eqmod (2 * (inp_poly_62 * inp_poly_62))
           (
             L0x2001a628 * (x**0) + L0x2001a62a * (x**1) + 
             L0x2001a62c * (x**2) + L0x2001a62e * (x**3)
           )
           [3329, x**2 - 641],
     (* inp_poly_63 *)
-    eqmod 2 * (inp_poly_63 * inp_poly_63)
+    eqmod (2 * (inp_poly_63 * inp_poly_63))
           (
             L0x2001a628 * (x**0) + L0x2001a62a * (x**1) + 
             L0x2001a62c * (x**2) + L0x2001a62e * (x**3)
           )
           [3329, x**2 - 2688],
     (* inp_poly_64 *)
-    eqmod 2 * (inp_poly_64 * inp_poly_64)
+    eqmod (2 * (inp_poly_64 * inp_poly_64))
           (
             L0x2001a630 * (x**0) + L0x2001a632 * (x**1) + 
             L0x2001a634 * (x**2) + L0x2001a636 * (x**3)
           )
           [3329, x**2 - 1584],
     (* inp_poly_65 *)
-    eqmod 2 * (inp_poly_65 * inp_poly_65)
+    eqmod (2 * (inp_poly_65 * inp_poly_65))
           (
             L0x2001a630 * (x**0) + L0x2001a632 * (x**1) + 
             L0x2001a634 * (x**2) + L0x2001a636 * (x**3)
           )
           [3329, x**2 - 1745],
     (* inp_poly_66 *)
-    eqmod 2 * (inp_poly_66 * inp_poly_66)
+    eqmod (2 * (inp_poly_66 * inp_poly_66))
           (
             L0x2001a638 * (x**0) + L0x2001a63a * (x**1) + 
             L0x2001a63c * (x**2) + L0x2001a63e * (x**3)
           )
           [3329, x**2 - 2298],
     (* inp_poly_67 *)
-    eqmod 2 * (inp_poly_67 * inp_poly_67)
+    eqmod (2 * (inp_poly_67 * inp_poly_67))
           (
             L0x2001a638 * (x**0) + L0x2001a63a * (x**1) + 
             L0x2001a63c * (x**2) + L0x2001a63e * (x**3)
           )
           [3329, x**2 - 1031],
     (* inp_poly_68 *)
-    eqmod 2 * (inp_poly_68 * inp_poly_68)
+    eqmod (2 * (inp_poly_68 * inp_poly_68))
           (
             L0x2001a640 * (x**0) + L0x2001a642 * (x**1) + 
             L0x2001a644 * (x**2) + L0x2001a646 * (x**3)
           )
           [3329, x**2 - 2037],
     (* inp_poly_69 *)
-    eqmod 2 * (inp_poly_69 * inp_poly_69)
+    eqmod (2 * (inp_poly_69 * inp_poly_69))
           (
             L0x2001a640 * (x**0) + L0x2001a642 * (x**1) + 
             L0x2001a644 * (x**2) + L0x2001a646 * (x**3)
           )
           [3329, x**2 - 1292],
     (* inp_poly_70 *)
-    eqmod 2 * (inp_poly_70 * inp_poly_70)
+    eqmod (2 * (inp_poly_70 * inp_poly_70))
           (
             L0x2001a648 * (x**0) + L0x2001a64a * (x**1) + 
             L0x2001a64c * (x**2) + L0x2001a64e * (x**3)
           )
           [3329, x**2 - 3220],
     (* inp_poly_71 *)
-    eqmod 2 * (inp_poly_71 * inp_poly_71)
+    eqmod (2 * (inp_poly_71 * inp_poly_71))
           (
             L0x2001a648 * (x**0) + L0x2001a64a * (x**1) + 
             L0x2001a64c * (x**2) + L0x2001a64e * (x**3)
           )
           [3329, x**2 - 109],
     (* inp_poly_72 *)
-    eqmod 2 * (inp_poly_72 * inp_poly_72)
+    eqmod (2 * (inp_poly_72 * inp_poly_72))
           (
             L0x2001a650 * (x**0) + L0x2001a652 * (x**1) + 
             L0x2001a654 * (x**2) + L0x2001a656 * (x**3)
           )
           [3329, x**2 - 375],
     (* inp_poly_73 *)
-    eqmod 2 * (inp_poly_73 * inp_poly_73)
+    eqmod (2 * (inp_poly_73 * inp_poly_73))
           (
             L0x2001a650 * (x**0) + L0x2001a652 * (x**1) + 
             L0x2001a654 * (x**2) + L0x2001a656 * (x**3)
           )
           [3329, x**2 - 2954],
     (* inp_poly_74 *)
-    eqmod 2 * (inp_poly_74 * inp_poly_74)
+    eqmod (2 * (inp_poly_74 * inp_poly_74))
           (
             L0x2001a658 * (x**0) + L0x2001a65a * (x**1) + 
             L0x2001a65c * (x**2) + L0x2001a65e * (x**3)
           )
           [3329, x**2 - 2549],
     (* inp_poly_75 *)
-    eqmod 2 * (inp_poly_75 * inp_poly_75)
+    eqmod (2 * (inp_poly_75 * inp_poly_75))
           (
             L0x2001a658 * (x**0) + L0x2001a65a * (x**1) + 
             L0x2001a65c * (x**2) + L0x2001a65e * (x**3)
           )
           [3329, x**2 - 780],
     (* inp_poly_76 *)
-    eqmod 2 * (inp_poly_76 * inp_poly_76)
+    eqmod (2 * (inp_poly_76 * inp_poly_76))
           (
             L0x2001a660 * (x**0) + L0x2001a662 * (x**1) + 
             L0x2001a664 * (x**2) + L0x2001a666 * (x**3)
           )
           [3329, x**2 - 2090],
     (* inp_poly_77 *)
-    eqmod 2 * (inp_poly_77 * inp_poly_77)
+    eqmod (2 * (inp_poly_77 * inp_poly_77))
           (
             L0x2001a660 * (x**0) + L0x2001a662 * (x**1) + 
             L0x2001a664 * (x**2) + L0x2001a666 * (x**3)
           )
           [3329, x**2 - 1239],
     (* inp_poly_78 *)
-    eqmod 2 * (inp_poly_78 * inp_poly_78)
+    eqmod (2 * (inp_poly_78 * inp_poly_78))
           (
             L0x2001a668 * (x**0) + L0x2001a66a * (x**1) + 
             L0x2001a66c * (x**2) + L0x2001a66e * (x**3)
           )
           [3329, x**2 - 1645],
     (* inp_poly_79 *)
-    eqmod 2 * (inp_poly_79 * inp_poly_79)
+    eqmod (2 * (inp_poly_79 * inp_poly_79))
           (
             L0x2001a668 * (x**0) + L0x2001a66a * (x**1) + 
             L0x2001a66c * (x**2) + L0x2001a66e * (x**3)
           )
           [3329, x**2 - 1684],
     (* inp_poly_80 *)
-    eqmod 2 * (inp_poly_80 * inp_poly_80)
+    eqmod (2 * (inp_poly_80 * inp_poly_80))
           (
             L0x2001a670 * (x**0) + L0x2001a672 * (x**1) + 
             L0x2001a674 * (x**2) + L0x2001a676 * (x**3)
           )
           [3329, x**2 - 1063],
     (* inp_poly_81 *)
-    eqmod 2 * (inp_poly_81 * inp_poly_81)
+    eqmod (2 * (inp_poly_81 * inp_poly_81))
           (
             L0x2001a670 * (x**0) + L0x2001a672 * (x**1) + 
             L0x2001a674 * (x**2) + L0x2001a676 * (x**3)
           )
           [3329, x**2 - 2266],
     (* inp_poly_82 *)
-    eqmod 2 * (inp_poly_82 * inp_poly_82)
+    eqmod (2 * (inp_poly_82 * inp_poly_82))
           (
             L0x2001a678 * (x**0) + L0x2001a67a * (x**1) + 
             L0x2001a67c * (x**2) + L0x2001a67e * (x**3)
           )
           [3329, x**2 - 319],
     (* inp_poly_83 *)
-    eqmod 2 * (inp_poly_83 * inp_poly_83)
+    eqmod (2 * (inp_poly_83 * inp_poly_83))
           (
             L0x2001a678 * (x**0) + L0x2001a67a * (x**1) + 
             L0x2001a67c * (x**2) + L0x2001a67e * (x**3)
           )
           [3329, x**2 - 3010],
     (* inp_poly_84 *)
-    eqmod 2 * (inp_poly_84 * inp_poly_84)
+    eqmod (2 * (inp_poly_84 * inp_poly_84))
           (
             L0x2001a680 * (x**0) + L0x2001a682 * (x**1) + 
             L0x2001a684 * (x**2) + L0x2001a686 * (x**3)
           )
           [3329, x**2 - 2773],
     (* inp_poly_85 *)
-    eqmod 2 * (inp_poly_85 * inp_poly_85)
+    eqmod (2 * (inp_poly_85 * inp_poly_85))
           (
             L0x2001a680 * (x**0) + L0x2001a682 * (x**1) + 
             L0x2001a684 * (x**2) + L0x2001a686 * (x**3)
           )
           [3329, x**2 - 556],
     (* inp_poly_86 *)
-    eqmod 2 * (inp_poly_86 * inp_poly_86)
+    eqmod (2 * (inp_poly_86 * inp_poly_86))
           (
             L0x2001a688 * (x**0) + L0x2001a68a * (x**1) + 
             L0x2001a68c * (x**2) + L0x2001a68e * (x**3)
           )
           [3329, x**2 - 757],
     (* inp_poly_87 *)
-    eqmod 2 * (inp_poly_87 * inp_poly_87)
+    eqmod (2 * (inp_poly_87 * inp_poly_87))
           (
             L0x2001a688 * (x**0) + L0x2001a68a * (x**1) + 
             L0x2001a68c * (x**2) + L0x2001a68e * (x**3)
           )
           [3329, x**2 - 2572],
     (* inp_poly_88 *)
-    eqmod 2 * (inp_poly_88 * inp_poly_88)
+    eqmod (2 * (inp_poly_88 * inp_poly_88))
           (
             L0x2001a690 * (x**0) + L0x2001a692 * (x**1) + 
             L0x2001a694 * (x**2) + L0x2001a696 * (x**3)
           )
           [3329, x**2 - 2099],
     (* inp_poly_89 *)
-    eqmod 2 * (inp_poly_89 * inp_poly_89)
+    eqmod (2 * (inp_poly_89 * inp_poly_89))
           (
             L0x2001a690 * (x**0) + L0x2001a692 * (x**1) + 
             L0x2001a694 * (x**2) + L0x2001a696 * (x**3)
           )
           [3329, x**2 - 1230],
     (* inp_poly_90 *)
-    eqmod 2 * (inp_poly_90 * inp_poly_90)
+    eqmod (2 * (inp_poly_90 * inp_poly_90))
           (
             L0x2001a698 * (x**0) + L0x2001a69a * (x**1) + 
             L0x2001a69c * (x**2) + L0x2001a69e * (x**3)
           )
           [3329, x**2 - 561],
     (* inp_poly_91 *)
-    eqmod 2 * (inp_poly_91 * inp_poly_91)
+    eqmod (2 * (inp_poly_91 * inp_poly_91))
           (
             L0x2001a698 * (x**0) + L0x2001a69a * (x**1) + 
             L0x2001a69c * (x**2) + L0x2001a69e * (x**3)
           )
           [3329, x**2 - 2768],
     (* inp_poly_92 *)
-    eqmod 2 * (inp_poly_92 * inp_poly_92)
+    eqmod (2 * (inp_poly_92 * inp_poly_92))
           (
             L0x2001a6a0 * (x**0) + L0x2001a6a2 * (x**1) + 
             L0x2001a6a4 * (x**2) + L0x2001a6a6 * (x**3)
           )
           [3329, x**2 - 2466],
     (* inp_poly_93 *)
-    eqmod 2 * (inp_poly_93 * inp_poly_93)
+    eqmod (2 * (inp_poly_93 * inp_poly_93))
           (
             L0x2001a6a0 * (x**0) + L0x2001a6a2 * (x**1) + 
             L0x2001a6a4 * (x**2) + L0x2001a6a6 * (x**3)
           )
           [3329, x**2 - 863],
     (* inp_poly_94 *)
-    eqmod 2 * (inp_poly_94 * inp_poly_94)
+    eqmod (2 * (inp_poly_94 * inp_poly_94))
           (
             L0x2001a6a8 * (x**0) + L0x2001a6aa * (x**1) + 
             L0x2001a6ac * (x**2) + L0x2001a6ae * (x**3)
           )
           [3329, x**2 - 2594],
     (* inp_poly_95 *)
-    eqmod 2 * (inp_poly_95 * inp_poly_95)
+    eqmod (2 * (inp_poly_95 * inp_poly_95))
           (
             L0x2001a6a8 * (x**0) + L0x2001a6aa * (x**1) + 
             L0x2001a6ac * (x**2) + L0x2001a6ae * (x**3)
           )
           [3329, x**2 - 735],
     (* inp_poly_96 *)
-    eqmod 2 * (inp_poly_96 * inp_poly_96)
+    eqmod (2 * (inp_poly_96 * inp_poly_96))
           (
             L0x2001a6b0 * (x**0) + L0x2001a6b2 * (x**1) + 
             L0x2001a6b4 * (x**2) + L0x2001a6b6 * (x**3)
           )
           [3329, x**2 - 2804],
     (* inp_poly_97 *)
-    eqmod 2 * (inp_poly_97 * inp_poly_97)
+    eqmod (2 * (inp_poly_97 * inp_poly_97))
           (
             L0x2001a6b0 * (x**0) + L0x2001a6b2 * (x**1) + 
             L0x2001a6b4 * (x**2) + L0x2001a6b6 * (x**3)
           )
           [3329, x**2 - 525],
     (* inp_poly_98 *)
-    eqmod 2 * (inp_poly_98 * inp_poly_98)
+    eqmod (2 * (inp_poly_98 * inp_poly_98))
           (
             L0x2001a6b8 * (x**0) + L0x2001a6ba * (x**1) + 
             L0x2001a6bc * (x**2) + L0x2001a6be * (x**3)
           )
           [3329, x**2 - 1092],
     (* inp_poly_99 *)
-    eqmod 2 * (inp_poly_99 * inp_poly_99)
+    eqmod (2 * (inp_poly_99 * inp_poly_99))
           (
             L0x2001a6b8 * (x**0) + L0x2001a6ba * (x**1) + 
             L0x2001a6bc * (x**2) + L0x2001a6be * (x**3)
           )
           [3329, x**2 - 2237],
     (* inp_poly_100 *)
-    eqmod 2 * (inp_poly_100 * inp_poly_100)
+    eqmod (2 * (inp_poly_100 * inp_poly_100))
           (
             L0x2001a6c0 * (x**0) + L0x2001a6c2 * (x**1) + 
             L0x2001a6c4 * (x**2) + L0x2001a6c6 * (x**3)
           )
           [3329, x**2 - 403],
     (* inp_poly_101 *)
-    eqmod 2 * (inp_poly_101 * inp_poly_101)
+    eqmod (2 * (inp_poly_101 * inp_poly_101))
           (
             L0x2001a6c0 * (x**0) + L0x2001a6c2 * (x**1) + 
             L0x2001a6c4 * (x**2) + L0x2001a6c6 * (x**3)
           )
           [3329, x**2 - 2926],
     (* inp_poly_102 *)
-    eqmod 2 * (inp_poly_102 * inp_poly_102)
+    eqmod (2 * (inp_poly_102 * inp_poly_102))
           (
             L0x2001a6c8 * (x**0) + L0x2001a6ca * (x**1) + 
             L0x2001a6cc * (x**2) + L0x2001a6ce * (x**3)
           )
           [3329, x**2 - 1026],
     (* inp_poly_103 *)
-    eqmod 2 * (inp_poly_103 * inp_poly_103)
+    eqmod (2 * (inp_poly_103 * inp_poly_103))
           (
             L0x2001a6c8 * (x**0) + L0x2001a6ca * (x**1) + 
             L0x2001a6cc * (x**2) + L0x2001a6ce * (x**3)
           )
           [3329, x**2 - 2303],
     (* inp_poly_104 *)
-    eqmod 2 * (inp_poly_104 * inp_poly_104)
+    eqmod (2 * (inp_poly_104 * inp_poly_104))
           (
             L0x2001a6d0 * (x**0) + L0x2001a6d2 * (x**1) + 
             L0x2001a6d4 * (x**2) + L0x2001a6d6 * (x**3)
           )
           [3329, x**2 - 1143],
     (* inp_poly_105 *)
-    eqmod 2 * (inp_poly_105 * inp_poly_105)
+    eqmod (2 * (inp_poly_105 * inp_poly_105))
           (
             L0x2001a6d0 * (x**0) + L0x2001a6d2 * (x**1) + 
             L0x2001a6d4 * (x**2) + L0x2001a6d6 * (x**3)
           )
           [3329, x**2 - 2186],
     (* inp_poly_106 *)
-    eqmod 2 * (inp_poly_106 * inp_poly_106)
+    eqmod (2 * (inp_poly_106 * inp_poly_106))
           (
             L0x2001a6d8 * (x**0) + L0x2001a6da * (x**1) + 
             L0x2001a6dc * (x**2) + L0x2001a6de * (x**3)
           )
           [3329, x**2 - 2150],
     (* inp_poly_107 *)
-    eqmod 2 * (inp_poly_107 * inp_poly_107)
+    eqmod (2 * (inp_poly_107 * inp_poly_107))
           (
             L0x2001a6d8 * (x**0) + L0x2001a6da * (x**1) + 
             L0x2001a6dc * (x**2) + L0x2001a6de * (x**3)
           )
           [3329, x**2 - 1179],
     (* inp_poly_108 *)
-    eqmod 2 * (inp_poly_108 * inp_poly_108)
+    eqmod (2 * (inp_poly_108 * inp_poly_108))
           (
             L0x2001a6e0 * (x**0) + L0x2001a6e2 * (x**1) + 
             L0x2001a6e4 * (x**2) + L0x2001a6e6 * (x**3)
           )
           [3329, x**2 - 2775],
     (* inp_poly_109 *)
-    eqmod 2 * (inp_poly_109 * inp_poly_109)
+    eqmod (2 * (inp_poly_109 * inp_poly_109))
           (
             L0x2001a6e0 * (x**0) + L0x2001a6e2 * (x**1) + 
             L0x2001a6e4 * (x**2) + L0x2001a6e6 * (x**3)
           )
           [3329, x**2 - 554],
     (* inp_poly_110 *)
-    eqmod 2 * (inp_poly_110 * inp_poly_110)
+    eqmod (2 * (inp_poly_110 * inp_poly_110))
           (
             L0x2001a6e8 * (x**0) + L0x2001a6ea * (x**1) + 
             L0x2001a6ec * (x**2) + L0x2001a6ee * (x**3)
           )
           [3329, x**2 - 886],
     (* inp_poly_111 *)
-    eqmod 2 * (inp_poly_111 * inp_poly_111)
+    eqmod (2 * (inp_poly_111 * inp_poly_111))
           (
             L0x2001a6e8 * (x**0) + L0x2001a6ea * (x**1) + 
             L0x2001a6ec * (x**2) + L0x2001a6ee * (x**3)
           )
           [3329, x**2 - 2443],
     (* inp_poly_112 *)
-    eqmod 2 * (inp_poly_112 * inp_poly_112)
+    eqmod (2 * (inp_poly_112 * inp_poly_112))
           (
             L0x2001a6f0 * (x**0) + L0x2001a6f2 * (x**1) + 
             L0x2001a6f4 * (x**2) + L0x2001a6f6 * (x**3)
           )
           [3329, x**2 - 1722],
     (* inp_poly_113 *)
-    eqmod 2 * (inp_poly_113 * inp_poly_113)
+    eqmod (2 * (inp_poly_113 * inp_poly_113))
           (
             L0x2001a6f0 * (x**0) + L0x2001a6f2 * (x**1) + 
             L0x2001a6f4 * (x**2) + L0x2001a6f6 * (x**3)
           )
           [3329, x**2 - 1607],
     (* inp_poly_114 *)
-    eqmod 2 * (inp_poly_114 * inp_poly_114)
+    eqmod (2 * (inp_poly_114 * inp_poly_114))
           (
             L0x2001a6f8 * (x**0) + L0x2001a6fa * (x**1) + 
             L0x2001a6fc * (x**2) + L0x2001a6fe * (x**3)
           )
           [3329, x**2 - 1212],
     (* inp_poly_115 *)
-    eqmod 2 * (inp_poly_115 * inp_poly_115)
+    eqmod (2 * (inp_poly_115 * inp_poly_115))
           (
             L0x2001a6f8 * (x**0) + L0x2001a6fa * (x**1) + 
             L0x2001a6fc * (x**2) + L0x2001a6fe * (x**3)
           )
           [3329, x**2 - 2117],
     (* inp_poly_116 *)
-    eqmod 2 * (inp_poly_116 * inp_poly_116)
+    eqmod (2 * (inp_poly_116 * inp_poly_116))
           (
             L0x2001a700 * (x**0) + L0x2001a702 * (x**1) + 
             L0x2001a704 * (x**2) + L0x2001a706 * (x**3)
           )
           [3329, x**2 - 1874],
     (* inp_poly_117 *)
-    eqmod 2 * (inp_poly_117 * inp_poly_117)
+    eqmod (2 * (inp_poly_117 * inp_poly_117))
           (
             L0x2001a700 * (x**0) + L0x2001a702 * (x**1) + 
             L0x2001a704 * (x**2) + L0x2001a706 * (x**3)
           )
           [3329, x**2 - 1455],
     (* inp_poly_118 *)
-    eqmod 2 * (inp_poly_118 * inp_poly_118)
+    eqmod (2 * (inp_poly_118 * inp_poly_118))
           (
             L0x2001a708 * (x**0) + L0x2001a70a * (x**1) + 
             L0x2001a70c * (x**2) + L0x2001a70e * (x**3)
           )
           [3329, x**2 - 1029],
     (* inp_poly_119 *)
-    eqmod 2 * (inp_poly_119 * inp_poly_119)
+    eqmod (2 * (inp_poly_119 * inp_poly_119))
           (
             L0x2001a708 * (x**0) + L0x2001a70a * (x**1) + 
             L0x2001a70c * (x**2) + L0x2001a70e * (x**3)
           )
           [3329, x**2 - 2300],
     (* inp_poly_120 *)
-    eqmod 2 * (inp_poly_120 * inp_poly_120)
+    eqmod (2 * (inp_poly_120 * inp_poly_120))
           (
             L0x2001a710 * (x**0) + L0x2001a712 * (x**1) + 
             L0x2001a714 * (x**2) + L0x2001a716 * (x**3)
           )
           [3329, x**2 - 2110],
     (* inp_poly_121 *)
-    eqmod 2 * (inp_poly_121 * inp_poly_121)
+    eqmod (2 * (inp_poly_121 * inp_poly_121))
           (
             L0x2001a710 * (x**0) + L0x2001a712 * (x**1) + 
             L0x2001a714 * (x**2) + L0x2001a716 * (x**3)
           )
           [3329, x**2 - 1219],
     (* inp_poly_122 *)
-    eqmod 2 * (inp_poly_122 * inp_poly_122)
+    eqmod (2 * (inp_poly_122 * inp_poly_122))
           (
             L0x2001a718 * (x**0) + L0x2001a71a * (x**1) + 
             L0x2001a71c * (x**2) + L0x2001a71e * (x**3)
           )
           [3329, x**2 - 2935],
     (* inp_poly_123 *)
-    eqmod 2 * (inp_poly_123 * inp_poly_123)
+    eqmod (2 * (inp_poly_123 * inp_poly_123))
           (
             L0x2001a718 * (x**0) + L0x2001a71a * (x**1) + 
             L0x2001a71c * (x**2) + L0x2001a71e * (x**3)
           )
           [3329, x**2 - 394],
     (* inp_poly_124 *)
-    eqmod 2 * (inp_poly_124 * inp_poly_124)
+    eqmod (2 * (inp_poly_124 * inp_poly_124))
           (
             L0x2001a720 * (x**0) + L0x2001a722 * (x**1) + 
             L0x2001a724 * (x**2) + L0x2001a726 * (x**3)
           )
           [3329, x**2 - 885],
     (* inp_poly_125 *)
-    eqmod 2 * (inp_poly_125 * inp_poly_125)
+    eqmod (2 * (inp_poly_125 * inp_poly_125))
           (
             L0x2001a720 * (x**0) + L0x2001a722 * (x**1) + 
             L0x2001a724 * (x**2) + L0x2001a726 * (x**3)
           )
           [3329, x**2 - 2444],
     (* inp_poly_126 *)
-    eqmod 2 * (inp_poly_126 * inp_poly_126)
+    eqmod (2 * (inp_poly_126 * inp_poly_126))
           (
             L0x2001a728 * (x**0) + L0x2001a72a * (x**1) + 
             L0x2001a72c * (x**2) + L0x2001a72e * (x**3)
           )
           [3329, x**2 - 2154],
     (* inp_poly_127 *)
-    eqmod 2 * (inp_poly_127 * inp_poly_127)
+    eqmod (2 * (inp_poly_127 * inp_poly_127))
           (
             L0x2001a728 * (x**0) + L0x2001a72a * (x**1) + 
             L0x2001a72c * (x**2) + L0x2001a72e * (x**3)
@@ -17102,7 +17102,7 @@ cut (* 1 *)
   (* algebraic *)
   and [
     (* inp_poly_0 *)
-    eqmod 16 * (inp_poly_0 * inp_poly_0)
+    eqmod (16 * (inp_poly_0 * inp_poly_0))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -17123,7 +17123,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 17],
     (* inp_poly_1 *)
-    eqmod 16 * (inp_poly_1 * inp_poly_1)
+    eqmod (16 * (inp_poly_1 * inp_poly_1))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -17144,7 +17144,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 3312],
     (* inp_poly_2 *)
-    eqmod 16 * (inp_poly_2 * inp_poly_2)
+    eqmod (16 * (inp_poly_2 * inp_poly_2))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -17165,7 +17165,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 2761],
     (* inp_poly_3 *)
-    eqmod 16 * (inp_poly_3 * inp_poly_3)
+    eqmod (16 * (inp_poly_3 * inp_poly_3))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -17186,7 +17186,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 568],
     (* inp_poly_4 *)
-    eqmod 16 * (inp_poly_4 * inp_poly_4)
+    eqmod (16 * (inp_poly_4 * inp_poly_4))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -17207,7 +17207,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 583],
     (* inp_poly_5 *)
-    eqmod 16 * (inp_poly_5 * inp_poly_5)
+    eqmod (16 * (inp_poly_5 * inp_poly_5))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -17228,7 +17228,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 2746],
     (* inp_poly_6 *)
-    eqmod 16 * (inp_poly_6 * inp_poly_6)
+    eqmod (16 * (inp_poly_6 * inp_poly_6))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -17249,7 +17249,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 2649],
     (* inp_poly_7 *)
-    eqmod 16 * (inp_poly_7 * inp_poly_7)
+    eqmod (16 * (inp_poly_7 * inp_poly_7))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -17270,7 +17270,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 680],
     (* inp_poly_8 *)
-    eqmod 16 * (inp_poly_8 * inp_poly_8)
+    eqmod (16 * (inp_poly_8 * inp_poly_8))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -17291,7 +17291,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 1637],
     (* inp_poly_9 *)
-    eqmod 16 * (inp_poly_9 * inp_poly_9)
+    eqmod (16 * (inp_poly_9 * inp_poly_9))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -17312,7 +17312,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 1692],
     (* inp_poly_10 *)
-    eqmod 16 * (inp_poly_10 * inp_poly_10)
+    eqmod (16 * (inp_poly_10 * inp_poly_10))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -17333,7 +17333,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 723],
     (* inp_poly_11 *)
-    eqmod 16 * (inp_poly_11 * inp_poly_11)
+    eqmod (16 * (inp_poly_11 * inp_poly_11))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -17354,7 +17354,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 2606],
     (* inp_poly_12 *)
-    eqmod 16 * (inp_poly_12 * inp_poly_12)
+    eqmod (16 * (inp_poly_12 * inp_poly_12))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -17375,7 +17375,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 2288],
     (* inp_poly_13 *)
-    eqmod 16 * (inp_poly_13 * inp_poly_13)
+    eqmod (16 * (inp_poly_13 * inp_poly_13))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -17396,7 +17396,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 1041],
     (* inp_poly_14 *)
-    eqmod 16 * (inp_poly_14 * inp_poly_14)
+    eqmod (16 * (inp_poly_14 * inp_poly_14))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -17417,7 +17417,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 1100],
     (* inp_poly_15 *)
-    eqmod 16 * (inp_poly_15 * inp_poly_15)
+    eqmod (16 * (inp_poly_15 * inp_poly_15))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -17438,7 +17438,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 2229],
     (* inp_poly_16 *)
-    eqmod 16 * (inp_poly_16 * inp_poly_16)
+    eqmod (16 * (inp_poly_16 * inp_poly_16))
           (
             L0x2001a570 * (x**0) + L0x2001a572 * (x**1) + 
             L0x2001a574 * (x**2) + L0x2001a576 * (x**3) + 
@@ -17459,7 +17459,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 1409],
     (* inp_poly_17 *)
-    eqmod 16 * (inp_poly_17 * inp_poly_17)
+    eqmod (16 * (inp_poly_17 * inp_poly_17))
           (
             L0x2001a570 * (x**0) + L0x2001a572 * (x**1) + 
             L0x2001a574 * (x**2) + L0x2001a576 * (x**3) + 
@@ -17480,7 +17480,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 1920],
     (* inp_poly_18 *)
-    eqmod 16 * (inp_poly_18 * inp_poly_18)
+    eqmod (16 * (inp_poly_18 * inp_poly_18))
           (
             L0x2001a570 * (x**0) + L0x2001a572 * (x**1) + 
             L0x2001a574 * (x**2) + L0x2001a576 * (x**3) + 
@@ -17501,7 +17501,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 2662],
     (* inp_poly_19 *)
-    eqmod 16 * (inp_poly_19 * inp_poly_19)
+    eqmod (16 * (inp_poly_19 * inp_poly_19))
           (
             L0x2001a570 * (x**0) + L0x2001a572 * (x**1) + 
             L0x2001a574 * (x**2) + L0x2001a576 * (x**3) + 
@@ -17522,7 +17522,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 667],
     (* inp_poly_20 *)
-    eqmod 16 * (inp_poly_20 * inp_poly_20)
+    eqmod (16 * (inp_poly_20 * inp_poly_20))
           (
             L0x2001a570 * (x**0) + L0x2001a572 * (x**1) + 
             L0x2001a574 * (x**2) + L0x2001a576 * (x**3) + 
@@ -17543,7 +17543,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 3281],
     (* inp_poly_21 *)
-    eqmod 16 * (inp_poly_21 * inp_poly_21)
+    eqmod (16 * (inp_poly_21 * inp_poly_21))
           (
             L0x2001a570 * (x**0) + L0x2001a572 * (x**1) + 
             L0x2001a574 * (x**2) + L0x2001a576 * (x**3) + 
@@ -17564,7 +17564,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 48],
     (* inp_poly_22 *)
-    eqmod 16 * (inp_poly_22 * inp_poly_22)
+    eqmod (16 * (inp_poly_22 * inp_poly_22))
           (
             L0x2001a570 * (x**0) + L0x2001a572 * (x**1) + 
             L0x2001a574 * (x**2) + L0x2001a576 * (x**3) + 
@@ -17585,7 +17585,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 233],
     (* inp_poly_23 *)
-    eqmod 16 * (inp_poly_23 * inp_poly_23)
+    eqmod (16 * (inp_poly_23 * inp_poly_23))
           (
             L0x2001a570 * (x**0) + L0x2001a572 * (x**1) + 
             L0x2001a574 * (x**2) + L0x2001a576 * (x**3) + 
@@ -17606,7 +17606,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 3096],
     (* inp_poly_24 *)
-    eqmod 16 * (inp_poly_24 * inp_poly_24)
+    eqmod (16 * (inp_poly_24 * inp_poly_24))
           (
             L0x2001a570 * (x**0) + L0x2001a572 * (x**1) + 
             L0x2001a574 * (x**2) + L0x2001a576 * (x**3) + 
@@ -17627,7 +17627,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 756],
     (* inp_poly_25 *)
-    eqmod 16 * (inp_poly_25 * inp_poly_25)
+    eqmod (16 * (inp_poly_25 * inp_poly_25))
           (
             L0x2001a570 * (x**0) + L0x2001a572 * (x**1) + 
             L0x2001a574 * (x**2) + L0x2001a576 * (x**3) + 
@@ -17648,7 +17648,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 2573],
     (* inp_poly_26 *)
-    eqmod 16 * (inp_poly_26 * inp_poly_26)
+    eqmod (16 * (inp_poly_26 * inp_poly_26))
           (
             L0x2001a570 * (x**0) + L0x2001a572 * (x**1) + 
             L0x2001a574 * (x**2) + L0x2001a576 * (x**3) + 
@@ -17669,7 +17669,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 2156],
     (* inp_poly_27 *)
-    eqmod 16 * (inp_poly_27 * inp_poly_27)
+    eqmod (16 * (inp_poly_27 * inp_poly_27))
           (
             L0x2001a570 * (x**0) + L0x2001a572 * (x**1) + 
             L0x2001a574 * (x**2) + L0x2001a576 * (x**3) + 
@@ -17690,7 +17690,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 1173],
     (* inp_poly_28 *)
-    eqmod 16 * (inp_poly_28 * inp_poly_28)
+    eqmod (16 * (inp_poly_28 * inp_poly_28))
           (
             L0x2001a570 * (x**0) + L0x2001a572 * (x**1) + 
             L0x2001a574 * (x**2) + L0x2001a576 * (x**3) + 
@@ -17711,7 +17711,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 3015],
     (* inp_poly_29 *)
-    eqmod 16 * (inp_poly_29 * inp_poly_29)
+    eqmod (16 * (inp_poly_29 * inp_poly_29))
           (
             L0x2001a570 * (x**0) + L0x2001a572 * (x**1) + 
             L0x2001a574 * (x**2) + L0x2001a576 * (x**3) + 
@@ -17732,7 +17732,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 314],
     (* inp_poly_30 *)
-    eqmod 16 * (inp_poly_30 * inp_poly_30)
+    eqmod (16 * (inp_poly_30 * inp_poly_30))
           (
             L0x2001a570 * (x**0) + L0x2001a572 * (x**1) + 
             L0x2001a574 * (x**2) + L0x2001a576 * (x**3) + 
@@ -17753,7 +17753,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 3050],
     (* inp_poly_31 *)
-    eqmod 16 * (inp_poly_31 * inp_poly_31)
+    eqmod (16 * (inp_poly_31 * inp_poly_31))
           (
             L0x2001a570 * (x**0) + L0x2001a572 * (x**1) + 
             L0x2001a574 * (x**2) + L0x2001a576 * (x**3) + 
@@ -17774,7 +17774,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 279],
     (* inp_poly_32 *)
-    eqmod 16 * (inp_poly_32 * inp_poly_32)
+    eqmod (16 * (inp_poly_32 * inp_poly_32))
           (
             L0x2001a5b0 * (x**0) + L0x2001a5b2 * (x**1) + 
             L0x2001a5b4 * (x**2) + L0x2001a5b6 * (x**3) + 
@@ -17795,7 +17795,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 1703],
     (* inp_poly_33 *)
-    eqmod 16 * (inp_poly_33 * inp_poly_33)
+    eqmod (16 * (inp_poly_33 * inp_poly_33))
           (
             L0x2001a5b0 * (x**0) + L0x2001a5b2 * (x**1) + 
             L0x2001a5b4 * (x**2) + L0x2001a5b6 * (x**3) + 
@@ -17816,7 +17816,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 1626],
     (* inp_poly_34 *)
-    eqmod 16 * (inp_poly_34 * inp_poly_34)
+    eqmod (16 * (inp_poly_34 * inp_poly_34))
           (
             L0x2001a5b0 * (x**0) + L0x2001a5b2 * (x**1) + 
             L0x2001a5b4 * (x**2) + L0x2001a5b6 * (x**3) + 
@@ -17837,7 +17837,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 1651],
     (* inp_poly_35 *)
-    eqmod 16 * (inp_poly_35 * inp_poly_35)
+    eqmod (16 * (inp_poly_35 * inp_poly_35))
           (
             L0x2001a5b0 * (x**0) + L0x2001a5b2 * (x**1) + 
             L0x2001a5b4 * (x**2) + L0x2001a5b6 * (x**3) + 
@@ -17858,7 +17858,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 1678],
     (* inp_poly_36 *)
-    eqmod 16 * (inp_poly_36 * inp_poly_36)
+    eqmod (16 * (inp_poly_36 * inp_poly_36))
           (
             L0x2001a5b0 * (x**0) + L0x2001a5b2 * (x**1) + 
             L0x2001a5b4 * (x**2) + L0x2001a5b6 * (x**3) + 
@@ -17879,7 +17879,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 2789],
     (* inp_poly_37 *)
-    eqmod 16 * (inp_poly_37 * inp_poly_37)
+    eqmod (16 * (inp_poly_37 * inp_poly_37))
           (
             L0x2001a5b0 * (x**0) + L0x2001a5b2 * (x**1) + 
             L0x2001a5b4 * (x**2) + L0x2001a5b6 * (x**3) + 
@@ -17900,7 +17900,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 540],
     (* inp_poly_38 *)
-    eqmod 16 * (inp_poly_38 * inp_poly_38)
+    eqmod (16 * (inp_poly_38 * inp_poly_38))
           (
             L0x2001a5b0 * (x**0) + L0x2001a5b2 * (x**1) + 
             L0x2001a5b4 * (x**2) + L0x2001a5b6 * (x**3) + 
@@ -17921,7 +17921,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 1789],
     (* inp_poly_39 *)
-    eqmod 16 * (inp_poly_39 * inp_poly_39)
+    eqmod (16 * (inp_poly_39 * inp_poly_39))
           (
             L0x2001a5b0 * (x**0) + L0x2001a5b2 * (x**1) + 
             L0x2001a5b4 * (x**2) + L0x2001a5b6 * (x**3) + 
@@ -17942,7 +17942,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 1540],
     (* inp_poly_40 *)
-    eqmod 16 * (inp_poly_40 * inp_poly_40)
+    eqmod (16 * (inp_poly_40 * inp_poly_40))
           (
             L0x2001a5b0 * (x**0) + L0x2001a5b2 * (x**1) + 
             L0x2001a5b4 * (x**2) + L0x2001a5b6 * (x**3) + 
@@ -17963,7 +17963,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 1847],
     (* inp_poly_41 *)
-    eqmod 16 * (inp_poly_41 * inp_poly_41)
+    eqmod (16 * (inp_poly_41 * inp_poly_41))
           (
             L0x2001a5b0 * (x**0) + L0x2001a5b2 * (x**1) + 
             L0x2001a5b4 * (x**2) + L0x2001a5b6 * (x**3) + 
@@ -17984,7 +17984,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 1482],
     (* inp_poly_42 *)
-    eqmod 16 * (inp_poly_42 * inp_poly_42)
+    eqmod (16 * (inp_poly_42 * inp_poly_42))
           (
             L0x2001a5b0 * (x**0) + L0x2001a5b2 * (x**1) + 
             L0x2001a5b4 * (x**2) + L0x2001a5b6 * (x**3) + 
@@ -18005,7 +18005,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 952],
     (* inp_poly_43 *)
-    eqmod 16 * (inp_poly_43 * inp_poly_43)
+    eqmod (16 * (inp_poly_43 * inp_poly_43))
           (
             L0x2001a5b0 * (x**0) + L0x2001a5b2 * (x**1) + 
             L0x2001a5b4 * (x**2) + L0x2001a5b6 * (x**3) + 
@@ -18026,7 +18026,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 2377],
     (* inp_poly_44 *)
-    eqmod 16 * (inp_poly_44 * inp_poly_44)
+    eqmod (16 * (inp_poly_44 * inp_poly_44))
           (
             L0x2001a5b0 * (x**0) + L0x2001a5b2 * (x**1) + 
             L0x2001a5b4 * (x**2) + L0x2001a5b6 * (x**3) + 
@@ -18047,7 +18047,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 1461],
     (* inp_poly_45 *)
-    eqmod 16 * (inp_poly_45 * inp_poly_45)
+    eqmod (16 * (inp_poly_45 * inp_poly_45))
           (
             L0x2001a5b0 * (x**0) + L0x2001a5b2 * (x**1) + 
             L0x2001a5b4 * (x**2) + L0x2001a5b6 * (x**3) + 
@@ -18068,7 +18068,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 1868],
     (* inp_poly_46 *)
-    eqmod 16 * (inp_poly_46 * inp_poly_46)
+    eqmod (16 * (inp_poly_46 * inp_poly_46))
           (
             L0x2001a5b0 * (x**0) + L0x2001a5b2 * (x**1) + 
             L0x2001a5b4 * (x**2) + L0x2001a5b6 * (x**3) + 
@@ -18089,7 +18089,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 2687],
     (* inp_poly_47 *)
-    eqmod 16 * (inp_poly_47 * inp_poly_47)
+    eqmod (16 * (inp_poly_47 * inp_poly_47))
           (
             L0x2001a5b0 * (x**0) + L0x2001a5b2 * (x**1) + 
             L0x2001a5b4 * (x**2) + L0x2001a5b6 * (x**3) + 
@@ -18110,7 +18110,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 642],
     (* inp_poly_48 *)
-    eqmod 16 * (inp_poly_48 * inp_poly_48)
+    eqmod (16 * (inp_poly_48 * inp_poly_48))
           (
             L0x2001a5f0 * (x**0) + L0x2001a5f2 * (x**1) + 
             L0x2001a5f4 * (x**2) + L0x2001a5f6 * (x**3) + 
@@ -18131,7 +18131,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 939],
     (* inp_poly_49 *)
-    eqmod 16 * (inp_poly_49 * inp_poly_49)
+    eqmod (16 * (inp_poly_49 * inp_poly_49))
           (
             L0x2001a5f0 * (x**0) + L0x2001a5f2 * (x**1) + 
             L0x2001a5f4 * (x**2) + L0x2001a5f6 * (x**3) + 
@@ -18152,7 +18152,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 2390],
     (* inp_poly_50 *)
-    eqmod 16 * (inp_poly_50 * inp_poly_50)
+    eqmod (16 * (inp_poly_50 * inp_poly_50))
           (
             L0x2001a5f0 * (x**0) + L0x2001a5f2 * (x**1) + 
             L0x2001a5f4 * (x**2) + L0x2001a5f6 * (x**3) + 
@@ -18173,7 +18173,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 2308],
     (* inp_poly_51 *)
-    eqmod 16 * (inp_poly_51 * inp_poly_51)
+    eqmod (16 * (inp_poly_51 * inp_poly_51))
           (
             L0x2001a5f0 * (x**0) + L0x2001a5f2 * (x**1) + 
             L0x2001a5f4 * (x**2) + L0x2001a5f6 * (x**3) + 
@@ -18194,7 +18194,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 1021],
     (* inp_poly_52 *)
-    eqmod 16 * (inp_poly_52 * inp_poly_52)
+    eqmod (16 * (inp_poly_52 * inp_poly_52))
           (
             L0x2001a5f0 * (x**0) + L0x2001a5f2 * (x**1) + 
             L0x2001a5f4 * (x**2) + L0x2001a5f6 * (x**3) + 
@@ -18215,7 +18215,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 2437],
     (* inp_poly_53 *)
-    eqmod 16 * (inp_poly_53 * inp_poly_53)
+    eqmod (16 * (inp_poly_53 * inp_poly_53))
           (
             L0x2001a5f0 * (x**0) + L0x2001a5f2 * (x**1) + 
             L0x2001a5f4 * (x**2) + L0x2001a5f6 * (x**3) + 
@@ -18236,7 +18236,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 892],
     (* inp_poly_54 *)
-    eqmod 16 * (inp_poly_54 * inp_poly_54)
+    eqmod (16 * (inp_poly_54 * inp_poly_54))
           (
             L0x2001a5f0 * (x**0) + L0x2001a5f2 * (x**1) + 
             L0x2001a5f4 * (x**2) + L0x2001a5f6 * (x**3) + 
@@ -18257,7 +18257,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 2388],
     (* inp_poly_55 *)
-    eqmod 16 * (inp_poly_55 * inp_poly_55)
+    eqmod (16 * (inp_poly_55 * inp_poly_55))
           (
             L0x2001a5f0 * (x**0) + L0x2001a5f2 * (x**1) + 
             L0x2001a5f4 * (x**2) + L0x2001a5f6 * (x**3) + 
@@ -18278,7 +18278,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 941],
     (* inp_poly_56 *)
-    eqmod 16 * (inp_poly_56 * inp_poly_56)
+    eqmod (16 * (inp_poly_56 * inp_poly_56))
           (
             L0x2001a5f0 * (x**0) + L0x2001a5f2 * (x**1) + 
             L0x2001a5f4 * (x**2) + L0x2001a5f6 * (x**3) + 
@@ -18299,7 +18299,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 733],
     (* inp_poly_57 *)
-    eqmod 16 * (inp_poly_57 * inp_poly_57)
+    eqmod (16 * (inp_poly_57 * inp_poly_57))
           (
             L0x2001a5f0 * (x**0) + L0x2001a5f2 * (x**1) + 
             L0x2001a5f4 * (x**2) + L0x2001a5f6 * (x**3) + 
@@ -18320,7 +18320,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 2596],
     (* inp_poly_58 *)
-    eqmod 16 * (inp_poly_58 * inp_poly_58)
+    eqmod (16 * (inp_poly_58 * inp_poly_58))
           (
             L0x2001a5f0 * (x**0) + L0x2001a5f2 * (x**1) + 
             L0x2001a5f4 * (x**2) + L0x2001a5f6 * (x**3) + 
@@ -18341,7 +18341,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 2337],
     (* inp_poly_59 *)
-    eqmod 16 * (inp_poly_59 * inp_poly_59)
+    eqmod (16 * (inp_poly_59 * inp_poly_59))
           (
             L0x2001a5f0 * (x**0) + L0x2001a5f2 * (x**1) + 
             L0x2001a5f4 * (x**2) + L0x2001a5f6 * (x**3) + 
@@ -18362,7 +18362,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 992],
     (* inp_poly_60 *)
-    eqmod 16 * (inp_poly_60 * inp_poly_60)
+    eqmod (16 * (inp_poly_60 * inp_poly_60))
           (
             L0x2001a5f0 * (x**0) + L0x2001a5f2 * (x**1) + 
             L0x2001a5f4 * (x**2) + L0x2001a5f6 * (x**3) + 
@@ -18383,7 +18383,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 268],
     (* inp_poly_61 *)
-    eqmod 16 * (inp_poly_61 * inp_poly_61)
+    eqmod (16 * (inp_poly_61 * inp_poly_61))
           (
             L0x2001a5f0 * (x**0) + L0x2001a5f2 * (x**1) + 
             L0x2001a5f4 * (x**2) + L0x2001a5f6 * (x**3) + 
@@ -18404,7 +18404,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 3061],
     (* inp_poly_62 *)
-    eqmod 16 * (inp_poly_62 * inp_poly_62)
+    eqmod (16 * (inp_poly_62 * inp_poly_62))
           (
             L0x2001a5f0 * (x**0) + L0x2001a5f2 * (x**1) + 
             L0x2001a5f4 * (x**2) + L0x2001a5f6 * (x**3) + 
@@ -18425,7 +18425,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 641],
     (* inp_poly_63 *)
-    eqmod 16 * (inp_poly_63 * inp_poly_63)
+    eqmod (16 * (inp_poly_63 * inp_poly_63))
           (
             L0x2001a5f0 * (x**0) + L0x2001a5f2 * (x**1) + 
             L0x2001a5f4 * (x**2) + L0x2001a5f6 * (x**3) + 
@@ -18446,7 +18446,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 2688],
     (* inp_poly_64 *)
-    eqmod 16 * (inp_poly_64 * inp_poly_64)
+    eqmod (16 * (inp_poly_64 * inp_poly_64))
           (
             L0x2001a630 * (x**0) + L0x2001a632 * (x**1) + 
             L0x2001a634 * (x**2) + L0x2001a636 * (x**3) + 
@@ -18467,7 +18467,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 1584],
     (* inp_poly_65 *)
-    eqmod 16 * (inp_poly_65 * inp_poly_65)
+    eqmod (16 * (inp_poly_65 * inp_poly_65))
           (
             L0x2001a630 * (x**0) + L0x2001a632 * (x**1) + 
             L0x2001a634 * (x**2) + L0x2001a636 * (x**3) + 
@@ -18488,7 +18488,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 1745],
     (* inp_poly_66 *)
-    eqmod 16 * (inp_poly_66 * inp_poly_66)
+    eqmod (16 * (inp_poly_66 * inp_poly_66))
           (
             L0x2001a630 * (x**0) + L0x2001a632 * (x**1) + 
             L0x2001a634 * (x**2) + L0x2001a636 * (x**3) + 
@@ -18509,7 +18509,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 2298],
     (* inp_poly_67 *)
-    eqmod 16 * (inp_poly_67 * inp_poly_67)
+    eqmod (16 * (inp_poly_67 * inp_poly_67))
           (
             L0x2001a630 * (x**0) + L0x2001a632 * (x**1) + 
             L0x2001a634 * (x**2) + L0x2001a636 * (x**3) + 
@@ -18530,7 +18530,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 1031],
     (* inp_poly_68 *)
-    eqmod 16 * (inp_poly_68 * inp_poly_68)
+    eqmod (16 * (inp_poly_68 * inp_poly_68))
           (
             L0x2001a630 * (x**0) + L0x2001a632 * (x**1) + 
             L0x2001a634 * (x**2) + L0x2001a636 * (x**3) + 
@@ -18551,7 +18551,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 2037],
     (* inp_poly_69 *)
-    eqmod 16 * (inp_poly_69 * inp_poly_69)
+    eqmod (16 * (inp_poly_69 * inp_poly_69))
           (
             L0x2001a630 * (x**0) + L0x2001a632 * (x**1) + 
             L0x2001a634 * (x**2) + L0x2001a636 * (x**3) + 
@@ -18572,7 +18572,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 1292],
     (* inp_poly_70 *)
-    eqmod 16 * (inp_poly_70 * inp_poly_70)
+    eqmod (16 * (inp_poly_70 * inp_poly_70))
           (
             L0x2001a630 * (x**0) + L0x2001a632 * (x**1) + 
             L0x2001a634 * (x**2) + L0x2001a636 * (x**3) + 
@@ -18593,7 +18593,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 3220],
     (* inp_poly_71 *)
-    eqmod 16 * (inp_poly_71 * inp_poly_71)
+    eqmod (16 * (inp_poly_71 * inp_poly_71))
           (
             L0x2001a630 * (x**0) + L0x2001a632 * (x**1) + 
             L0x2001a634 * (x**2) + L0x2001a636 * (x**3) + 
@@ -18614,7 +18614,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 109],
     (* inp_poly_72 *)
-    eqmod 16 * (inp_poly_72 * inp_poly_72)
+    eqmod (16 * (inp_poly_72 * inp_poly_72))
           (
             L0x2001a630 * (x**0) + L0x2001a632 * (x**1) + 
             L0x2001a634 * (x**2) + L0x2001a636 * (x**3) + 
@@ -18635,7 +18635,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 375],
     (* inp_poly_73 *)
-    eqmod 16 * (inp_poly_73 * inp_poly_73)
+    eqmod (16 * (inp_poly_73 * inp_poly_73))
           (
             L0x2001a630 * (x**0) + L0x2001a632 * (x**1) + 
             L0x2001a634 * (x**2) + L0x2001a636 * (x**3) + 
@@ -18656,7 +18656,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 2954],
     (* inp_poly_74 *)
-    eqmod 16 * (inp_poly_74 * inp_poly_74)
+    eqmod (16 * (inp_poly_74 * inp_poly_74))
           (
             L0x2001a630 * (x**0) + L0x2001a632 * (x**1) + 
             L0x2001a634 * (x**2) + L0x2001a636 * (x**3) + 
@@ -18677,7 +18677,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 2549],
     (* inp_poly_75 *)
-    eqmod 16 * (inp_poly_75 * inp_poly_75)
+    eqmod (16 * (inp_poly_75 * inp_poly_75))
           (
             L0x2001a630 * (x**0) + L0x2001a632 * (x**1) + 
             L0x2001a634 * (x**2) + L0x2001a636 * (x**3) + 
@@ -18698,7 +18698,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 780],
     (* inp_poly_76 *)
-    eqmod 16 * (inp_poly_76 * inp_poly_76)
+    eqmod (16 * (inp_poly_76 * inp_poly_76))
           (
             L0x2001a630 * (x**0) + L0x2001a632 * (x**1) + 
             L0x2001a634 * (x**2) + L0x2001a636 * (x**3) + 
@@ -18719,7 +18719,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 2090],
     (* inp_poly_77 *)
-    eqmod 16 * (inp_poly_77 * inp_poly_77)
+    eqmod (16 * (inp_poly_77 * inp_poly_77))
           (
             L0x2001a630 * (x**0) + L0x2001a632 * (x**1) + 
             L0x2001a634 * (x**2) + L0x2001a636 * (x**3) + 
@@ -18740,7 +18740,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 1239],
     (* inp_poly_78 *)
-    eqmod 16 * (inp_poly_78 * inp_poly_78)
+    eqmod (16 * (inp_poly_78 * inp_poly_78))
           (
             L0x2001a630 * (x**0) + L0x2001a632 * (x**1) + 
             L0x2001a634 * (x**2) + L0x2001a636 * (x**3) + 
@@ -18761,7 +18761,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 1645],
     (* inp_poly_79 *)
-    eqmod 16 * (inp_poly_79 * inp_poly_79)
+    eqmod (16 * (inp_poly_79 * inp_poly_79))
           (
             L0x2001a630 * (x**0) + L0x2001a632 * (x**1) + 
             L0x2001a634 * (x**2) + L0x2001a636 * (x**3) + 
@@ -18782,7 +18782,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 1684],
     (* inp_poly_80 *)
-    eqmod 16 * (inp_poly_80 * inp_poly_80)
+    eqmod (16 * (inp_poly_80 * inp_poly_80))
           (
             L0x2001a670 * (x**0) + L0x2001a672 * (x**1) + 
             L0x2001a674 * (x**2) + L0x2001a676 * (x**3) + 
@@ -18803,7 +18803,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 1063],
     (* inp_poly_81 *)
-    eqmod 16 * (inp_poly_81 * inp_poly_81)
+    eqmod (16 * (inp_poly_81 * inp_poly_81))
           (
             L0x2001a670 * (x**0) + L0x2001a672 * (x**1) + 
             L0x2001a674 * (x**2) + L0x2001a676 * (x**3) + 
@@ -18824,7 +18824,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 2266],
     (* inp_poly_82 *)
-    eqmod 16 * (inp_poly_82 * inp_poly_82)
+    eqmod (16 * (inp_poly_82 * inp_poly_82))
           (
             L0x2001a670 * (x**0) + L0x2001a672 * (x**1) + 
             L0x2001a674 * (x**2) + L0x2001a676 * (x**3) + 
@@ -18845,7 +18845,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 319],
     (* inp_poly_83 *)
-    eqmod 16 * (inp_poly_83 * inp_poly_83)
+    eqmod (16 * (inp_poly_83 * inp_poly_83))
           (
             L0x2001a670 * (x**0) + L0x2001a672 * (x**1) + 
             L0x2001a674 * (x**2) + L0x2001a676 * (x**3) + 
@@ -18866,7 +18866,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 3010],
     (* inp_poly_84 *)
-    eqmod 16 * (inp_poly_84 * inp_poly_84)
+    eqmod (16 * (inp_poly_84 * inp_poly_84))
           (
             L0x2001a670 * (x**0) + L0x2001a672 * (x**1) + 
             L0x2001a674 * (x**2) + L0x2001a676 * (x**3) + 
@@ -18887,7 +18887,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 2773],
     (* inp_poly_85 *)
-    eqmod 16 * (inp_poly_85 * inp_poly_85)
+    eqmod (16 * (inp_poly_85 * inp_poly_85))
           (
             L0x2001a670 * (x**0) + L0x2001a672 * (x**1) + 
             L0x2001a674 * (x**2) + L0x2001a676 * (x**3) + 
@@ -18908,7 +18908,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 556],
     (* inp_poly_86 *)
-    eqmod 16 * (inp_poly_86 * inp_poly_86)
+    eqmod (16 * (inp_poly_86 * inp_poly_86))
           (
             L0x2001a670 * (x**0) + L0x2001a672 * (x**1) + 
             L0x2001a674 * (x**2) + L0x2001a676 * (x**3) + 
@@ -18929,7 +18929,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 757],
     (* inp_poly_87 *)
-    eqmod 16 * (inp_poly_87 * inp_poly_87)
+    eqmod (16 * (inp_poly_87 * inp_poly_87))
           (
             L0x2001a670 * (x**0) + L0x2001a672 * (x**1) + 
             L0x2001a674 * (x**2) + L0x2001a676 * (x**3) + 
@@ -18950,7 +18950,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 2572],
     (* inp_poly_88 *)
-    eqmod 16 * (inp_poly_88 * inp_poly_88)
+    eqmod (16 * (inp_poly_88 * inp_poly_88))
           (
             L0x2001a670 * (x**0) + L0x2001a672 * (x**1) + 
             L0x2001a674 * (x**2) + L0x2001a676 * (x**3) + 
@@ -18971,7 +18971,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 2099],
     (* inp_poly_89 *)
-    eqmod 16 * (inp_poly_89 * inp_poly_89)
+    eqmod (16 * (inp_poly_89 * inp_poly_89))
           (
             L0x2001a670 * (x**0) + L0x2001a672 * (x**1) + 
             L0x2001a674 * (x**2) + L0x2001a676 * (x**3) + 
@@ -18992,7 +18992,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 1230],
     (* inp_poly_90 *)
-    eqmod 16 * (inp_poly_90 * inp_poly_90)
+    eqmod (16 * (inp_poly_90 * inp_poly_90))
           (
             L0x2001a670 * (x**0) + L0x2001a672 * (x**1) + 
             L0x2001a674 * (x**2) + L0x2001a676 * (x**3) + 
@@ -19013,7 +19013,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 561],
     (* inp_poly_91 *)
-    eqmod 16 * (inp_poly_91 * inp_poly_91)
+    eqmod (16 * (inp_poly_91 * inp_poly_91))
           (
             L0x2001a670 * (x**0) + L0x2001a672 * (x**1) + 
             L0x2001a674 * (x**2) + L0x2001a676 * (x**3) + 
@@ -19034,7 +19034,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 2768],
     (* inp_poly_92 *)
-    eqmod 16 * (inp_poly_92 * inp_poly_92)
+    eqmod (16 * (inp_poly_92 * inp_poly_92))
           (
             L0x2001a670 * (x**0) + L0x2001a672 * (x**1) + 
             L0x2001a674 * (x**2) + L0x2001a676 * (x**3) + 
@@ -19055,7 +19055,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 2466],
     (* inp_poly_93 *)
-    eqmod 16 * (inp_poly_93 * inp_poly_93)
+    eqmod (16 * (inp_poly_93 * inp_poly_93))
           (
             L0x2001a670 * (x**0) + L0x2001a672 * (x**1) + 
             L0x2001a674 * (x**2) + L0x2001a676 * (x**3) + 
@@ -19076,7 +19076,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 863],
     (* inp_poly_94 *)
-    eqmod 16 * (inp_poly_94 * inp_poly_94)
+    eqmod (16 * (inp_poly_94 * inp_poly_94))
           (
             L0x2001a670 * (x**0) + L0x2001a672 * (x**1) + 
             L0x2001a674 * (x**2) + L0x2001a676 * (x**3) + 
@@ -19097,7 +19097,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 2594],
     (* inp_poly_95 *)
-    eqmod 16 * (inp_poly_95 * inp_poly_95)
+    eqmod (16 * (inp_poly_95 * inp_poly_95))
           (
             L0x2001a670 * (x**0) + L0x2001a672 * (x**1) + 
             L0x2001a674 * (x**2) + L0x2001a676 * (x**3) + 
@@ -19118,7 +19118,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 735],
     (* inp_poly_96 *)
-    eqmod 16 * (inp_poly_96 * inp_poly_96)
+    eqmod (16 * (inp_poly_96 * inp_poly_96))
           (
             L0x2001a6b0 * (x**0) + L0x2001a6b2 * (x**1) + 
             L0x2001a6b4 * (x**2) + L0x2001a6b6 * (x**3) + 
@@ -19139,7 +19139,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 2804],
     (* inp_poly_97 *)
-    eqmod 16 * (inp_poly_97 * inp_poly_97)
+    eqmod (16 * (inp_poly_97 * inp_poly_97))
           (
             L0x2001a6b0 * (x**0) + L0x2001a6b2 * (x**1) + 
             L0x2001a6b4 * (x**2) + L0x2001a6b6 * (x**3) + 
@@ -19160,7 +19160,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 525],
     (* inp_poly_98 *)
-    eqmod 16 * (inp_poly_98 * inp_poly_98)
+    eqmod (16 * (inp_poly_98 * inp_poly_98))
           (
             L0x2001a6b0 * (x**0) + L0x2001a6b2 * (x**1) + 
             L0x2001a6b4 * (x**2) + L0x2001a6b6 * (x**3) + 
@@ -19181,7 +19181,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 1092],
     (* inp_poly_99 *)
-    eqmod 16 * (inp_poly_99 * inp_poly_99)
+    eqmod (16 * (inp_poly_99 * inp_poly_99))
           (
             L0x2001a6b0 * (x**0) + L0x2001a6b2 * (x**1) + 
             L0x2001a6b4 * (x**2) + L0x2001a6b6 * (x**3) + 
@@ -19202,7 +19202,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 2237],
     (* inp_poly_100 *)
-    eqmod 16 * (inp_poly_100 * inp_poly_100)
+    eqmod (16 * (inp_poly_100 * inp_poly_100))
           (
             L0x2001a6b0 * (x**0) + L0x2001a6b2 * (x**1) + 
             L0x2001a6b4 * (x**2) + L0x2001a6b6 * (x**3) + 
@@ -19223,7 +19223,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 403],
     (* inp_poly_101 *)
-    eqmod 16 * (inp_poly_101 * inp_poly_101)
+    eqmod (16 * (inp_poly_101 * inp_poly_101))
           (
             L0x2001a6b0 * (x**0) + L0x2001a6b2 * (x**1) + 
             L0x2001a6b4 * (x**2) + L0x2001a6b6 * (x**3) + 
@@ -19244,7 +19244,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 2926],
     (* inp_poly_102 *)
-    eqmod 16 * (inp_poly_102 * inp_poly_102)
+    eqmod (16 * (inp_poly_102 * inp_poly_102))
           (
             L0x2001a6b0 * (x**0) + L0x2001a6b2 * (x**1) + 
             L0x2001a6b4 * (x**2) + L0x2001a6b6 * (x**3) + 
@@ -19265,7 +19265,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 1026],
     (* inp_poly_103 *)
-    eqmod 16 * (inp_poly_103 * inp_poly_103)
+    eqmod (16 * (inp_poly_103 * inp_poly_103))
           (
             L0x2001a6b0 * (x**0) + L0x2001a6b2 * (x**1) + 
             L0x2001a6b4 * (x**2) + L0x2001a6b6 * (x**3) + 
@@ -19286,7 +19286,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 2303],
     (* inp_poly_104 *)
-    eqmod 16 * (inp_poly_104 * inp_poly_104)
+    eqmod (16 * (inp_poly_104 * inp_poly_104))
           (
             L0x2001a6b0 * (x**0) + L0x2001a6b2 * (x**1) + 
             L0x2001a6b4 * (x**2) + L0x2001a6b6 * (x**3) + 
@@ -19307,7 +19307,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 1143],
     (* inp_poly_105 *)
-    eqmod 16 * (inp_poly_105 * inp_poly_105)
+    eqmod (16 * (inp_poly_105 * inp_poly_105))
           (
             L0x2001a6b0 * (x**0) + L0x2001a6b2 * (x**1) + 
             L0x2001a6b4 * (x**2) + L0x2001a6b6 * (x**3) + 
@@ -19328,7 +19328,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 2186],
     (* inp_poly_106 *)
-    eqmod 16 * (inp_poly_106 * inp_poly_106)
+    eqmod (16 * (inp_poly_106 * inp_poly_106))
           (
             L0x2001a6b0 * (x**0) + L0x2001a6b2 * (x**1) + 
             L0x2001a6b4 * (x**2) + L0x2001a6b6 * (x**3) + 
@@ -19349,7 +19349,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 2150],
     (* inp_poly_107 *)
-    eqmod 16 * (inp_poly_107 * inp_poly_107)
+    eqmod (16 * (inp_poly_107 * inp_poly_107))
           (
             L0x2001a6b0 * (x**0) + L0x2001a6b2 * (x**1) + 
             L0x2001a6b4 * (x**2) + L0x2001a6b6 * (x**3) + 
@@ -19370,7 +19370,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 1179],
     (* inp_poly_108 *)
-    eqmod 16 * (inp_poly_108 * inp_poly_108)
+    eqmod (16 * (inp_poly_108 * inp_poly_108))
           (
             L0x2001a6b0 * (x**0) + L0x2001a6b2 * (x**1) + 
             L0x2001a6b4 * (x**2) + L0x2001a6b6 * (x**3) + 
@@ -19391,7 +19391,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 2775],
     (* inp_poly_109 *)
-    eqmod 16 * (inp_poly_109 * inp_poly_109)
+    eqmod (16 * (inp_poly_109 * inp_poly_109))
           (
             L0x2001a6b0 * (x**0) + L0x2001a6b2 * (x**1) + 
             L0x2001a6b4 * (x**2) + L0x2001a6b6 * (x**3) + 
@@ -19412,7 +19412,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 554],
     (* inp_poly_110 *)
-    eqmod 16 * (inp_poly_110 * inp_poly_110)
+    eqmod (16 * (inp_poly_110 * inp_poly_110))
           (
             L0x2001a6b0 * (x**0) + L0x2001a6b2 * (x**1) + 
             L0x2001a6b4 * (x**2) + L0x2001a6b6 * (x**3) + 
@@ -19433,7 +19433,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 886],
     (* inp_poly_111 *)
-    eqmod 16 * (inp_poly_111 * inp_poly_111)
+    eqmod (16 * (inp_poly_111 * inp_poly_111))
           (
             L0x2001a6b0 * (x**0) + L0x2001a6b2 * (x**1) + 
             L0x2001a6b4 * (x**2) + L0x2001a6b6 * (x**3) + 
@@ -19454,7 +19454,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 2443],
     (* inp_poly_112 *)
-    eqmod 16 * (inp_poly_112 * inp_poly_112)
+    eqmod (16 * (inp_poly_112 * inp_poly_112))
           (
             L0x2001a6f0 * (x**0) + L0x2001a6f2 * (x**1) + 
             L0x2001a6f4 * (x**2) + L0x2001a6f6 * (x**3) + 
@@ -19475,7 +19475,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 1722],
     (* inp_poly_113 *)
-    eqmod 16 * (inp_poly_113 * inp_poly_113)
+    eqmod (16 * (inp_poly_113 * inp_poly_113))
           (
             L0x2001a6f0 * (x**0) + L0x2001a6f2 * (x**1) + 
             L0x2001a6f4 * (x**2) + L0x2001a6f6 * (x**3) + 
@@ -19496,7 +19496,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 1607],
     (* inp_poly_114 *)
-    eqmod 16 * (inp_poly_114 * inp_poly_114)
+    eqmod (16 * (inp_poly_114 * inp_poly_114))
           (
             L0x2001a6f0 * (x**0) + L0x2001a6f2 * (x**1) + 
             L0x2001a6f4 * (x**2) + L0x2001a6f6 * (x**3) + 
@@ -19517,7 +19517,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 1212],
     (* inp_poly_115 *)
-    eqmod 16 * (inp_poly_115 * inp_poly_115)
+    eqmod (16 * (inp_poly_115 * inp_poly_115))
           (
             L0x2001a6f0 * (x**0) + L0x2001a6f2 * (x**1) + 
             L0x2001a6f4 * (x**2) + L0x2001a6f6 * (x**3) + 
@@ -19538,7 +19538,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 2117],
     (* inp_poly_116 *)
-    eqmod 16 * (inp_poly_116 * inp_poly_116)
+    eqmod (16 * (inp_poly_116 * inp_poly_116))
           (
             L0x2001a6f0 * (x**0) + L0x2001a6f2 * (x**1) + 
             L0x2001a6f4 * (x**2) + L0x2001a6f6 * (x**3) + 
@@ -19559,7 +19559,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 1874],
     (* inp_poly_117 *)
-    eqmod 16 * (inp_poly_117 * inp_poly_117)
+    eqmod (16 * (inp_poly_117 * inp_poly_117))
           (
             L0x2001a6f0 * (x**0) + L0x2001a6f2 * (x**1) + 
             L0x2001a6f4 * (x**2) + L0x2001a6f6 * (x**3) + 
@@ -19580,7 +19580,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 1455],
     (* inp_poly_118 *)
-    eqmod 16 * (inp_poly_118 * inp_poly_118)
+    eqmod (16 * (inp_poly_118 * inp_poly_118))
           (
             L0x2001a6f0 * (x**0) + L0x2001a6f2 * (x**1) + 
             L0x2001a6f4 * (x**2) + L0x2001a6f6 * (x**3) + 
@@ -19601,7 +19601,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 1029],
     (* inp_poly_119 *)
-    eqmod 16 * (inp_poly_119 * inp_poly_119)
+    eqmod (16 * (inp_poly_119 * inp_poly_119))
           (
             L0x2001a6f0 * (x**0) + L0x2001a6f2 * (x**1) + 
             L0x2001a6f4 * (x**2) + L0x2001a6f6 * (x**3) + 
@@ -19622,7 +19622,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 2300],
     (* inp_poly_120 *)
-    eqmod 16 * (inp_poly_120 * inp_poly_120)
+    eqmod (16 * (inp_poly_120 * inp_poly_120))
           (
             L0x2001a6f0 * (x**0) + L0x2001a6f2 * (x**1) + 
             L0x2001a6f4 * (x**2) + L0x2001a6f6 * (x**3) + 
@@ -19643,7 +19643,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 2110],
     (* inp_poly_121 *)
-    eqmod 16 * (inp_poly_121 * inp_poly_121)
+    eqmod (16 * (inp_poly_121 * inp_poly_121))
           (
             L0x2001a6f0 * (x**0) + L0x2001a6f2 * (x**1) + 
             L0x2001a6f4 * (x**2) + L0x2001a6f6 * (x**3) + 
@@ -19664,7 +19664,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 1219],
     (* inp_poly_122 *)
-    eqmod 16 * (inp_poly_122 * inp_poly_122)
+    eqmod (16 * (inp_poly_122 * inp_poly_122))
           (
             L0x2001a6f0 * (x**0) + L0x2001a6f2 * (x**1) + 
             L0x2001a6f4 * (x**2) + L0x2001a6f6 * (x**3) + 
@@ -19685,7 +19685,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 2935],
     (* inp_poly_123 *)
-    eqmod 16 * (inp_poly_123 * inp_poly_123)
+    eqmod (16 * (inp_poly_123 * inp_poly_123))
           (
             L0x2001a6f0 * (x**0) + L0x2001a6f2 * (x**1) + 
             L0x2001a6f4 * (x**2) + L0x2001a6f6 * (x**3) + 
@@ -19706,7 +19706,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 394],
     (* inp_poly_124 *)
-    eqmod 16 * (inp_poly_124 * inp_poly_124)
+    eqmod (16 * (inp_poly_124 * inp_poly_124))
           (
             L0x2001a6f0 * (x**0) + L0x2001a6f2 * (x**1) + 
             L0x2001a6f4 * (x**2) + L0x2001a6f6 * (x**3) + 
@@ -19727,7 +19727,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 885],
     (* inp_poly_125 *)
-    eqmod 16 * (inp_poly_125 * inp_poly_125)
+    eqmod (16 * (inp_poly_125 * inp_poly_125))
           (
             L0x2001a6f0 * (x**0) + L0x2001a6f2 * (x**1) + 
             L0x2001a6f4 * (x**2) + L0x2001a6f6 * (x**3) + 
@@ -19748,7 +19748,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 2444],
     (* inp_poly_126 *)
-    eqmod 16 * (inp_poly_126 * inp_poly_126)
+    eqmod (16 * (inp_poly_126 * inp_poly_126))
           (
             L0x2001a6f0 * (x**0) + L0x2001a6f2 * (x**1) + 
             L0x2001a6f4 * (x**2) + L0x2001a6f6 * (x**3) + 
@@ -19769,7 +19769,7 @@ cut (* 1 *)
           )
           [3329, x**2 - 2154],
     (* inp_poly_127 *)
-    eqmod 16 * (inp_poly_127 * inp_poly_127)
+    eqmod (16 * (inp_poly_127 * inp_poly_127))
           (
             L0x2001a6f0 * (x**0) + L0x2001a6f2 * (x**1) + 
             L0x2001a6f4 * (x**2) + L0x2001a6f6 * (x**3) + 
@@ -20059,7 +20059,7 @@ cut (* 2 *)
 cut (* 3 *)
   and [
     (* inp_poly_0 *)
-    eqmod 16 * (inp_poly_0 * inp_poly_0)
+    eqmod (16 * (inp_poly_0 * inp_poly_0))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -20080,7 +20080,7 @@ cut (* 3 *)
           )
           [3329, x**2 - 17],
     (* inp_poly_1 *)
-    eqmod 16 * (inp_poly_1 * inp_poly_1)
+    eqmod (16 * (inp_poly_1 * inp_poly_1))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -20101,7 +20101,7 @@ cut (* 3 *)
           )
           [3329, x**2 - 3312],
     (* inp_poly_2 *)
-    eqmod 16 * (inp_poly_2 * inp_poly_2)
+    eqmod (16 * (inp_poly_2 * inp_poly_2))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -20122,7 +20122,7 @@ cut (* 3 *)
           )
           [3329, x**2 - 2761],
     (* inp_poly_3 *)
-    eqmod 16 * (inp_poly_3 * inp_poly_3)
+    eqmod (16 * (inp_poly_3 * inp_poly_3))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -20143,7 +20143,7 @@ cut (* 3 *)
           )
           [3329, x**2 - 568],
     (* inp_poly_4 *)
-    eqmod 16 * (inp_poly_4 * inp_poly_4)
+    eqmod (16 * (inp_poly_4 * inp_poly_4))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -20164,7 +20164,7 @@ cut (* 3 *)
           )
           [3329, x**2 - 583],
     (* inp_poly_5 *)
-    eqmod 16 * (inp_poly_5 * inp_poly_5)
+    eqmod (16 * (inp_poly_5 * inp_poly_5))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -20185,7 +20185,7 @@ cut (* 3 *)
           )
           [3329, x**2 - 2746],
     (* inp_poly_6 *)
-    eqmod 16 * (inp_poly_6 * inp_poly_6)
+    eqmod (16 * (inp_poly_6 * inp_poly_6))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -20206,7 +20206,7 @@ cut (* 3 *)
           )
           [3329, x**2 - 2649],
     (* inp_poly_7 *)
-    eqmod 16 * (inp_poly_7 * inp_poly_7)
+    eqmod (16 * (inp_poly_7 * inp_poly_7))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -20227,7 +20227,7 @@ cut (* 3 *)
           )
           [3329, x**2 - 680],
     (* inp_poly_8 *)
-    eqmod 16 * (inp_poly_8 * inp_poly_8)
+    eqmod (16 * (inp_poly_8 * inp_poly_8))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -20248,7 +20248,7 @@ cut (* 3 *)
           )
           [3329, x**2 - 1637],
     (* inp_poly_9 *)
-    eqmod 16 * (inp_poly_9 * inp_poly_9)
+    eqmod (16 * (inp_poly_9 * inp_poly_9))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -20269,7 +20269,7 @@ cut (* 3 *)
           )
           [3329, x**2 - 1692],
     (* inp_poly_10 *)
-    eqmod 16 * (inp_poly_10 * inp_poly_10)
+    eqmod (16 * (inp_poly_10 * inp_poly_10))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -20290,7 +20290,7 @@ cut (* 3 *)
           )
           [3329, x**2 - 723],
     (* inp_poly_11 *)
-    eqmod 16 * (inp_poly_11 * inp_poly_11)
+    eqmod (16 * (inp_poly_11 * inp_poly_11))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -20311,7 +20311,7 @@ cut (* 3 *)
           )
           [3329, x**2 - 2606],
     (* inp_poly_12 *)
-    eqmod 16 * (inp_poly_12 * inp_poly_12)
+    eqmod (16 * (inp_poly_12 * inp_poly_12))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -20332,7 +20332,7 @@ cut (* 3 *)
           )
           [3329, x**2 - 2288],
     (* inp_poly_13 *)
-    eqmod 16 * (inp_poly_13 * inp_poly_13)
+    eqmod (16 * (inp_poly_13 * inp_poly_13))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -20353,7 +20353,7 @@ cut (* 3 *)
           )
           [3329, x**2 - 1041],
     (* inp_poly_14 *)
-    eqmod 16 * (inp_poly_14 * inp_poly_14)
+    eqmod (16 * (inp_poly_14 * inp_poly_14))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -20374,7 +20374,7 @@ cut (* 3 *)
           )
           [3329, x**2 - 1100],
     (* inp_poly_15 *)
-    eqmod 16 * (inp_poly_15 * inp_poly_15)
+    eqmod (16 * (inp_poly_15 * inp_poly_15))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -20406,7 +20406,7 @@ cut (* 4 *)
 cut (* 5 *)
   and [
     (* inp_poly_16 *)
-    eqmod 16 * (inp_poly_16 * inp_poly_16)
+    eqmod (16 * (inp_poly_16 * inp_poly_16))
           (
             L0x2001a570 * (x**0) + L0x2001a572 * (x**1) + 
             L0x2001a574 * (x**2) + L0x2001a576 * (x**3) + 
@@ -20427,7 +20427,7 @@ cut (* 5 *)
           )
           [3329, x**2 - 1409],
     (* inp_poly_17 *)
-    eqmod 16 * (inp_poly_17 * inp_poly_17)
+    eqmod (16 * (inp_poly_17 * inp_poly_17))
           (
             L0x2001a570 * (x**0) + L0x2001a572 * (x**1) + 
             L0x2001a574 * (x**2) + L0x2001a576 * (x**3) + 
@@ -20448,7 +20448,7 @@ cut (* 5 *)
           )
           [3329, x**2 - 1920],
     (* inp_poly_18 *)
-    eqmod 16 * (inp_poly_18 * inp_poly_18)
+    eqmod (16 * (inp_poly_18 * inp_poly_18))
           (
             L0x2001a570 * (x**0) + L0x2001a572 * (x**1) + 
             L0x2001a574 * (x**2) + L0x2001a576 * (x**3) + 
@@ -20469,7 +20469,7 @@ cut (* 5 *)
           )
           [3329, x**2 - 2662],
     (* inp_poly_19 *)
-    eqmod 16 * (inp_poly_19 * inp_poly_19)
+    eqmod (16 * (inp_poly_19 * inp_poly_19))
           (
             L0x2001a570 * (x**0) + L0x2001a572 * (x**1) + 
             L0x2001a574 * (x**2) + L0x2001a576 * (x**3) + 
@@ -20490,7 +20490,7 @@ cut (* 5 *)
           )
           [3329, x**2 - 667],
     (* inp_poly_20 *)
-    eqmod 16 * (inp_poly_20 * inp_poly_20)
+    eqmod (16 * (inp_poly_20 * inp_poly_20))
           (
             L0x2001a570 * (x**0) + L0x2001a572 * (x**1) + 
             L0x2001a574 * (x**2) + L0x2001a576 * (x**3) + 
@@ -20511,7 +20511,7 @@ cut (* 5 *)
           )
           [3329, x**2 - 3281],
     (* inp_poly_21 *)
-    eqmod 16 * (inp_poly_21 * inp_poly_21)
+    eqmod (16 * (inp_poly_21 * inp_poly_21))
           (
             L0x2001a570 * (x**0) + L0x2001a572 * (x**1) + 
             L0x2001a574 * (x**2) + L0x2001a576 * (x**3) + 
@@ -20532,7 +20532,7 @@ cut (* 5 *)
           )
           [3329, x**2 - 48],
     (* inp_poly_22 *)
-    eqmod 16 * (inp_poly_22 * inp_poly_22)
+    eqmod (16 * (inp_poly_22 * inp_poly_22))
           (
             L0x2001a570 * (x**0) + L0x2001a572 * (x**1) + 
             L0x2001a574 * (x**2) + L0x2001a576 * (x**3) + 
@@ -20553,7 +20553,7 @@ cut (* 5 *)
           )
           [3329, x**2 - 233],
     (* inp_poly_23 *)
-    eqmod 16 * (inp_poly_23 * inp_poly_23)
+    eqmod (16 * (inp_poly_23 * inp_poly_23))
           (
             L0x2001a570 * (x**0) + L0x2001a572 * (x**1) + 
             L0x2001a574 * (x**2) + L0x2001a576 * (x**3) + 
@@ -20574,7 +20574,7 @@ cut (* 5 *)
           )
           [3329, x**2 - 3096],
     (* inp_poly_24 *)
-    eqmod 16 * (inp_poly_24 * inp_poly_24)
+    eqmod (16 * (inp_poly_24 * inp_poly_24))
           (
             L0x2001a570 * (x**0) + L0x2001a572 * (x**1) + 
             L0x2001a574 * (x**2) + L0x2001a576 * (x**3) + 
@@ -20595,7 +20595,7 @@ cut (* 5 *)
           )
           [3329, x**2 - 756],
     (* inp_poly_25 *)
-    eqmod 16 * (inp_poly_25 * inp_poly_25)
+    eqmod (16 * (inp_poly_25 * inp_poly_25))
           (
             L0x2001a570 * (x**0) + L0x2001a572 * (x**1) + 
             L0x2001a574 * (x**2) + L0x2001a576 * (x**3) + 
@@ -20616,7 +20616,7 @@ cut (* 5 *)
           )
           [3329, x**2 - 2573],
     (* inp_poly_26 *)
-    eqmod 16 * (inp_poly_26 * inp_poly_26)
+    eqmod (16 * (inp_poly_26 * inp_poly_26))
           (
             L0x2001a570 * (x**0) + L0x2001a572 * (x**1) + 
             L0x2001a574 * (x**2) + L0x2001a576 * (x**3) + 
@@ -20637,7 +20637,7 @@ cut (* 5 *)
           )
           [3329, x**2 - 2156],
     (* inp_poly_27 *)
-    eqmod 16 * (inp_poly_27 * inp_poly_27)
+    eqmod (16 * (inp_poly_27 * inp_poly_27))
           (
             L0x2001a570 * (x**0) + L0x2001a572 * (x**1) + 
             L0x2001a574 * (x**2) + L0x2001a576 * (x**3) + 
@@ -20658,7 +20658,7 @@ cut (* 5 *)
           )
           [3329, x**2 - 1173],
     (* inp_poly_28 *)
-    eqmod 16 * (inp_poly_28 * inp_poly_28)
+    eqmod (16 * (inp_poly_28 * inp_poly_28))
           (
             L0x2001a570 * (x**0) + L0x2001a572 * (x**1) + 
             L0x2001a574 * (x**2) + L0x2001a576 * (x**3) + 
@@ -20679,7 +20679,7 @@ cut (* 5 *)
           )
           [3329, x**2 - 3015],
     (* inp_poly_29 *)
-    eqmod 16 * (inp_poly_29 * inp_poly_29)
+    eqmod (16 * (inp_poly_29 * inp_poly_29))
           (
             L0x2001a570 * (x**0) + L0x2001a572 * (x**1) + 
             L0x2001a574 * (x**2) + L0x2001a576 * (x**3) + 
@@ -20700,7 +20700,7 @@ cut (* 5 *)
           )
           [3329, x**2 - 314],
     (* inp_poly_30 *)
-    eqmod 16 * (inp_poly_30 * inp_poly_30)
+    eqmod (16 * (inp_poly_30 * inp_poly_30))
           (
             L0x2001a570 * (x**0) + L0x2001a572 * (x**1) + 
             L0x2001a574 * (x**2) + L0x2001a576 * (x**3) + 
@@ -20721,7 +20721,7 @@ cut (* 5 *)
           )
           [3329, x**2 - 3050],
     (* inp_poly_31 *)
-    eqmod 16 * (inp_poly_31 * inp_poly_31)
+    eqmod (16 * (inp_poly_31 * inp_poly_31))
           (
             L0x2001a570 * (x**0) + L0x2001a572 * (x**1) + 
             L0x2001a574 * (x**2) + L0x2001a576 * (x**3) + 
@@ -20753,7 +20753,7 @@ cut (* 6 *)
 cut (* 7 *)
   and [
     (* inp_poly_32 *)
-    eqmod 16 * (inp_poly_32 * inp_poly_32)
+    eqmod (16 * (inp_poly_32 * inp_poly_32))
           (
             L0x2001a5b0 * (x**0) + L0x2001a5b2 * (x**1) + 
             L0x2001a5b4 * (x**2) + L0x2001a5b6 * (x**3) + 
@@ -20774,7 +20774,7 @@ cut (* 7 *)
           )
           [3329, x**2 - 1703],
     (* inp_poly_33 *)
-    eqmod 16 * (inp_poly_33 * inp_poly_33)
+    eqmod (16 * (inp_poly_33 * inp_poly_33))
           (
             L0x2001a5b0 * (x**0) + L0x2001a5b2 * (x**1) + 
             L0x2001a5b4 * (x**2) + L0x2001a5b6 * (x**3) + 
@@ -20795,7 +20795,7 @@ cut (* 7 *)
           )
           [3329, x**2 - 1626],
     (* inp_poly_34 *)
-    eqmod 16 * (inp_poly_34 * inp_poly_34)
+    eqmod (16 * (inp_poly_34 * inp_poly_34))
           (
             L0x2001a5b0 * (x**0) + L0x2001a5b2 * (x**1) + 
             L0x2001a5b4 * (x**2) + L0x2001a5b6 * (x**3) + 
@@ -20816,7 +20816,7 @@ cut (* 7 *)
           )
           [3329, x**2 - 1651],
     (* inp_poly_35 *)
-    eqmod 16 * (inp_poly_35 * inp_poly_35)
+    eqmod (16 * (inp_poly_35 * inp_poly_35))
           (
             L0x2001a5b0 * (x**0) + L0x2001a5b2 * (x**1) + 
             L0x2001a5b4 * (x**2) + L0x2001a5b6 * (x**3) + 
@@ -20837,7 +20837,7 @@ cut (* 7 *)
           )
           [3329, x**2 - 1678],
     (* inp_poly_36 *)
-    eqmod 16 * (inp_poly_36 * inp_poly_36)
+    eqmod (16 * (inp_poly_36 * inp_poly_36))
           (
             L0x2001a5b0 * (x**0) + L0x2001a5b2 * (x**1) + 
             L0x2001a5b4 * (x**2) + L0x2001a5b6 * (x**3) + 
@@ -20858,7 +20858,7 @@ cut (* 7 *)
           )
           [3329, x**2 - 2789],
     (* inp_poly_37 *)
-    eqmod 16 * (inp_poly_37 * inp_poly_37)
+    eqmod (16 * (inp_poly_37 * inp_poly_37))
           (
             L0x2001a5b0 * (x**0) + L0x2001a5b2 * (x**1) + 
             L0x2001a5b4 * (x**2) + L0x2001a5b6 * (x**3) + 
@@ -20879,7 +20879,7 @@ cut (* 7 *)
           )
           [3329, x**2 - 540],
     (* inp_poly_38 *)
-    eqmod 16 * (inp_poly_38 * inp_poly_38)
+    eqmod (16 * (inp_poly_38 * inp_poly_38))
           (
             L0x2001a5b0 * (x**0) + L0x2001a5b2 * (x**1) + 
             L0x2001a5b4 * (x**2) + L0x2001a5b6 * (x**3) + 
@@ -20900,7 +20900,7 @@ cut (* 7 *)
           )
           [3329, x**2 - 1789],
     (* inp_poly_39 *)
-    eqmod 16 * (inp_poly_39 * inp_poly_39)
+    eqmod (16 * (inp_poly_39 * inp_poly_39))
           (
             L0x2001a5b0 * (x**0) + L0x2001a5b2 * (x**1) + 
             L0x2001a5b4 * (x**2) + L0x2001a5b6 * (x**3) + 
@@ -20921,7 +20921,7 @@ cut (* 7 *)
           )
           [3329, x**2 - 1540],
     (* inp_poly_40 *)
-    eqmod 16 * (inp_poly_40 * inp_poly_40)
+    eqmod (16 * (inp_poly_40 * inp_poly_40))
           (
             L0x2001a5b0 * (x**0) + L0x2001a5b2 * (x**1) + 
             L0x2001a5b4 * (x**2) + L0x2001a5b6 * (x**3) + 
@@ -20942,7 +20942,7 @@ cut (* 7 *)
           )
           [3329, x**2 - 1847],
     (* inp_poly_41 *)
-    eqmod 16 * (inp_poly_41 * inp_poly_41)
+    eqmod (16 * (inp_poly_41 * inp_poly_41))
           (
             L0x2001a5b0 * (x**0) + L0x2001a5b2 * (x**1) + 
             L0x2001a5b4 * (x**2) + L0x2001a5b6 * (x**3) + 
@@ -20963,7 +20963,7 @@ cut (* 7 *)
           )
           [3329, x**2 - 1482],
     (* inp_poly_42 *)
-    eqmod 16 * (inp_poly_42 * inp_poly_42)
+    eqmod (16 * (inp_poly_42 * inp_poly_42))
           (
             L0x2001a5b0 * (x**0) + L0x2001a5b2 * (x**1) + 
             L0x2001a5b4 * (x**2) + L0x2001a5b6 * (x**3) + 
@@ -20984,7 +20984,7 @@ cut (* 7 *)
           )
           [3329, x**2 - 952],
     (* inp_poly_43 *)
-    eqmod 16 * (inp_poly_43 * inp_poly_43)
+    eqmod (16 * (inp_poly_43 * inp_poly_43))
           (
             L0x2001a5b0 * (x**0) + L0x2001a5b2 * (x**1) + 
             L0x2001a5b4 * (x**2) + L0x2001a5b6 * (x**3) + 
@@ -21005,7 +21005,7 @@ cut (* 7 *)
           )
           [3329, x**2 - 2377],
     (* inp_poly_44 *)
-    eqmod 16 * (inp_poly_44 * inp_poly_44)
+    eqmod (16 * (inp_poly_44 * inp_poly_44))
           (
             L0x2001a5b0 * (x**0) + L0x2001a5b2 * (x**1) + 
             L0x2001a5b4 * (x**2) + L0x2001a5b6 * (x**3) + 
@@ -21026,7 +21026,7 @@ cut (* 7 *)
           )
           [3329, x**2 - 1461],
     (* inp_poly_45 *)
-    eqmod 16 * (inp_poly_45 * inp_poly_45)
+    eqmod (16 * (inp_poly_45 * inp_poly_45))
           (
             L0x2001a5b0 * (x**0) + L0x2001a5b2 * (x**1) + 
             L0x2001a5b4 * (x**2) + L0x2001a5b6 * (x**3) + 
@@ -21047,7 +21047,7 @@ cut (* 7 *)
           )
           [3329, x**2 - 1868],
     (* inp_poly_46 *)
-    eqmod 16 * (inp_poly_46 * inp_poly_46)
+    eqmod (16 * (inp_poly_46 * inp_poly_46))
           (
             L0x2001a5b0 * (x**0) + L0x2001a5b2 * (x**1) + 
             L0x2001a5b4 * (x**2) + L0x2001a5b6 * (x**3) + 
@@ -21068,7 +21068,7 @@ cut (* 7 *)
           )
           [3329, x**2 - 2687],
     (* inp_poly_47 *)
-    eqmod 16 * (inp_poly_47 * inp_poly_47)
+    eqmod (16 * (inp_poly_47 * inp_poly_47))
           (
             L0x2001a5b0 * (x**0) + L0x2001a5b2 * (x**1) + 
             L0x2001a5b4 * (x**2) + L0x2001a5b6 * (x**3) + 
@@ -21100,7 +21100,7 @@ cut (* 8 *)
 cut (* 9 *)
   and [
     (* inp_poly_48 *)
-    eqmod 16 * (inp_poly_48 * inp_poly_48)
+    eqmod (16 * (inp_poly_48 * inp_poly_48))
           (
             L0x2001a5f0 * (x**0) + L0x2001a5f2 * (x**1) + 
             L0x2001a5f4 * (x**2) + L0x2001a5f6 * (x**3) + 
@@ -21121,7 +21121,7 @@ cut (* 9 *)
           )
           [3329, x**2 - 939],
     (* inp_poly_49 *)
-    eqmod 16 * (inp_poly_49 * inp_poly_49)
+    eqmod (16 * (inp_poly_49 * inp_poly_49))
           (
             L0x2001a5f0 * (x**0) + L0x2001a5f2 * (x**1) + 
             L0x2001a5f4 * (x**2) + L0x2001a5f6 * (x**3) + 
@@ -21142,7 +21142,7 @@ cut (* 9 *)
           )
           [3329, x**2 - 2390],
     (* inp_poly_50 *)
-    eqmod 16 * (inp_poly_50 * inp_poly_50)
+    eqmod (16 * (inp_poly_50 * inp_poly_50))
           (
             L0x2001a5f0 * (x**0) + L0x2001a5f2 * (x**1) + 
             L0x2001a5f4 * (x**2) + L0x2001a5f6 * (x**3) + 
@@ -21163,7 +21163,7 @@ cut (* 9 *)
           )
           [3329, x**2 - 2308],
     (* inp_poly_51 *)
-    eqmod 16 * (inp_poly_51 * inp_poly_51)
+    eqmod (16 * (inp_poly_51 * inp_poly_51))
           (
             L0x2001a5f0 * (x**0) + L0x2001a5f2 * (x**1) + 
             L0x2001a5f4 * (x**2) + L0x2001a5f6 * (x**3) + 
@@ -21184,7 +21184,7 @@ cut (* 9 *)
           )
           [3329, x**2 - 1021],
     (* inp_poly_52 *)
-    eqmod 16 * (inp_poly_52 * inp_poly_52)
+    eqmod (16 * (inp_poly_52 * inp_poly_52))
           (
             L0x2001a5f0 * (x**0) + L0x2001a5f2 * (x**1) + 
             L0x2001a5f4 * (x**2) + L0x2001a5f6 * (x**3) + 
@@ -21205,7 +21205,7 @@ cut (* 9 *)
           )
           [3329, x**2 - 2437],
     (* inp_poly_53 *)
-    eqmod 16 * (inp_poly_53 * inp_poly_53)
+    eqmod (16 * (inp_poly_53 * inp_poly_53))
           (
             L0x2001a5f0 * (x**0) + L0x2001a5f2 * (x**1) + 
             L0x2001a5f4 * (x**2) + L0x2001a5f6 * (x**3) + 
@@ -21226,7 +21226,7 @@ cut (* 9 *)
           )
           [3329, x**2 - 892],
     (* inp_poly_54 *)
-    eqmod 16 * (inp_poly_54 * inp_poly_54)
+    eqmod (16 * (inp_poly_54 * inp_poly_54))
           (
             L0x2001a5f0 * (x**0) + L0x2001a5f2 * (x**1) + 
             L0x2001a5f4 * (x**2) + L0x2001a5f6 * (x**3) + 
@@ -21247,7 +21247,7 @@ cut (* 9 *)
           )
           [3329, x**2 - 2388],
     (* inp_poly_55 *)
-    eqmod 16 * (inp_poly_55 * inp_poly_55)
+    eqmod (16 * (inp_poly_55 * inp_poly_55))
           (
             L0x2001a5f0 * (x**0) + L0x2001a5f2 * (x**1) + 
             L0x2001a5f4 * (x**2) + L0x2001a5f6 * (x**3) + 
@@ -21268,7 +21268,7 @@ cut (* 9 *)
           )
           [3329, x**2 - 941],
     (* inp_poly_56 *)
-    eqmod 16 * (inp_poly_56 * inp_poly_56)
+    eqmod (16 * (inp_poly_56 * inp_poly_56))
           (
             L0x2001a5f0 * (x**0) + L0x2001a5f2 * (x**1) + 
             L0x2001a5f4 * (x**2) + L0x2001a5f6 * (x**3) + 
@@ -21289,7 +21289,7 @@ cut (* 9 *)
           )
           [3329, x**2 - 733],
     (* inp_poly_57 *)
-    eqmod 16 * (inp_poly_57 * inp_poly_57)
+    eqmod (16 * (inp_poly_57 * inp_poly_57))
           (
             L0x2001a5f0 * (x**0) + L0x2001a5f2 * (x**1) + 
             L0x2001a5f4 * (x**2) + L0x2001a5f6 * (x**3) + 
@@ -21310,7 +21310,7 @@ cut (* 9 *)
           )
           [3329, x**2 - 2596],
     (* inp_poly_58 *)
-    eqmod 16 * (inp_poly_58 * inp_poly_58)
+    eqmod (16 * (inp_poly_58 * inp_poly_58))
           (
             L0x2001a5f0 * (x**0) + L0x2001a5f2 * (x**1) + 
             L0x2001a5f4 * (x**2) + L0x2001a5f6 * (x**3) + 
@@ -21331,7 +21331,7 @@ cut (* 9 *)
           )
           [3329, x**2 - 2337],
     (* inp_poly_59 *)
-    eqmod 16 * (inp_poly_59 * inp_poly_59)
+    eqmod (16 * (inp_poly_59 * inp_poly_59))
           (
             L0x2001a5f0 * (x**0) + L0x2001a5f2 * (x**1) + 
             L0x2001a5f4 * (x**2) + L0x2001a5f6 * (x**3) + 
@@ -21352,7 +21352,7 @@ cut (* 9 *)
           )
           [3329, x**2 - 992],
     (* inp_poly_60 *)
-    eqmod 16 * (inp_poly_60 * inp_poly_60)
+    eqmod (16 * (inp_poly_60 * inp_poly_60))
           (
             L0x2001a5f0 * (x**0) + L0x2001a5f2 * (x**1) + 
             L0x2001a5f4 * (x**2) + L0x2001a5f6 * (x**3) + 
@@ -21373,7 +21373,7 @@ cut (* 9 *)
           )
           [3329, x**2 - 268],
     (* inp_poly_61 *)
-    eqmod 16 * (inp_poly_61 * inp_poly_61)
+    eqmod (16 * (inp_poly_61 * inp_poly_61))
           (
             L0x2001a5f0 * (x**0) + L0x2001a5f2 * (x**1) + 
             L0x2001a5f4 * (x**2) + L0x2001a5f6 * (x**3) + 
@@ -21394,7 +21394,7 @@ cut (* 9 *)
           )
           [3329, x**2 - 3061],
     (* inp_poly_62 *)
-    eqmod 16 * (inp_poly_62 * inp_poly_62)
+    eqmod (16 * (inp_poly_62 * inp_poly_62))
           (
             L0x2001a5f0 * (x**0) + L0x2001a5f2 * (x**1) + 
             L0x2001a5f4 * (x**2) + L0x2001a5f6 * (x**3) + 
@@ -21415,7 +21415,7 @@ cut (* 9 *)
           )
           [3329, x**2 - 641],
     (* inp_poly_63 *)
-    eqmod 16 * (inp_poly_63 * inp_poly_63)
+    eqmod (16 * (inp_poly_63 * inp_poly_63))
           (
             L0x2001a5f0 * (x**0) + L0x2001a5f2 * (x**1) + 
             L0x2001a5f4 * (x**2) + L0x2001a5f6 * (x**3) + 
@@ -21447,7 +21447,7 @@ cut (* 10 *)
 cut (* 11 *)
   and [
     (* inp_poly_64 *)
-    eqmod 16 * (inp_poly_64 * inp_poly_64)
+    eqmod (16 * (inp_poly_64 * inp_poly_64))
           (
             L0x2001a630 * (x**0) + L0x2001a632 * (x**1) + 
             L0x2001a634 * (x**2) + L0x2001a636 * (x**3) + 
@@ -21468,7 +21468,7 @@ cut (* 11 *)
           )
           [3329, x**2 - 1584],
     (* inp_poly_65 *)
-    eqmod 16 * (inp_poly_65 * inp_poly_65)
+    eqmod (16 * (inp_poly_65 * inp_poly_65))
           (
             L0x2001a630 * (x**0) + L0x2001a632 * (x**1) + 
             L0x2001a634 * (x**2) + L0x2001a636 * (x**3) + 
@@ -21489,7 +21489,7 @@ cut (* 11 *)
           )
           [3329, x**2 - 1745],
     (* inp_poly_66 *)
-    eqmod 16 * (inp_poly_66 * inp_poly_66)
+    eqmod (16 * (inp_poly_66 * inp_poly_66))
           (
             L0x2001a630 * (x**0) + L0x2001a632 * (x**1) + 
             L0x2001a634 * (x**2) + L0x2001a636 * (x**3) + 
@@ -21510,7 +21510,7 @@ cut (* 11 *)
           )
           [3329, x**2 - 2298],
     (* inp_poly_67 *)
-    eqmod 16 * (inp_poly_67 * inp_poly_67)
+    eqmod (16 * (inp_poly_67 * inp_poly_67))
           (
             L0x2001a630 * (x**0) + L0x2001a632 * (x**1) + 
             L0x2001a634 * (x**2) + L0x2001a636 * (x**3) + 
@@ -21531,7 +21531,7 @@ cut (* 11 *)
           )
           [3329, x**2 - 1031],
     (* inp_poly_68 *)
-    eqmod 16 * (inp_poly_68 * inp_poly_68)
+    eqmod (16 * (inp_poly_68 * inp_poly_68))
           (
             L0x2001a630 * (x**0) + L0x2001a632 * (x**1) + 
             L0x2001a634 * (x**2) + L0x2001a636 * (x**3) + 
@@ -21552,7 +21552,7 @@ cut (* 11 *)
           )
           [3329, x**2 - 2037],
     (* inp_poly_69 *)
-    eqmod 16 * (inp_poly_69 * inp_poly_69)
+    eqmod (16 * (inp_poly_69 * inp_poly_69))
           (
             L0x2001a630 * (x**0) + L0x2001a632 * (x**1) + 
             L0x2001a634 * (x**2) + L0x2001a636 * (x**3) + 
@@ -21573,7 +21573,7 @@ cut (* 11 *)
           )
           [3329, x**2 - 1292],
     (* inp_poly_70 *)
-    eqmod 16 * (inp_poly_70 * inp_poly_70)
+    eqmod (16 * (inp_poly_70 * inp_poly_70))
           (
             L0x2001a630 * (x**0) + L0x2001a632 * (x**1) + 
             L0x2001a634 * (x**2) + L0x2001a636 * (x**3) + 
@@ -21594,7 +21594,7 @@ cut (* 11 *)
           )
           [3329, x**2 - 3220],
     (* inp_poly_71 *)
-    eqmod 16 * (inp_poly_71 * inp_poly_71)
+    eqmod (16 * (inp_poly_71 * inp_poly_71))
           (
             L0x2001a630 * (x**0) + L0x2001a632 * (x**1) + 
             L0x2001a634 * (x**2) + L0x2001a636 * (x**3) + 
@@ -21615,7 +21615,7 @@ cut (* 11 *)
           )
           [3329, x**2 - 109],
     (* inp_poly_72 *)
-    eqmod 16 * (inp_poly_72 * inp_poly_72)
+    eqmod (16 * (inp_poly_72 * inp_poly_72))
           (
             L0x2001a630 * (x**0) + L0x2001a632 * (x**1) + 
             L0x2001a634 * (x**2) + L0x2001a636 * (x**3) + 
@@ -21636,7 +21636,7 @@ cut (* 11 *)
           )
           [3329, x**2 - 375],
     (* inp_poly_73 *)
-    eqmod 16 * (inp_poly_73 * inp_poly_73)
+    eqmod (16 * (inp_poly_73 * inp_poly_73))
           (
             L0x2001a630 * (x**0) + L0x2001a632 * (x**1) + 
             L0x2001a634 * (x**2) + L0x2001a636 * (x**3) + 
@@ -21657,7 +21657,7 @@ cut (* 11 *)
           )
           [3329, x**2 - 2954],
     (* inp_poly_74 *)
-    eqmod 16 * (inp_poly_74 * inp_poly_74)
+    eqmod (16 * (inp_poly_74 * inp_poly_74))
           (
             L0x2001a630 * (x**0) + L0x2001a632 * (x**1) + 
             L0x2001a634 * (x**2) + L0x2001a636 * (x**3) + 
@@ -21678,7 +21678,7 @@ cut (* 11 *)
           )
           [3329, x**2 - 2549],
     (* inp_poly_75 *)
-    eqmod 16 * (inp_poly_75 * inp_poly_75)
+    eqmod (16 * (inp_poly_75 * inp_poly_75))
           (
             L0x2001a630 * (x**0) + L0x2001a632 * (x**1) + 
             L0x2001a634 * (x**2) + L0x2001a636 * (x**3) + 
@@ -21699,7 +21699,7 @@ cut (* 11 *)
           )
           [3329, x**2 - 780],
     (* inp_poly_76 *)
-    eqmod 16 * (inp_poly_76 * inp_poly_76)
+    eqmod (16 * (inp_poly_76 * inp_poly_76))
           (
             L0x2001a630 * (x**0) + L0x2001a632 * (x**1) + 
             L0x2001a634 * (x**2) + L0x2001a636 * (x**3) + 
@@ -21720,7 +21720,7 @@ cut (* 11 *)
           )
           [3329, x**2 - 2090],
     (* inp_poly_77 *)
-    eqmod 16 * (inp_poly_77 * inp_poly_77)
+    eqmod (16 * (inp_poly_77 * inp_poly_77))
           (
             L0x2001a630 * (x**0) + L0x2001a632 * (x**1) + 
             L0x2001a634 * (x**2) + L0x2001a636 * (x**3) + 
@@ -21741,7 +21741,7 @@ cut (* 11 *)
           )
           [3329, x**2 - 1239],
     (* inp_poly_78 *)
-    eqmod 16 * (inp_poly_78 * inp_poly_78)
+    eqmod (16 * (inp_poly_78 * inp_poly_78))
           (
             L0x2001a630 * (x**0) + L0x2001a632 * (x**1) + 
             L0x2001a634 * (x**2) + L0x2001a636 * (x**3) + 
@@ -21762,7 +21762,7 @@ cut (* 11 *)
           )
           [3329, x**2 - 1645],
     (* inp_poly_79 *)
-    eqmod 16 * (inp_poly_79 * inp_poly_79)
+    eqmod (16 * (inp_poly_79 * inp_poly_79))
           (
             L0x2001a630 * (x**0) + L0x2001a632 * (x**1) + 
             L0x2001a634 * (x**2) + L0x2001a636 * (x**3) + 
@@ -21794,7 +21794,7 @@ cut (* 12 *)
 cut (* 13 *)
   and [
     (* inp_poly_80 *)
-    eqmod 16 * (inp_poly_80 * inp_poly_80)
+    eqmod (16 * (inp_poly_80 * inp_poly_80))
           (
             L0x2001a670 * (x**0) + L0x2001a672 * (x**1) + 
             L0x2001a674 * (x**2) + L0x2001a676 * (x**3) + 
@@ -21815,7 +21815,7 @@ cut (* 13 *)
           )
           [3329, x**2 - 1063],
     (* inp_poly_81 *)
-    eqmod 16 * (inp_poly_81 * inp_poly_81)
+    eqmod (16 * (inp_poly_81 * inp_poly_81))
           (
             L0x2001a670 * (x**0) + L0x2001a672 * (x**1) + 
             L0x2001a674 * (x**2) + L0x2001a676 * (x**3) + 
@@ -21836,7 +21836,7 @@ cut (* 13 *)
           )
           [3329, x**2 - 2266],
     (* inp_poly_82 *)
-    eqmod 16 * (inp_poly_82 * inp_poly_82)
+    eqmod (16 * (inp_poly_82 * inp_poly_82))
           (
             L0x2001a670 * (x**0) + L0x2001a672 * (x**1) + 
             L0x2001a674 * (x**2) + L0x2001a676 * (x**3) + 
@@ -21857,7 +21857,7 @@ cut (* 13 *)
           )
           [3329, x**2 - 319],
     (* inp_poly_83 *)
-    eqmod 16 * (inp_poly_83 * inp_poly_83)
+    eqmod (16 * (inp_poly_83 * inp_poly_83))
           (
             L0x2001a670 * (x**0) + L0x2001a672 * (x**1) + 
             L0x2001a674 * (x**2) + L0x2001a676 * (x**3) + 
@@ -21878,7 +21878,7 @@ cut (* 13 *)
           )
           [3329, x**2 - 3010],
     (* inp_poly_84 *)
-    eqmod 16 * (inp_poly_84 * inp_poly_84)
+    eqmod (16 * (inp_poly_84 * inp_poly_84))
           (
             L0x2001a670 * (x**0) + L0x2001a672 * (x**1) + 
             L0x2001a674 * (x**2) + L0x2001a676 * (x**3) + 
@@ -21899,7 +21899,7 @@ cut (* 13 *)
           )
           [3329, x**2 - 2773],
     (* inp_poly_85 *)
-    eqmod 16 * (inp_poly_85 * inp_poly_85)
+    eqmod (16 * (inp_poly_85 * inp_poly_85))
           (
             L0x2001a670 * (x**0) + L0x2001a672 * (x**1) + 
             L0x2001a674 * (x**2) + L0x2001a676 * (x**3) + 
@@ -21920,7 +21920,7 @@ cut (* 13 *)
           )
           [3329, x**2 - 556],
     (* inp_poly_86 *)
-    eqmod 16 * (inp_poly_86 * inp_poly_86)
+    eqmod (16 * (inp_poly_86 * inp_poly_86))
           (
             L0x2001a670 * (x**0) + L0x2001a672 * (x**1) + 
             L0x2001a674 * (x**2) + L0x2001a676 * (x**3) + 
@@ -21941,7 +21941,7 @@ cut (* 13 *)
           )
           [3329, x**2 - 757],
     (* inp_poly_87 *)
-    eqmod 16 * (inp_poly_87 * inp_poly_87)
+    eqmod (16 * (inp_poly_87 * inp_poly_87))
           (
             L0x2001a670 * (x**0) + L0x2001a672 * (x**1) + 
             L0x2001a674 * (x**2) + L0x2001a676 * (x**3) + 
@@ -21962,7 +21962,7 @@ cut (* 13 *)
           )
           [3329, x**2 - 2572],
     (* inp_poly_88 *)
-    eqmod 16 * (inp_poly_88 * inp_poly_88)
+    eqmod (16 * (inp_poly_88 * inp_poly_88))
           (
             L0x2001a670 * (x**0) + L0x2001a672 * (x**1) + 
             L0x2001a674 * (x**2) + L0x2001a676 * (x**3) + 
@@ -21983,7 +21983,7 @@ cut (* 13 *)
           )
           [3329, x**2 - 2099],
     (* inp_poly_89 *)
-    eqmod 16 * (inp_poly_89 * inp_poly_89)
+    eqmod (16 * (inp_poly_89 * inp_poly_89))
           (
             L0x2001a670 * (x**0) + L0x2001a672 * (x**1) + 
             L0x2001a674 * (x**2) + L0x2001a676 * (x**3) + 
@@ -22004,7 +22004,7 @@ cut (* 13 *)
           )
           [3329, x**2 - 1230],
     (* inp_poly_90 *)
-    eqmod 16 * (inp_poly_90 * inp_poly_90)
+    eqmod (16 * (inp_poly_90 * inp_poly_90))
           (
             L0x2001a670 * (x**0) + L0x2001a672 * (x**1) + 
             L0x2001a674 * (x**2) + L0x2001a676 * (x**3) + 
@@ -22025,7 +22025,7 @@ cut (* 13 *)
           )
           [3329, x**2 - 561],
     (* inp_poly_91 *)
-    eqmod 16 * (inp_poly_91 * inp_poly_91)
+    eqmod (16 * (inp_poly_91 * inp_poly_91))
           (
             L0x2001a670 * (x**0) + L0x2001a672 * (x**1) + 
             L0x2001a674 * (x**2) + L0x2001a676 * (x**3) + 
@@ -22046,7 +22046,7 @@ cut (* 13 *)
           )
           [3329, x**2 - 2768],
     (* inp_poly_92 *)
-    eqmod 16 * (inp_poly_92 * inp_poly_92)
+    eqmod (16 * (inp_poly_92 * inp_poly_92))
           (
             L0x2001a670 * (x**0) + L0x2001a672 * (x**1) + 
             L0x2001a674 * (x**2) + L0x2001a676 * (x**3) + 
@@ -22067,7 +22067,7 @@ cut (* 13 *)
           )
           [3329, x**2 - 2466],
     (* inp_poly_93 *)
-    eqmod 16 * (inp_poly_93 * inp_poly_93)
+    eqmod (16 * (inp_poly_93 * inp_poly_93))
           (
             L0x2001a670 * (x**0) + L0x2001a672 * (x**1) + 
             L0x2001a674 * (x**2) + L0x2001a676 * (x**3) + 
@@ -22088,7 +22088,7 @@ cut (* 13 *)
           )
           [3329, x**2 - 863],
     (* inp_poly_94 *)
-    eqmod 16 * (inp_poly_94 * inp_poly_94)
+    eqmod (16 * (inp_poly_94 * inp_poly_94))
           (
             L0x2001a670 * (x**0) + L0x2001a672 * (x**1) + 
             L0x2001a674 * (x**2) + L0x2001a676 * (x**3) + 
@@ -22109,7 +22109,7 @@ cut (* 13 *)
           )
           [3329, x**2 - 2594],
     (* inp_poly_95 *)
-    eqmod 16 * (inp_poly_95 * inp_poly_95)
+    eqmod (16 * (inp_poly_95 * inp_poly_95))
           (
             L0x2001a670 * (x**0) + L0x2001a672 * (x**1) + 
             L0x2001a674 * (x**2) + L0x2001a676 * (x**3) + 
@@ -22141,7 +22141,7 @@ cut (* 14 *)
 cut (* 15 *)
   and [
     (* inp_poly_96 *)
-    eqmod 16 * (inp_poly_96 * inp_poly_96)
+    eqmod (16 * (inp_poly_96 * inp_poly_96))
           (
             L0x2001a6b0 * (x**0) + L0x2001a6b2 * (x**1) + 
             L0x2001a6b4 * (x**2) + L0x2001a6b6 * (x**3) + 
@@ -22162,7 +22162,7 @@ cut (* 15 *)
           )
           [3329, x**2 - 2804],
     (* inp_poly_97 *)
-    eqmod 16 * (inp_poly_97 * inp_poly_97)
+    eqmod (16 * (inp_poly_97 * inp_poly_97))
           (
             L0x2001a6b0 * (x**0) + L0x2001a6b2 * (x**1) + 
             L0x2001a6b4 * (x**2) + L0x2001a6b6 * (x**3) + 
@@ -22183,7 +22183,7 @@ cut (* 15 *)
           )
           [3329, x**2 - 525],
     (* inp_poly_98 *)
-    eqmod 16 * (inp_poly_98 * inp_poly_98)
+    eqmod (16 * (inp_poly_98 * inp_poly_98))
           (
             L0x2001a6b0 * (x**0) + L0x2001a6b2 * (x**1) + 
             L0x2001a6b4 * (x**2) + L0x2001a6b6 * (x**3) + 
@@ -22204,7 +22204,7 @@ cut (* 15 *)
           )
           [3329, x**2 - 1092],
     (* inp_poly_99 *)
-    eqmod 16 * (inp_poly_99 * inp_poly_99)
+    eqmod (16 * (inp_poly_99 * inp_poly_99))
           (
             L0x2001a6b0 * (x**0) + L0x2001a6b2 * (x**1) + 
             L0x2001a6b4 * (x**2) + L0x2001a6b6 * (x**3) + 
@@ -22225,7 +22225,7 @@ cut (* 15 *)
           )
           [3329, x**2 - 2237],
     (* inp_poly_100 *)
-    eqmod 16 * (inp_poly_100 * inp_poly_100)
+    eqmod (16 * (inp_poly_100 * inp_poly_100))
           (
             L0x2001a6b0 * (x**0) + L0x2001a6b2 * (x**1) + 
             L0x2001a6b4 * (x**2) + L0x2001a6b6 * (x**3) + 
@@ -22246,7 +22246,7 @@ cut (* 15 *)
           )
           [3329, x**2 - 403],
     (* inp_poly_101 *)
-    eqmod 16 * (inp_poly_101 * inp_poly_101)
+    eqmod (16 * (inp_poly_101 * inp_poly_101))
           (
             L0x2001a6b0 * (x**0) + L0x2001a6b2 * (x**1) + 
             L0x2001a6b4 * (x**2) + L0x2001a6b6 * (x**3) + 
@@ -22267,7 +22267,7 @@ cut (* 15 *)
           )
           [3329, x**2 - 2926],
     (* inp_poly_102 *)
-    eqmod 16 * (inp_poly_102 * inp_poly_102)
+    eqmod (16 * (inp_poly_102 * inp_poly_102))
           (
             L0x2001a6b0 * (x**0) + L0x2001a6b2 * (x**1) + 
             L0x2001a6b4 * (x**2) + L0x2001a6b6 * (x**3) + 
@@ -22288,7 +22288,7 @@ cut (* 15 *)
           )
           [3329, x**2 - 1026],
     (* inp_poly_103 *)
-    eqmod 16 * (inp_poly_103 * inp_poly_103)
+    eqmod (16 * (inp_poly_103 * inp_poly_103))
           (
             L0x2001a6b0 * (x**0) + L0x2001a6b2 * (x**1) + 
             L0x2001a6b4 * (x**2) + L0x2001a6b6 * (x**3) + 
@@ -22309,7 +22309,7 @@ cut (* 15 *)
           )
           [3329, x**2 - 2303],
     (* inp_poly_104 *)
-    eqmod 16 * (inp_poly_104 * inp_poly_104)
+    eqmod (16 * (inp_poly_104 * inp_poly_104))
           (
             L0x2001a6b0 * (x**0) + L0x2001a6b2 * (x**1) + 
             L0x2001a6b4 * (x**2) + L0x2001a6b6 * (x**3) + 
@@ -22330,7 +22330,7 @@ cut (* 15 *)
           )
           [3329, x**2 - 1143],
     (* inp_poly_105 *)
-    eqmod 16 * (inp_poly_105 * inp_poly_105)
+    eqmod (16 * (inp_poly_105 * inp_poly_105))
           (
             L0x2001a6b0 * (x**0) + L0x2001a6b2 * (x**1) + 
             L0x2001a6b4 * (x**2) + L0x2001a6b6 * (x**3) + 
@@ -22351,7 +22351,7 @@ cut (* 15 *)
           )
           [3329, x**2 - 2186],
     (* inp_poly_106 *)
-    eqmod 16 * (inp_poly_106 * inp_poly_106)
+    eqmod (16 * (inp_poly_106 * inp_poly_106))
           (
             L0x2001a6b0 * (x**0) + L0x2001a6b2 * (x**1) + 
             L0x2001a6b4 * (x**2) + L0x2001a6b6 * (x**3) + 
@@ -22372,7 +22372,7 @@ cut (* 15 *)
           )
           [3329, x**2 - 2150],
     (* inp_poly_107 *)
-    eqmod 16 * (inp_poly_107 * inp_poly_107)
+    eqmod (16 * (inp_poly_107 * inp_poly_107))
           (
             L0x2001a6b0 * (x**0) + L0x2001a6b2 * (x**1) + 
             L0x2001a6b4 * (x**2) + L0x2001a6b6 * (x**3) + 
@@ -22393,7 +22393,7 @@ cut (* 15 *)
           )
           [3329, x**2 - 1179],
     (* inp_poly_108 *)
-    eqmod 16 * (inp_poly_108 * inp_poly_108)
+    eqmod (16 * (inp_poly_108 * inp_poly_108))
           (
             L0x2001a6b0 * (x**0) + L0x2001a6b2 * (x**1) + 
             L0x2001a6b4 * (x**2) + L0x2001a6b6 * (x**3) + 
@@ -22414,7 +22414,7 @@ cut (* 15 *)
           )
           [3329, x**2 - 2775],
     (* inp_poly_109 *)
-    eqmod 16 * (inp_poly_109 * inp_poly_109)
+    eqmod (16 * (inp_poly_109 * inp_poly_109))
           (
             L0x2001a6b0 * (x**0) + L0x2001a6b2 * (x**1) + 
             L0x2001a6b4 * (x**2) + L0x2001a6b6 * (x**3) + 
@@ -22435,7 +22435,7 @@ cut (* 15 *)
           )
           [3329, x**2 - 554],
     (* inp_poly_110 *)
-    eqmod 16 * (inp_poly_110 * inp_poly_110)
+    eqmod (16 * (inp_poly_110 * inp_poly_110))
           (
             L0x2001a6b0 * (x**0) + L0x2001a6b2 * (x**1) + 
             L0x2001a6b4 * (x**2) + L0x2001a6b6 * (x**3) + 
@@ -22456,7 +22456,7 @@ cut (* 15 *)
           )
           [3329, x**2 - 886],
     (* inp_poly_111 *)
-    eqmod 16 * (inp_poly_111 * inp_poly_111)
+    eqmod (16 * (inp_poly_111 * inp_poly_111))
           (
             L0x2001a6b0 * (x**0) + L0x2001a6b2 * (x**1) + 
             L0x2001a6b4 * (x**2) + L0x2001a6b6 * (x**3) + 
@@ -22488,7 +22488,7 @@ cut (* 16 *)
 cut (* 17 *)
   and [
     (* inp_poly_112 *)
-    eqmod 16 * (inp_poly_112 * inp_poly_112)
+    eqmod (16 * (inp_poly_112 * inp_poly_112))
           (
             L0x2001a6f0 * (x**0) + L0x2001a6f2 * (x**1) + 
             L0x2001a6f4 * (x**2) + L0x2001a6f6 * (x**3) + 
@@ -22509,7 +22509,7 @@ cut (* 17 *)
           )
           [3329, x**2 - 1722],
     (* inp_poly_113 *)
-    eqmod 16 * (inp_poly_113 * inp_poly_113)
+    eqmod (16 * (inp_poly_113 * inp_poly_113))
           (
             L0x2001a6f0 * (x**0) + L0x2001a6f2 * (x**1) + 
             L0x2001a6f4 * (x**2) + L0x2001a6f6 * (x**3) + 
@@ -22530,7 +22530,7 @@ cut (* 17 *)
           )
           [3329, x**2 - 1607],
     (* inp_poly_114 *)
-    eqmod 16 * (inp_poly_114 * inp_poly_114)
+    eqmod (16 * (inp_poly_114 * inp_poly_114))
           (
             L0x2001a6f0 * (x**0) + L0x2001a6f2 * (x**1) + 
             L0x2001a6f4 * (x**2) + L0x2001a6f6 * (x**3) + 
@@ -22551,7 +22551,7 @@ cut (* 17 *)
           )
           [3329, x**2 - 1212],
     (* inp_poly_115 *)
-    eqmod 16 * (inp_poly_115 * inp_poly_115)
+    eqmod (16 * (inp_poly_115 * inp_poly_115))
           (
             L0x2001a6f0 * (x**0) + L0x2001a6f2 * (x**1) + 
             L0x2001a6f4 * (x**2) + L0x2001a6f6 * (x**3) + 
@@ -22572,7 +22572,7 @@ cut (* 17 *)
           )
           [3329, x**2 - 2117],
     (* inp_poly_116 *)
-    eqmod 16 * (inp_poly_116 * inp_poly_116)
+    eqmod (16 * (inp_poly_116 * inp_poly_116))
           (
             L0x2001a6f0 * (x**0) + L0x2001a6f2 * (x**1) + 
             L0x2001a6f4 * (x**2) + L0x2001a6f6 * (x**3) + 
@@ -22593,7 +22593,7 @@ cut (* 17 *)
           )
           [3329, x**2 - 1874],
     (* inp_poly_117 *)
-    eqmod 16 * (inp_poly_117 * inp_poly_117)
+    eqmod (16 * (inp_poly_117 * inp_poly_117))
           (
             L0x2001a6f0 * (x**0) + L0x2001a6f2 * (x**1) + 
             L0x2001a6f4 * (x**2) + L0x2001a6f6 * (x**3) + 
@@ -22614,7 +22614,7 @@ cut (* 17 *)
           )
           [3329, x**2 - 1455],
     (* inp_poly_118 *)
-    eqmod 16 * (inp_poly_118 * inp_poly_118)
+    eqmod (16 * (inp_poly_118 * inp_poly_118))
           (
             L0x2001a6f0 * (x**0) + L0x2001a6f2 * (x**1) + 
             L0x2001a6f4 * (x**2) + L0x2001a6f6 * (x**3) + 
@@ -22635,7 +22635,7 @@ cut (* 17 *)
           )
           [3329, x**2 - 1029],
     (* inp_poly_119 *)
-    eqmod 16 * (inp_poly_119 * inp_poly_119)
+    eqmod (16 * (inp_poly_119 * inp_poly_119))
           (
             L0x2001a6f0 * (x**0) + L0x2001a6f2 * (x**1) + 
             L0x2001a6f4 * (x**2) + L0x2001a6f6 * (x**3) + 
@@ -22656,7 +22656,7 @@ cut (* 17 *)
           )
           [3329, x**2 - 2300],
     (* inp_poly_120 *)
-    eqmod 16 * (inp_poly_120 * inp_poly_120)
+    eqmod (16 * (inp_poly_120 * inp_poly_120))
           (
             L0x2001a6f0 * (x**0) + L0x2001a6f2 * (x**1) + 
             L0x2001a6f4 * (x**2) + L0x2001a6f6 * (x**3) + 
@@ -22677,7 +22677,7 @@ cut (* 17 *)
           )
           [3329, x**2 - 2110],
     (* inp_poly_121 *)
-    eqmod 16 * (inp_poly_121 * inp_poly_121)
+    eqmod (16 * (inp_poly_121 * inp_poly_121))
           (
             L0x2001a6f0 * (x**0) + L0x2001a6f2 * (x**1) + 
             L0x2001a6f4 * (x**2) + L0x2001a6f6 * (x**3) + 
@@ -22698,7 +22698,7 @@ cut (* 17 *)
           )
           [3329, x**2 - 1219],
     (* inp_poly_122 *)
-    eqmod 16 * (inp_poly_122 * inp_poly_122)
+    eqmod (16 * (inp_poly_122 * inp_poly_122))
           (
             L0x2001a6f0 * (x**0) + L0x2001a6f2 * (x**1) + 
             L0x2001a6f4 * (x**2) + L0x2001a6f6 * (x**3) + 
@@ -22719,7 +22719,7 @@ cut (* 17 *)
           )
           [3329, x**2 - 2935],
     (* inp_poly_123 *)
-    eqmod 16 * (inp_poly_123 * inp_poly_123)
+    eqmod (16 * (inp_poly_123 * inp_poly_123))
           (
             L0x2001a6f0 * (x**0) + L0x2001a6f2 * (x**1) + 
             L0x2001a6f4 * (x**2) + L0x2001a6f6 * (x**3) + 
@@ -22740,7 +22740,7 @@ cut (* 17 *)
           )
           [3329, x**2 - 394],
     (* inp_poly_124 *)
-    eqmod 16 * (inp_poly_124 * inp_poly_124)
+    eqmod (16 * (inp_poly_124 * inp_poly_124))
           (
             L0x2001a6f0 * (x**0) + L0x2001a6f2 * (x**1) + 
             L0x2001a6f4 * (x**2) + L0x2001a6f6 * (x**3) + 
@@ -22761,7 +22761,7 @@ cut (* 17 *)
           )
           [3329, x**2 - 885],
     (* inp_poly_125 *)
-    eqmod 16 * (inp_poly_125 * inp_poly_125)
+    eqmod (16 * (inp_poly_125 * inp_poly_125))
           (
             L0x2001a6f0 * (x**0) + L0x2001a6f2 * (x**1) + 
             L0x2001a6f4 * (x**2) + L0x2001a6f6 * (x**3) + 
@@ -22782,7 +22782,7 @@ cut (* 17 *)
           )
           [3329, x**2 - 2444],
     (* inp_poly_126 *)
-    eqmod 16 * (inp_poly_126 * inp_poly_126)
+    eqmod (16 * (inp_poly_126 * inp_poly_126))
           (
             L0x2001a6f0 * (x**0) + L0x2001a6f2 * (x**1) + 
             L0x2001a6f4 * (x**2) + L0x2001a6f6 * (x**3) + 
@@ -22803,7 +22803,7 @@ cut (* 17 *)
           )
           [3329, x**2 - 2154],
     (* inp_poly_127 *)
-    eqmod 16 * (inp_poly_127 * inp_poly_127)
+    eqmod (16 * (inp_poly_127 * inp_poly_127))
           (
             L0x2001a6f0 * (x**0) + L0x2001a6f2 * (x**1) + 
             L0x2001a6f4 * (x**2) + L0x2001a6f6 * (x**3) + 
@@ -33091,8 +33091,8 @@ cut (* 19 *)
   (* algebraic *)
   and [
     (* imm_poly_0 *)
-    eqmod (2**16) * (imm_poly_0 * imm_poly_0)
-          16 * (
+    eqmod ((2**16) * (imm_poly_0 * imm_poly_0))
+          (16 * (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
             L0x2001a538 * (x**4) + L0x2001a53a * (x**5) + 
@@ -33221,11 +33221,11 @@ cut (* 19 *)
             L0x2001a724 * (x**250) + L0x2001a726 * (x**251) + 
             L0x2001a728 * (x**252) + L0x2001a72a * (x**253) + 
             L0x2001a72c * (x**254) + L0x2001a72e * (x**255)
-          )
+          ))
           [3329, x**32 - 2642],
     (* imm_poly_1 *)
-    eqmod (2**16) * (imm_poly_1 * imm_poly_1)
-          16 * (
+    eqmod ((2**16) * (imm_poly_1 * imm_poly_1))
+          (16 * (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
             L0x2001a538 * (x**4) + L0x2001a53a * (x**5) + 
@@ -33354,11 +33354,11 @@ cut (* 19 *)
             L0x2001a724 * (x**250) + L0x2001a726 * (x**251) + 
             L0x2001a728 * (x**252) + L0x2001a72a * (x**253) + 
             L0x2001a72c * (x**254) + L0x2001a72e * (x**255)
-          )
+          ))
           [3329, x**32 - 687],
     (* imm_poly_2 *)
-    eqmod (2**16) * (imm_poly_2 * imm_poly_2)
-          16 * (
+    eqmod ((2**16) * (imm_poly_2 * imm_poly_2))
+          (16 * (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
             L0x2001a538 * (x**4) + L0x2001a53a * (x**5) + 
@@ -33487,11 +33487,11 @@ cut (* 19 *)
             L0x2001a724 * (x**250) + L0x2001a726 * (x**251) + 
             L0x2001a728 * (x**252) + L0x2001a72a * (x**253) + 
             L0x2001a72c * (x**254) + L0x2001a72e * (x**255)
-          )
+          ))
           [3329, x**32 - 630],
     (* imm_poly_3 *)
-    eqmod (2**16) * (imm_poly_3 * imm_poly_3)
-          16 * (
+    eqmod ((2**16) * (imm_poly_3 * imm_poly_3))
+          (16 * (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
             L0x2001a538 * (x**4) + L0x2001a53a * (x**5) + 
@@ -33620,11 +33620,11 @@ cut (* 19 *)
             L0x2001a724 * (x**250) + L0x2001a726 * (x**251) + 
             L0x2001a728 * (x**252) + L0x2001a72a * (x**253) + 
             L0x2001a72c * (x**254) + L0x2001a72e * (x**255)
-          )
+          ))
           [3329, x**32 - 2699],
     (* imm_poly_4 *)
-    eqmod (2**16) * (imm_poly_4 * imm_poly_4)
-          16 * (
+    eqmod ((2**16) * (imm_poly_4 * imm_poly_4))
+          (16 * (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
             L0x2001a538 * (x**4) + L0x2001a53a * (x**5) + 
@@ -33753,11 +33753,11 @@ cut (* 19 *)
             L0x2001a724 * (x**250) + L0x2001a726 * (x**251) + 
             L0x2001a728 * (x**252) + L0x2001a72a * (x**253) + 
             L0x2001a72c * (x**254) + L0x2001a72e * (x**255)
-          )
+          ))
           [3329, x**32 - 1897],
     (* imm_poly_5 *)
-    eqmod (2**16) * (imm_poly_5 * imm_poly_5)
-          16 * (
+    eqmod ((2**16) * (imm_poly_5 * imm_poly_5))
+          (16 * (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
             L0x2001a538 * (x**4) + L0x2001a53a * (x**5) + 
@@ -33886,11 +33886,11 @@ cut (* 19 *)
             L0x2001a724 * (x**250) + L0x2001a726 * (x**251) + 
             L0x2001a728 * (x**252) + L0x2001a72a * (x**253) + 
             L0x2001a72c * (x**254) + L0x2001a72e * (x**255)
-          )
+          ))
           [3329, x**32 - 1432],
     (* imm_poly_6 *)
-    eqmod (2**16) * (imm_poly_6 * imm_poly_6)
-          16 * (
+    eqmod ((2**16) * (imm_poly_6 * imm_poly_6))
+          (16 * (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
             L0x2001a538 * (x**4) + L0x2001a53a * (x**5) + 
@@ -34019,11 +34019,11 @@ cut (* 19 *)
             L0x2001a724 * (x**250) + L0x2001a726 * (x**251) + 
             L0x2001a728 * (x**252) + L0x2001a72a * (x**253) + 
             L0x2001a72c * (x**254) + L0x2001a72e * (x**255)
-          )
+          ))
           [3329, x**32 - 848],
     (* imm_poly_7 *)
-    eqmod (2**16) * (imm_poly_7 * imm_poly_7)
-          16 * (
+    eqmod ((2**16) * (imm_poly_7 * imm_poly_7))
+          (16 * (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
             L0x2001a538 * (x**4) + L0x2001a53a * (x**5) + 
@@ -34152,7 +34152,7 @@ cut (* 19 *)
             L0x2001a724 * (x**250) + L0x2001a726 * (x**251) + 
             L0x2001a728 * (x**252) + L0x2001a72a * (x**253) + 
             L0x2001a72c * (x**254) + L0x2001a72e * (x**255)
-          )
+          ))
           [3329, x**32 - 2481]
   ]
   &&
@@ -34424,8 +34424,8 @@ cut (* 20 *)
 cut (* 21 *)
   and [
     (* imm_poly_0 *)
-    eqmod (2**16) * (imm_poly_0 * imm_poly_0)
-          16 * (
+    eqmod ((2**16) * (imm_poly_0 * imm_poly_0))
+          (16 * (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
             L0x2001a538 * (x**4) + L0x2001a53a * (x**5) + 
@@ -34554,7 +34554,7 @@ cut (* 21 *)
             L0x2001a724 * (x**250) + L0x2001a726 * (x**251) + 
             L0x2001a728 * (x**252) + L0x2001a72a * (x**253) + 
             L0x2001a72c * (x**254) + L0x2001a72e * (x**255)
-          )
+          ))
           [3329, x**32 - 2642]
   ] prove with [cuts [19]]
   &&
@@ -34568,8 +34568,8 @@ cut (* 22 *)
 cut (* 23 *)
   and [
     (* imm_poly_1 *)
-    eqmod (2**16) * (imm_poly_1 * imm_poly_1)
-          16 * (
+    eqmod ((2**16) * (imm_poly_1 * imm_poly_1))
+          (16 * (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
             L0x2001a538 * (x**4) + L0x2001a53a * (x**5) + 
@@ -34698,7 +34698,7 @@ cut (* 23 *)
             L0x2001a724 * (x**250) + L0x2001a726 * (x**251) + 
             L0x2001a728 * (x**252) + L0x2001a72a * (x**253) + 
             L0x2001a72c * (x**254) + L0x2001a72e * (x**255)
-          )
+          ))
           [3329, x**32 - 687]
   ] prove with [cuts [19]]
   &&
@@ -34712,8 +34712,8 @@ cut (* 24 *)
 cut (* 25 *)
   and [
     (* imm_poly_2 *)
-    eqmod (2**16) * (imm_poly_2 * imm_poly_2)
-          16 * (
+    eqmod ((2**16) * (imm_poly_2 * imm_poly_2))
+          (16 * (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
             L0x2001a538 * (x**4) + L0x2001a53a * (x**5) + 
@@ -34842,7 +34842,7 @@ cut (* 25 *)
             L0x2001a724 * (x**250) + L0x2001a726 * (x**251) + 
             L0x2001a728 * (x**252) + L0x2001a72a * (x**253) + 
             L0x2001a72c * (x**254) + L0x2001a72e * (x**255)
-          )
+          ))
           [3329, x**32 - 630]
   ] prove with [cuts [19]]
   &&
@@ -34856,8 +34856,8 @@ cut (* 26 *)
 cut (* 27 *)
   and [
     (* imm_poly_3 *)
-    eqmod (2**16) * (imm_poly_3 * imm_poly_3)
-          16 * (
+    eqmod ((2**16) * (imm_poly_3 * imm_poly_3))
+          (16 * (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
             L0x2001a538 * (x**4) + L0x2001a53a * (x**5) + 
@@ -34986,7 +34986,7 @@ cut (* 27 *)
             L0x2001a724 * (x**250) + L0x2001a726 * (x**251) + 
             L0x2001a728 * (x**252) + L0x2001a72a * (x**253) + 
             L0x2001a72c * (x**254) + L0x2001a72e * (x**255)
-          )
+          ))
           [3329, x**32 - 2699]
   ] prove with [cuts [19]]
   &&
@@ -35000,8 +35000,8 @@ cut (* 28 *)
 cut (* 29 *)
   and [
     (* imm_poly_4 *)
-    eqmod (2**16) * (imm_poly_4 * imm_poly_4)
-          16 * (
+    eqmod ((2**16) * (imm_poly_4 * imm_poly_4))
+          (16 * (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
             L0x2001a538 * (x**4) + L0x2001a53a * (x**5) + 
@@ -35130,7 +35130,7 @@ cut (* 29 *)
             L0x2001a724 * (x**250) + L0x2001a726 * (x**251) + 
             L0x2001a728 * (x**252) + L0x2001a72a * (x**253) + 
             L0x2001a72c * (x**254) + L0x2001a72e * (x**255)
-          )
+          ))
           [3329, x**32 - 1897]
   ] prove with [cuts [19]]
   &&
@@ -35144,8 +35144,8 @@ cut (* 30 *)
 cut (* 31 *)
   and [
     (* imm_poly_5 *)
-    eqmod (2**16) * (imm_poly_5 * imm_poly_5)
-          16 * (
+    eqmod ((2**16) * (imm_poly_5 * imm_poly_5))
+          (16 * (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
             L0x2001a538 * (x**4) + L0x2001a53a * (x**5) + 
@@ -35274,7 +35274,7 @@ cut (* 31 *)
             L0x2001a724 * (x**250) + L0x2001a726 * (x**251) + 
             L0x2001a728 * (x**252) + L0x2001a72a * (x**253) + 
             L0x2001a72c * (x**254) + L0x2001a72e * (x**255)
-          )
+          ))
           [3329, x**32 - 1432]
   ] prove with [cuts [19]]
   &&
@@ -35288,8 +35288,8 @@ cut (* 32 *)
 cut (* 33 *)
   and [
     (* imm_poly_6 *)
-    eqmod (2**16) * (imm_poly_6 * imm_poly_6)
-          16 * (
+    eqmod ((2**16) * (imm_poly_6 * imm_poly_6))
+          (16 * (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
             L0x2001a538 * (x**4) + L0x2001a53a * (x**5) + 
@@ -35418,7 +35418,7 @@ cut (* 33 *)
             L0x2001a724 * (x**250) + L0x2001a726 * (x**251) + 
             L0x2001a728 * (x**252) + L0x2001a72a * (x**253) + 
             L0x2001a72c * (x**254) + L0x2001a72e * (x**255)
-          )
+          ))
           [3329, x**32 - 848]
   ] prove with [cuts [19]]
   &&
@@ -35432,8 +35432,8 @@ cut (* 34 *)
 cut (* 35 *)
   and [
     (* imm_poly_7 *)
-    eqmod (2**16) * (imm_poly_7 * imm_poly_7)
-          16 * (
+    eqmod ((2**16) * (imm_poly_7 * imm_poly_7))
+          (16 * (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
             L0x2001a538 * (x**4) + L0x2001a53a * (x**5) + 
@@ -35562,7 +35562,7 @@ cut (* 35 *)
             L0x2001a724 * (x**250) + L0x2001a726 * (x**251) + 
             L0x2001a728 * (x**252) + L0x2001a72a * (x**253) + 
             L0x2001a72c * (x**254) + L0x2001a72e * (x**255)
-          )
+          ))
           [3329, x**32 - 2481]
   ] prove with [cuts [19]]
   &&
@@ -35577,7 +35577,7 @@ cut (* 36 *)
 cut (* 37 *)
   and [
     (* inp_poly_0 *)
-    eqmod 65536 * (inp_poly_0 * inp_poly_0)
+    eqmod (65536 * (inp_poly_0 * inp_poly_0))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -35710,7 +35710,7 @@ cut (* 37 *)
           )
           [3329, x**2 - 17],
     (* inp_poly_1 *)
-    eqmod 65536 * (inp_poly_1 * inp_poly_1)
+    eqmod (65536 * (inp_poly_1 * inp_poly_1))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -35843,7 +35843,7 @@ cut (* 37 *)
           )
           [3329, x**2 - 3312],
     (* inp_poly_2 *)
-    eqmod 65536 * (inp_poly_2 * inp_poly_2)
+    eqmod (65536 * (inp_poly_2 * inp_poly_2))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -35976,7 +35976,7 @@ cut (* 37 *)
           )
           [3329, x**2 - 2761],
     (* inp_poly_3 *)
-    eqmod 65536 * (inp_poly_3 * inp_poly_3)
+    eqmod (65536 * (inp_poly_3 * inp_poly_3))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -36109,7 +36109,7 @@ cut (* 37 *)
           )
           [3329, x**2 - 568],
     (* inp_poly_4 *)
-    eqmod 65536 * (inp_poly_4 * inp_poly_4)
+    eqmod (65536 * (inp_poly_4 * inp_poly_4))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -36242,7 +36242,7 @@ cut (* 37 *)
           )
           [3329, x**2 - 583],
     (* inp_poly_5 *)
-    eqmod 65536 * (inp_poly_5 * inp_poly_5)
+    eqmod (65536 * (inp_poly_5 * inp_poly_5))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -36375,7 +36375,7 @@ cut (* 37 *)
           )
           [3329, x**2 - 2746],
     (* inp_poly_6 *)
-    eqmod 65536 * (inp_poly_6 * inp_poly_6)
+    eqmod (65536 * (inp_poly_6 * inp_poly_6))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -36508,7 +36508,7 @@ cut (* 37 *)
           )
           [3329, x**2 - 2649],
     (* inp_poly_7 *)
-    eqmod 65536 * (inp_poly_7 * inp_poly_7)
+    eqmod (65536 * (inp_poly_7 * inp_poly_7))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -36641,7 +36641,7 @@ cut (* 37 *)
           )
           [3329, x**2 - 680],
     (* inp_poly_8 *)
-    eqmod 65536 * (inp_poly_8 * inp_poly_8)
+    eqmod (65536 * (inp_poly_8 * inp_poly_8))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -36774,7 +36774,7 @@ cut (* 37 *)
           )
           [3329, x**2 - 1637],
     (* inp_poly_9 *)
-    eqmod 65536 * (inp_poly_9 * inp_poly_9)
+    eqmod (65536 * (inp_poly_9 * inp_poly_9))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -36907,7 +36907,7 @@ cut (* 37 *)
           )
           [3329, x**2 - 1692],
     (* inp_poly_10 *)
-    eqmod 65536 * (inp_poly_10 * inp_poly_10)
+    eqmod (65536 * (inp_poly_10 * inp_poly_10))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -37040,7 +37040,7 @@ cut (* 37 *)
           )
           [3329, x**2 - 723],
     (* inp_poly_11 *)
-    eqmod 65536 * (inp_poly_11 * inp_poly_11)
+    eqmod (65536 * (inp_poly_11 * inp_poly_11))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -37173,7 +37173,7 @@ cut (* 37 *)
           )
           [3329, x**2 - 2606],
     (* inp_poly_12 *)
-    eqmod 65536 * (inp_poly_12 * inp_poly_12)
+    eqmod (65536 * (inp_poly_12 * inp_poly_12))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -37306,7 +37306,7 @@ cut (* 37 *)
           )
           [3329, x**2 - 2288],
     (* inp_poly_13 *)
-    eqmod 65536 * (inp_poly_13 * inp_poly_13)
+    eqmod (65536 * (inp_poly_13 * inp_poly_13))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -37439,7 +37439,7 @@ cut (* 37 *)
           )
           [3329, x**2 - 1041],
     (* inp_poly_14 *)
-    eqmod 65536 * (inp_poly_14 * inp_poly_14)
+    eqmod (65536 * (inp_poly_14 * inp_poly_14))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -37572,7 +37572,7 @@ cut (* 37 *)
           )
           [3329, x**2 - 1100],
     (* inp_poly_15 *)
-    eqmod 65536 * (inp_poly_15 * inp_poly_15)
+    eqmod (65536 * (inp_poly_15 * inp_poly_15))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -37716,7 +37716,7 @@ cut (* 38 *)
 cut (* 39 *)
   and [
     (* inp_poly_16 *)
-    eqmod 65536 * (inp_poly_16 * inp_poly_16)
+    eqmod (65536 * (inp_poly_16 * inp_poly_16))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -37849,7 +37849,7 @@ cut (* 39 *)
           )
           [3329, x**2 - 1409],
     (* inp_poly_17 *)
-    eqmod 65536 * (inp_poly_17 * inp_poly_17)
+    eqmod (65536 * (inp_poly_17 * inp_poly_17))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -37982,7 +37982,7 @@ cut (* 39 *)
           )
           [3329, x**2 - 1920],
     (* inp_poly_18 *)
-    eqmod 65536 * (inp_poly_18 * inp_poly_18)
+    eqmod (65536 * (inp_poly_18 * inp_poly_18))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -38115,7 +38115,7 @@ cut (* 39 *)
           )
           [3329, x**2 - 2662],
     (* inp_poly_19 *)
-    eqmod 65536 * (inp_poly_19 * inp_poly_19)
+    eqmod (65536 * (inp_poly_19 * inp_poly_19))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -38248,7 +38248,7 @@ cut (* 39 *)
           )
           [3329, x**2 - 667],
     (* inp_poly_20 *)
-    eqmod 65536 * (inp_poly_20 * inp_poly_20)
+    eqmod (65536 * (inp_poly_20 * inp_poly_20))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -38381,7 +38381,7 @@ cut (* 39 *)
           )
           [3329, x**2 - 3281],
     (* inp_poly_21 *)
-    eqmod 65536 * (inp_poly_21 * inp_poly_21)
+    eqmod (65536 * (inp_poly_21 * inp_poly_21))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -38514,7 +38514,7 @@ cut (* 39 *)
           )
           [3329, x**2 - 48],
     (* inp_poly_22 *)
-    eqmod 65536 * (inp_poly_22 * inp_poly_22)
+    eqmod (65536 * (inp_poly_22 * inp_poly_22))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -38647,7 +38647,7 @@ cut (* 39 *)
           )
           [3329, x**2 - 233],
     (* inp_poly_23 *)
-    eqmod 65536 * (inp_poly_23 * inp_poly_23)
+    eqmod (65536 * (inp_poly_23 * inp_poly_23))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -38780,7 +38780,7 @@ cut (* 39 *)
           )
           [3329, x**2 - 3096],
     (* inp_poly_24 *)
-    eqmod 65536 * (inp_poly_24 * inp_poly_24)
+    eqmod (65536 * (inp_poly_24 * inp_poly_24))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -38913,7 +38913,7 @@ cut (* 39 *)
           )
           [3329, x**2 - 756],
     (* inp_poly_25 *)
-    eqmod 65536 * (inp_poly_25 * inp_poly_25)
+    eqmod (65536 * (inp_poly_25 * inp_poly_25))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -39046,7 +39046,7 @@ cut (* 39 *)
           )
           [3329, x**2 - 2573],
     (* inp_poly_26 *)
-    eqmod 65536 * (inp_poly_26 * inp_poly_26)
+    eqmod (65536 * (inp_poly_26 * inp_poly_26))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -39179,7 +39179,7 @@ cut (* 39 *)
           )
           [3329, x**2 - 2156],
     (* inp_poly_27 *)
-    eqmod 65536 * (inp_poly_27 * inp_poly_27)
+    eqmod (65536 * (inp_poly_27 * inp_poly_27))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -39312,7 +39312,7 @@ cut (* 39 *)
           )
           [3329, x**2 - 1173],
     (* inp_poly_28 *)
-    eqmod 65536 * (inp_poly_28 * inp_poly_28)
+    eqmod (65536 * (inp_poly_28 * inp_poly_28))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -39445,7 +39445,7 @@ cut (* 39 *)
           )
           [3329, x**2 - 3015],
     (* inp_poly_29 *)
-    eqmod 65536 * (inp_poly_29 * inp_poly_29)
+    eqmod (65536 * (inp_poly_29 * inp_poly_29))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -39578,7 +39578,7 @@ cut (* 39 *)
           )
           [3329, x**2 - 314],
     (* inp_poly_30 *)
-    eqmod 65536 * (inp_poly_30 * inp_poly_30)
+    eqmod (65536 * (inp_poly_30 * inp_poly_30))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -39711,7 +39711,7 @@ cut (* 39 *)
           )
           [3329, x**2 - 3050],
     (* inp_poly_31 *)
-    eqmod 65536 * (inp_poly_31 * inp_poly_31)
+    eqmod (65536 * (inp_poly_31 * inp_poly_31))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -39855,7 +39855,7 @@ cut (* 40 *)
 cut (* 41 *)
   and [
     (* inp_poly_32 *)
-    eqmod 65536 * (inp_poly_32 * inp_poly_32)
+    eqmod (65536 * (inp_poly_32 * inp_poly_32))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -39988,7 +39988,7 @@ cut (* 41 *)
           )
           [3329, x**2 - 1703],
     (* inp_poly_33 *)
-    eqmod 65536 * (inp_poly_33 * inp_poly_33)
+    eqmod (65536 * (inp_poly_33 * inp_poly_33))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -40121,7 +40121,7 @@ cut (* 41 *)
           )
           [3329, x**2 - 1626],
     (* inp_poly_34 *)
-    eqmod 65536 * (inp_poly_34 * inp_poly_34)
+    eqmod (65536 * (inp_poly_34 * inp_poly_34))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -40254,7 +40254,7 @@ cut (* 41 *)
           )
           [3329, x**2 - 1651],
     (* inp_poly_35 *)
-    eqmod 65536 * (inp_poly_35 * inp_poly_35)
+    eqmod (65536 * (inp_poly_35 * inp_poly_35))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -40387,7 +40387,7 @@ cut (* 41 *)
           )
           [3329, x**2 - 1678],
     (* inp_poly_36 *)
-    eqmod 65536 * (inp_poly_36 * inp_poly_36)
+    eqmod (65536 * (inp_poly_36 * inp_poly_36))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -40520,7 +40520,7 @@ cut (* 41 *)
           )
           [3329, x**2 - 2789],
     (* inp_poly_37 *)
-    eqmod 65536 * (inp_poly_37 * inp_poly_37)
+    eqmod (65536 * (inp_poly_37 * inp_poly_37))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -40653,7 +40653,7 @@ cut (* 41 *)
           )
           [3329, x**2 - 540],
     (* inp_poly_38 *)
-    eqmod 65536 * (inp_poly_38 * inp_poly_38)
+    eqmod (65536 * (inp_poly_38 * inp_poly_38))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -40786,7 +40786,7 @@ cut (* 41 *)
           )
           [3329, x**2 - 1789],
     (* inp_poly_39 *)
-    eqmod 65536 * (inp_poly_39 * inp_poly_39)
+    eqmod (65536 * (inp_poly_39 * inp_poly_39))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -40919,7 +40919,7 @@ cut (* 41 *)
           )
           [3329, x**2 - 1540],
     (* inp_poly_40 *)
-    eqmod 65536 * (inp_poly_40 * inp_poly_40)
+    eqmod (65536 * (inp_poly_40 * inp_poly_40))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -41052,7 +41052,7 @@ cut (* 41 *)
           )
           [3329, x**2 - 1847],
     (* inp_poly_41 *)
-    eqmod 65536 * (inp_poly_41 * inp_poly_41)
+    eqmod (65536 * (inp_poly_41 * inp_poly_41))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -41185,7 +41185,7 @@ cut (* 41 *)
           )
           [3329, x**2 - 1482],
     (* inp_poly_42 *)
-    eqmod 65536 * (inp_poly_42 * inp_poly_42)
+    eqmod (65536 * (inp_poly_42 * inp_poly_42))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -41318,7 +41318,7 @@ cut (* 41 *)
           )
           [3329, x**2 - 952],
     (* inp_poly_43 *)
-    eqmod 65536 * (inp_poly_43 * inp_poly_43)
+    eqmod (65536 * (inp_poly_43 * inp_poly_43))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -41451,7 +41451,7 @@ cut (* 41 *)
           )
           [3329, x**2 - 2377],
     (* inp_poly_44 *)
-    eqmod 65536 * (inp_poly_44 * inp_poly_44)
+    eqmod (65536 * (inp_poly_44 * inp_poly_44))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -41584,7 +41584,7 @@ cut (* 41 *)
           )
           [3329, x**2 - 1461],
     (* inp_poly_45 *)
-    eqmod 65536 * (inp_poly_45 * inp_poly_45)
+    eqmod (65536 * (inp_poly_45 * inp_poly_45))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -41717,7 +41717,7 @@ cut (* 41 *)
           )
           [3329, x**2 - 1868],
     (* inp_poly_46 *)
-    eqmod 65536 * (inp_poly_46 * inp_poly_46)
+    eqmod (65536 * (inp_poly_46 * inp_poly_46))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -41850,7 +41850,7 @@ cut (* 41 *)
           )
           [3329, x**2 - 2687],
     (* inp_poly_47 *)
-    eqmod 65536 * (inp_poly_47 * inp_poly_47)
+    eqmod (65536 * (inp_poly_47 * inp_poly_47))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -41994,7 +41994,7 @@ cut (* 42 *)
 cut (* 43 *)
   and [
     (* inp_poly_48 *)
-    eqmod 65536 * (inp_poly_48 * inp_poly_48)
+    eqmod (65536 * (inp_poly_48 * inp_poly_48))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -42127,7 +42127,7 @@ cut (* 43 *)
           )
           [3329, x**2 - 939],
     (* inp_poly_49 *)
-    eqmod 65536 * (inp_poly_49 * inp_poly_49)
+    eqmod (65536 * (inp_poly_49 * inp_poly_49))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -42260,7 +42260,7 @@ cut (* 43 *)
           )
           [3329, x**2 - 2390],
     (* inp_poly_50 *)
-    eqmod 65536 * (inp_poly_50 * inp_poly_50)
+    eqmod (65536 * (inp_poly_50 * inp_poly_50))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -42393,7 +42393,7 @@ cut (* 43 *)
           )
           [3329, x**2 - 2308],
     (* inp_poly_51 *)
-    eqmod 65536 * (inp_poly_51 * inp_poly_51)
+    eqmod (65536 * (inp_poly_51 * inp_poly_51))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -42526,7 +42526,7 @@ cut (* 43 *)
           )
           [3329, x**2 - 1021],
     (* inp_poly_52 *)
-    eqmod 65536 * (inp_poly_52 * inp_poly_52)
+    eqmod (65536 * (inp_poly_52 * inp_poly_52))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -42659,7 +42659,7 @@ cut (* 43 *)
           )
           [3329, x**2 - 2437],
     (* inp_poly_53 *)
-    eqmod 65536 * (inp_poly_53 * inp_poly_53)
+    eqmod (65536 * (inp_poly_53 * inp_poly_53))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -42792,7 +42792,7 @@ cut (* 43 *)
           )
           [3329, x**2 - 892],
     (* inp_poly_54 *)
-    eqmod 65536 * (inp_poly_54 * inp_poly_54)
+    eqmod (65536 * (inp_poly_54 * inp_poly_54))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -42925,7 +42925,7 @@ cut (* 43 *)
           )
           [3329, x**2 - 2388],
     (* inp_poly_55 *)
-    eqmod 65536 * (inp_poly_55 * inp_poly_55)
+    eqmod (65536 * (inp_poly_55 * inp_poly_55))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -43058,7 +43058,7 @@ cut (* 43 *)
           )
           [3329, x**2 - 941],
     (* inp_poly_56 *)
-    eqmod 65536 * (inp_poly_56 * inp_poly_56)
+    eqmod (65536 * (inp_poly_56 * inp_poly_56))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -43191,7 +43191,7 @@ cut (* 43 *)
           )
           [3329, x**2 - 733],
     (* inp_poly_57 *)
-    eqmod 65536 * (inp_poly_57 * inp_poly_57)
+    eqmod (65536 * (inp_poly_57 * inp_poly_57))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -43324,7 +43324,7 @@ cut (* 43 *)
           )
           [3329, x**2 - 2596],
     (* inp_poly_58 *)
-    eqmod 65536 * (inp_poly_58 * inp_poly_58)
+    eqmod (65536 * (inp_poly_58 * inp_poly_58))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -43457,7 +43457,7 @@ cut (* 43 *)
           )
           [3329, x**2 - 2337],
     (* inp_poly_59 *)
-    eqmod 65536 * (inp_poly_59 * inp_poly_59)
+    eqmod (65536 * (inp_poly_59 * inp_poly_59))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -43590,7 +43590,7 @@ cut (* 43 *)
           )
           [3329, x**2 - 992],
     (* inp_poly_60 *)
-    eqmod 65536 * (inp_poly_60 * inp_poly_60)
+    eqmod (65536 * (inp_poly_60 * inp_poly_60))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -43723,7 +43723,7 @@ cut (* 43 *)
           )
           [3329, x**2 - 268],
     (* inp_poly_61 *)
-    eqmod 65536 * (inp_poly_61 * inp_poly_61)
+    eqmod (65536 * (inp_poly_61 * inp_poly_61))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -43856,7 +43856,7 @@ cut (* 43 *)
           )
           [3329, x**2 - 3061],
     (* inp_poly_62 *)
-    eqmod 65536 * (inp_poly_62 * inp_poly_62)
+    eqmod (65536 * (inp_poly_62 * inp_poly_62))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -43989,7 +43989,7 @@ cut (* 43 *)
           )
           [3329, x**2 - 641],
     (* inp_poly_63 *)
-    eqmod 65536 * (inp_poly_63 * inp_poly_63)
+    eqmod (65536 * (inp_poly_63 * inp_poly_63))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -44133,7 +44133,7 @@ cut (* 44 *)
 cut (* 45 *)
   and [
     (* inp_poly_64 *)
-    eqmod 65536 * (inp_poly_64 * inp_poly_64)
+    eqmod (65536 * (inp_poly_64 * inp_poly_64))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -44266,7 +44266,7 @@ cut (* 45 *)
           )
           [3329, x**2 - 1584],
     (* inp_poly_65 *)
-    eqmod 65536 * (inp_poly_65 * inp_poly_65)
+    eqmod (65536 * (inp_poly_65 * inp_poly_65))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -44399,7 +44399,7 @@ cut (* 45 *)
           )
           [3329, x**2 - 1745],
     (* inp_poly_66 *)
-    eqmod 65536 * (inp_poly_66 * inp_poly_66)
+    eqmod (65536 * (inp_poly_66 * inp_poly_66))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -44532,7 +44532,7 @@ cut (* 45 *)
           )
           [3329, x**2 - 2298],
     (* inp_poly_67 *)
-    eqmod 65536 * (inp_poly_67 * inp_poly_67)
+    eqmod (65536 * (inp_poly_67 * inp_poly_67))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -44665,7 +44665,7 @@ cut (* 45 *)
           )
           [3329, x**2 - 1031],
     (* inp_poly_68 *)
-    eqmod 65536 * (inp_poly_68 * inp_poly_68)
+    eqmod (65536 * (inp_poly_68 * inp_poly_68))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -44798,7 +44798,7 @@ cut (* 45 *)
           )
           [3329, x**2 - 2037],
     (* inp_poly_69 *)
-    eqmod 65536 * (inp_poly_69 * inp_poly_69)
+    eqmod (65536 * (inp_poly_69 * inp_poly_69))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -44931,7 +44931,7 @@ cut (* 45 *)
           )
           [3329, x**2 - 1292],
     (* inp_poly_70 *)
-    eqmod 65536 * (inp_poly_70 * inp_poly_70)
+    eqmod (65536 * (inp_poly_70 * inp_poly_70))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -45064,7 +45064,7 @@ cut (* 45 *)
           )
           [3329, x**2 - 3220],
     (* inp_poly_71 *)
-    eqmod 65536 * (inp_poly_71 * inp_poly_71)
+    eqmod (65536 * (inp_poly_71 * inp_poly_71))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -45197,7 +45197,7 @@ cut (* 45 *)
           )
           [3329, x**2 - 109],
     (* inp_poly_72 *)
-    eqmod 65536 * (inp_poly_72 * inp_poly_72)
+    eqmod (65536 * (inp_poly_72 * inp_poly_72))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -45330,7 +45330,7 @@ cut (* 45 *)
           )
           [3329, x**2 - 375],
     (* inp_poly_73 *)
-    eqmod 65536 * (inp_poly_73 * inp_poly_73)
+    eqmod (65536 * (inp_poly_73 * inp_poly_73))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -45463,7 +45463,7 @@ cut (* 45 *)
           )
           [3329, x**2 - 2954],
     (* inp_poly_74 *)
-    eqmod 65536 * (inp_poly_74 * inp_poly_74)
+    eqmod (65536 * (inp_poly_74 * inp_poly_74))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -45596,7 +45596,7 @@ cut (* 45 *)
           )
           [3329, x**2 - 2549],
     (* inp_poly_75 *)
-    eqmod 65536 * (inp_poly_75 * inp_poly_75)
+    eqmod (65536 * (inp_poly_75 * inp_poly_75))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -45729,7 +45729,7 @@ cut (* 45 *)
           )
           [3329, x**2 - 780],
     (* inp_poly_76 *)
-    eqmod 65536 * (inp_poly_76 * inp_poly_76)
+    eqmod (65536 * (inp_poly_76 * inp_poly_76))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -45862,7 +45862,7 @@ cut (* 45 *)
           )
           [3329, x**2 - 2090],
     (* inp_poly_77 *)
-    eqmod 65536 * (inp_poly_77 * inp_poly_77)
+    eqmod (65536 * (inp_poly_77 * inp_poly_77))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -45995,7 +45995,7 @@ cut (* 45 *)
           )
           [3329, x**2 - 1239],
     (* inp_poly_78 *)
-    eqmod 65536 * (inp_poly_78 * inp_poly_78)
+    eqmod (65536 * (inp_poly_78 * inp_poly_78))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -46128,7 +46128,7 @@ cut (* 45 *)
           )
           [3329, x**2 - 1645],
     (* inp_poly_79 *)
-    eqmod 65536 * (inp_poly_79 * inp_poly_79)
+    eqmod (65536 * (inp_poly_79 * inp_poly_79))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -46272,7 +46272,7 @@ cut (* 46 *)
 cut (* 47 *)
   and [
     (* inp_poly_80 *)
-    eqmod 65536 * (inp_poly_80 * inp_poly_80)
+    eqmod (65536 * (inp_poly_80 * inp_poly_80))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -46405,7 +46405,7 @@ cut (* 47 *)
           )
           [3329, x**2 - 1063],
     (* inp_poly_81 *)
-    eqmod 65536 * (inp_poly_81 * inp_poly_81)
+    eqmod (65536 * (inp_poly_81 * inp_poly_81))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -46538,7 +46538,7 @@ cut (* 47 *)
           )
           [3329, x**2 - 2266],
     (* inp_poly_82 *)
-    eqmod 65536 * (inp_poly_82 * inp_poly_82)
+    eqmod (65536 * (inp_poly_82 * inp_poly_82))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -46671,7 +46671,7 @@ cut (* 47 *)
           )
           [3329, x**2 - 319],
     (* inp_poly_83 *)
-    eqmod 65536 * (inp_poly_83 * inp_poly_83)
+    eqmod (65536 * (inp_poly_83 * inp_poly_83))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -46804,7 +46804,7 @@ cut (* 47 *)
           )
           [3329, x**2 - 3010],
     (* inp_poly_84 *)
-    eqmod 65536 * (inp_poly_84 * inp_poly_84)
+    eqmod (65536 * (inp_poly_84 * inp_poly_84))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -46937,7 +46937,7 @@ cut (* 47 *)
           )
           [3329, x**2 - 2773],
     (* inp_poly_85 *)
-    eqmod 65536 * (inp_poly_85 * inp_poly_85)
+    eqmod (65536 * (inp_poly_85 * inp_poly_85))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -47070,7 +47070,7 @@ cut (* 47 *)
           )
           [3329, x**2 - 556],
     (* inp_poly_86 *)
-    eqmod 65536 * (inp_poly_86 * inp_poly_86)
+    eqmod (65536 * (inp_poly_86 * inp_poly_86))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -47203,7 +47203,7 @@ cut (* 47 *)
           )
           [3329, x**2 - 757],
     (* inp_poly_87 *)
-    eqmod 65536 * (inp_poly_87 * inp_poly_87)
+    eqmod (65536 * (inp_poly_87 * inp_poly_87))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -47336,7 +47336,7 @@ cut (* 47 *)
           )
           [3329, x**2 - 2572],
     (* inp_poly_88 *)
-    eqmod 65536 * (inp_poly_88 * inp_poly_88)
+    eqmod (65536 * (inp_poly_88 * inp_poly_88))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -47469,7 +47469,7 @@ cut (* 47 *)
           )
           [3329, x**2 - 2099],
     (* inp_poly_89 *)
-    eqmod 65536 * (inp_poly_89 * inp_poly_89)
+    eqmod (65536 * (inp_poly_89 * inp_poly_89))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -47602,7 +47602,7 @@ cut (* 47 *)
           )
           [3329, x**2 - 1230],
     (* inp_poly_90 *)
-    eqmod 65536 * (inp_poly_90 * inp_poly_90)
+    eqmod (65536 * (inp_poly_90 * inp_poly_90))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -47735,7 +47735,7 @@ cut (* 47 *)
           )
           [3329, x**2 - 561],
     (* inp_poly_91 *)
-    eqmod 65536 * (inp_poly_91 * inp_poly_91)
+    eqmod (65536 * (inp_poly_91 * inp_poly_91))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -47868,7 +47868,7 @@ cut (* 47 *)
           )
           [3329, x**2 - 2768],
     (* inp_poly_92 *)
-    eqmod 65536 * (inp_poly_92 * inp_poly_92)
+    eqmod (65536 * (inp_poly_92 * inp_poly_92))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -48001,7 +48001,7 @@ cut (* 47 *)
           )
           [3329, x**2 - 2466],
     (* inp_poly_93 *)
-    eqmod 65536 * (inp_poly_93 * inp_poly_93)
+    eqmod (65536 * (inp_poly_93 * inp_poly_93))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -48134,7 +48134,7 @@ cut (* 47 *)
           )
           [3329, x**2 - 863],
     (* inp_poly_94 *)
-    eqmod 65536 * (inp_poly_94 * inp_poly_94)
+    eqmod (65536 * (inp_poly_94 * inp_poly_94))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -48267,7 +48267,7 @@ cut (* 47 *)
           )
           [3329, x**2 - 2594],
     (* inp_poly_95 *)
-    eqmod 65536 * (inp_poly_95 * inp_poly_95)
+    eqmod (65536 * (inp_poly_95 * inp_poly_95))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -48411,7 +48411,7 @@ cut (* 48 *)
 cut (* 49 *)
   and [
     (* inp_poly_96 *)
-    eqmod 65536 * (inp_poly_96 * inp_poly_96)
+    eqmod (65536 * (inp_poly_96 * inp_poly_96))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -48544,7 +48544,7 @@ cut (* 49 *)
           )
           [3329, x**2 - 2804],
     (* inp_poly_97 *)
-    eqmod 65536 * (inp_poly_97 * inp_poly_97)
+    eqmod (65536 * (inp_poly_97 * inp_poly_97))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -48677,7 +48677,7 @@ cut (* 49 *)
           )
           [3329, x**2 - 525],
     (* inp_poly_98 *)
-    eqmod 65536 * (inp_poly_98 * inp_poly_98)
+    eqmod (65536 * (inp_poly_98 * inp_poly_98))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -48810,7 +48810,7 @@ cut (* 49 *)
           )
           [3329, x**2 - 1092],
     (* inp_poly_99 *)
-    eqmod 65536 * (inp_poly_99 * inp_poly_99)
+    eqmod (65536 * (inp_poly_99 * inp_poly_99))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -48943,7 +48943,7 @@ cut (* 49 *)
           )
           [3329, x**2 - 2237],
     (* inp_poly_100 *)
-    eqmod 65536 * (inp_poly_100 * inp_poly_100)
+    eqmod (65536 * (inp_poly_100 * inp_poly_100))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -49076,7 +49076,7 @@ cut (* 49 *)
           )
           [3329, x**2 - 403],
     (* inp_poly_101 *)
-    eqmod 65536 * (inp_poly_101 * inp_poly_101)
+    eqmod (65536 * (inp_poly_101 * inp_poly_101))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -49209,7 +49209,7 @@ cut (* 49 *)
           )
           [3329, x**2 - 2926],
     (* inp_poly_102 *)
-    eqmod 65536 * (inp_poly_102 * inp_poly_102)
+    eqmod (65536 * (inp_poly_102 * inp_poly_102))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -49342,7 +49342,7 @@ cut (* 49 *)
           )
           [3329, x**2 - 1026],
     (* inp_poly_103 *)
-    eqmod 65536 * (inp_poly_103 * inp_poly_103)
+    eqmod (65536 * (inp_poly_103 * inp_poly_103))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -49475,7 +49475,7 @@ cut (* 49 *)
           )
           [3329, x**2 - 2303],
     (* inp_poly_104 *)
-    eqmod 65536 * (inp_poly_104 * inp_poly_104)
+    eqmod (65536 * (inp_poly_104 * inp_poly_104))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -49608,7 +49608,7 @@ cut (* 49 *)
           )
           [3329, x**2 - 1143],
     (* inp_poly_105 *)
-    eqmod 65536 * (inp_poly_105 * inp_poly_105)
+    eqmod (65536 * (inp_poly_105 * inp_poly_105))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -49741,7 +49741,7 @@ cut (* 49 *)
           )
           [3329, x**2 - 2186],
     (* inp_poly_106 *)
-    eqmod 65536 * (inp_poly_106 * inp_poly_106)
+    eqmod (65536 * (inp_poly_106 * inp_poly_106))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -49874,7 +49874,7 @@ cut (* 49 *)
           )
           [3329, x**2 - 2150],
     (* inp_poly_107 *)
-    eqmod 65536 * (inp_poly_107 * inp_poly_107)
+    eqmod (65536 * (inp_poly_107 * inp_poly_107))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -50007,7 +50007,7 @@ cut (* 49 *)
           )
           [3329, x**2 - 1179],
     (* inp_poly_108 *)
-    eqmod 65536 * (inp_poly_108 * inp_poly_108)
+    eqmod (65536 * (inp_poly_108 * inp_poly_108))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -50140,7 +50140,7 @@ cut (* 49 *)
           )
           [3329, x**2 - 2775],
     (* inp_poly_109 *)
-    eqmod 65536 * (inp_poly_109 * inp_poly_109)
+    eqmod (65536 * (inp_poly_109 * inp_poly_109))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -50273,7 +50273,7 @@ cut (* 49 *)
           )
           [3329, x**2 - 554],
     (* inp_poly_110 *)
-    eqmod 65536 * (inp_poly_110 * inp_poly_110)
+    eqmod (65536 * (inp_poly_110 * inp_poly_110))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -50406,7 +50406,7 @@ cut (* 49 *)
           )
           [3329, x**2 - 886],
     (* inp_poly_111 *)
-    eqmod 65536 * (inp_poly_111 * inp_poly_111)
+    eqmod (65536 * (inp_poly_111 * inp_poly_111))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -50550,7 +50550,7 @@ cut (* 50 *)
 cut (* 51 *)
   and [
     (* inp_poly_112 *)
-    eqmod 65536 * (inp_poly_112 * inp_poly_112)
+    eqmod (65536 * (inp_poly_112 * inp_poly_112))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -50683,7 +50683,7 @@ cut (* 51 *)
           )
           [3329, x**2 - 1722],
     (* inp_poly_113 *)
-    eqmod 65536 * (inp_poly_113 * inp_poly_113)
+    eqmod (65536 * (inp_poly_113 * inp_poly_113))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -50816,7 +50816,7 @@ cut (* 51 *)
           )
           [3329, x**2 - 1607],
     (* inp_poly_114 *)
-    eqmod 65536 * (inp_poly_114 * inp_poly_114)
+    eqmod (65536 * (inp_poly_114 * inp_poly_114))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -50949,7 +50949,7 @@ cut (* 51 *)
           )
           [3329, x**2 - 1212],
     (* inp_poly_115 *)
-    eqmod 65536 * (inp_poly_115 * inp_poly_115)
+    eqmod (65536 * (inp_poly_115 * inp_poly_115))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -51082,7 +51082,7 @@ cut (* 51 *)
           )
           [3329, x**2 - 2117],
     (* inp_poly_116 *)
-    eqmod 65536 * (inp_poly_116 * inp_poly_116)
+    eqmod (65536 * (inp_poly_116 * inp_poly_116))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -51215,7 +51215,7 @@ cut (* 51 *)
           )
           [3329, x**2 - 1874],
     (* inp_poly_117 *)
-    eqmod 65536 * (inp_poly_117 * inp_poly_117)
+    eqmod (65536 * (inp_poly_117 * inp_poly_117))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -51348,7 +51348,7 @@ cut (* 51 *)
           )
           [3329, x**2 - 1455],
     (* inp_poly_118 *)
-    eqmod 65536 * (inp_poly_118 * inp_poly_118)
+    eqmod (65536 * (inp_poly_118 * inp_poly_118))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -51481,7 +51481,7 @@ cut (* 51 *)
           )
           [3329, x**2 - 1029],
     (* inp_poly_119 *)
-    eqmod 65536 * (inp_poly_119 * inp_poly_119)
+    eqmod (65536 * (inp_poly_119 * inp_poly_119))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -51614,7 +51614,7 @@ cut (* 51 *)
           )
           [3329, x**2 - 2300],
     (* inp_poly_120 *)
-    eqmod 65536 * (inp_poly_120 * inp_poly_120)
+    eqmod (65536 * (inp_poly_120 * inp_poly_120))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -51747,7 +51747,7 @@ cut (* 51 *)
           )
           [3329, x**2 - 2110],
     (* inp_poly_121 *)
-    eqmod 65536 * (inp_poly_121 * inp_poly_121)
+    eqmod (65536 * (inp_poly_121 * inp_poly_121))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -51880,7 +51880,7 @@ cut (* 51 *)
           )
           [3329, x**2 - 1219],
     (* inp_poly_122 *)
-    eqmod 65536 * (inp_poly_122 * inp_poly_122)
+    eqmod (65536 * (inp_poly_122 * inp_poly_122))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -52013,7 +52013,7 @@ cut (* 51 *)
           )
           [3329, x**2 - 2935],
     (* inp_poly_123 *)
-    eqmod 65536 * (inp_poly_123 * inp_poly_123)
+    eqmod (65536 * (inp_poly_123 * inp_poly_123))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -52146,7 +52146,7 @@ cut (* 51 *)
           )
           [3329, x**2 - 394],
     (* inp_poly_124 *)
-    eqmod 65536 * (inp_poly_124 * inp_poly_124)
+    eqmod (65536 * (inp_poly_124 * inp_poly_124))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -52279,7 +52279,7 @@ cut (* 51 *)
           )
           [3329, x**2 - 885],
     (* inp_poly_125 *)
-    eqmod 65536 * (inp_poly_125 * inp_poly_125)
+    eqmod (65536 * (inp_poly_125 * inp_poly_125))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -52412,7 +52412,7 @@ cut (* 51 *)
           )
           [3329, x**2 - 2444],
     (* inp_poly_126 *)
-    eqmod 65536 * (inp_poly_126 * inp_poly_126)
+    eqmod (65536 * (inp_poly_126 * inp_poly_126))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -52545,7 +52545,7 @@ cut (* 51 *)
           )
           [3329, x**2 - 2154],
     (* inp_poly_127 *)
-    eqmod 65536 * (inp_poly_127 * inp_poly_127)
+    eqmod (65536 * (inp_poly_127 * inp_poly_127))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -52690,7 +52690,7 @@ cut (* 52 *)
   (* algebraic *)
   and [
     (* inp_poly_0 *)
-    eqmod 65536 * (inp_poly_0 * inp_poly_0)
+    eqmod (65536 * (inp_poly_0 * inp_poly_0))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -52823,7 +52823,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 17],
     (* inp_poly_1 *)
-    eqmod 65536 * (inp_poly_1 * inp_poly_1)
+    eqmod (65536 * (inp_poly_1 * inp_poly_1))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -52956,7 +52956,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 3312],
     (* inp_poly_2 *)
-    eqmod 65536 * (inp_poly_2 * inp_poly_2)
+    eqmod (65536 * (inp_poly_2 * inp_poly_2))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -53089,7 +53089,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 2761],
     (* inp_poly_3 *)
-    eqmod 65536 * (inp_poly_3 * inp_poly_3)
+    eqmod (65536 * (inp_poly_3 * inp_poly_3))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -53222,7 +53222,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 568],
     (* inp_poly_4 *)
-    eqmod 65536 * (inp_poly_4 * inp_poly_4)
+    eqmod (65536 * (inp_poly_4 * inp_poly_4))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -53355,7 +53355,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 583],
     (* inp_poly_5 *)
-    eqmod 65536 * (inp_poly_5 * inp_poly_5)
+    eqmod (65536 * (inp_poly_5 * inp_poly_5))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -53488,7 +53488,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 2746],
     (* inp_poly_6 *)
-    eqmod 65536 * (inp_poly_6 * inp_poly_6)
+    eqmod (65536 * (inp_poly_6 * inp_poly_6))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -53621,7 +53621,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 2649],
     (* inp_poly_7 *)
-    eqmod 65536 * (inp_poly_7 * inp_poly_7)
+    eqmod (65536 * (inp_poly_7 * inp_poly_7))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -53754,7 +53754,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 680],
     (* inp_poly_8 *)
-    eqmod 65536 * (inp_poly_8 * inp_poly_8)
+    eqmod (65536 * (inp_poly_8 * inp_poly_8))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -53887,7 +53887,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 1637],
     (* inp_poly_9 *)
-    eqmod 65536 * (inp_poly_9 * inp_poly_9)
+    eqmod (65536 * (inp_poly_9 * inp_poly_9))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -54020,7 +54020,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 1692],
     (* inp_poly_10 *)
-    eqmod 65536 * (inp_poly_10 * inp_poly_10)
+    eqmod (65536 * (inp_poly_10 * inp_poly_10))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -54153,7 +54153,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 723],
     (* inp_poly_11 *)
-    eqmod 65536 * (inp_poly_11 * inp_poly_11)
+    eqmod (65536 * (inp_poly_11 * inp_poly_11))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -54286,7 +54286,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 2606],
     (* inp_poly_12 *)
-    eqmod 65536 * (inp_poly_12 * inp_poly_12)
+    eqmod (65536 * (inp_poly_12 * inp_poly_12))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -54419,7 +54419,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 2288],
     (* inp_poly_13 *)
-    eqmod 65536 * (inp_poly_13 * inp_poly_13)
+    eqmod (65536 * (inp_poly_13 * inp_poly_13))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -54552,7 +54552,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 1041],
     (* inp_poly_14 *)
-    eqmod 65536 * (inp_poly_14 * inp_poly_14)
+    eqmod (65536 * (inp_poly_14 * inp_poly_14))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -54685,7 +54685,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 1100],
     (* inp_poly_15 *)
-    eqmod 65536 * (inp_poly_15 * inp_poly_15)
+    eqmod (65536 * (inp_poly_15 * inp_poly_15))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -54818,7 +54818,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 2229],
     (* inp_poly_16 *)
-    eqmod 65536 * (inp_poly_16 * inp_poly_16)
+    eqmod (65536 * (inp_poly_16 * inp_poly_16))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -54951,7 +54951,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 1409],
     (* inp_poly_17 *)
-    eqmod 65536 * (inp_poly_17 * inp_poly_17)
+    eqmod (65536 * (inp_poly_17 * inp_poly_17))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -55084,7 +55084,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 1920],
     (* inp_poly_18 *)
-    eqmod 65536 * (inp_poly_18 * inp_poly_18)
+    eqmod (65536 * (inp_poly_18 * inp_poly_18))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -55217,7 +55217,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 2662],
     (* inp_poly_19 *)
-    eqmod 65536 * (inp_poly_19 * inp_poly_19)
+    eqmod (65536 * (inp_poly_19 * inp_poly_19))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -55350,7 +55350,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 667],
     (* inp_poly_20 *)
-    eqmod 65536 * (inp_poly_20 * inp_poly_20)
+    eqmod (65536 * (inp_poly_20 * inp_poly_20))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -55483,7 +55483,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 3281],
     (* inp_poly_21 *)
-    eqmod 65536 * (inp_poly_21 * inp_poly_21)
+    eqmod (65536 * (inp_poly_21 * inp_poly_21))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -55616,7 +55616,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 48],
     (* inp_poly_22 *)
-    eqmod 65536 * (inp_poly_22 * inp_poly_22)
+    eqmod (65536 * (inp_poly_22 * inp_poly_22))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -55749,7 +55749,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 233],
     (* inp_poly_23 *)
-    eqmod 65536 * (inp_poly_23 * inp_poly_23)
+    eqmod (65536 * (inp_poly_23 * inp_poly_23))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -55882,7 +55882,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 3096],
     (* inp_poly_24 *)
-    eqmod 65536 * (inp_poly_24 * inp_poly_24)
+    eqmod (65536 * (inp_poly_24 * inp_poly_24))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -56015,7 +56015,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 756],
     (* inp_poly_25 *)
-    eqmod 65536 * (inp_poly_25 * inp_poly_25)
+    eqmod (65536 * (inp_poly_25 * inp_poly_25))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -56148,7 +56148,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 2573],
     (* inp_poly_26 *)
-    eqmod 65536 * (inp_poly_26 * inp_poly_26)
+    eqmod (65536 * (inp_poly_26 * inp_poly_26))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -56281,7 +56281,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 2156],
     (* inp_poly_27 *)
-    eqmod 65536 * (inp_poly_27 * inp_poly_27)
+    eqmod (65536 * (inp_poly_27 * inp_poly_27))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -56414,7 +56414,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 1173],
     (* inp_poly_28 *)
-    eqmod 65536 * (inp_poly_28 * inp_poly_28)
+    eqmod (65536 * (inp_poly_28 * inp_poly_28))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -56547,7 +56547,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 3015],
     (* inp_poly_29 *)
-    eqmod 65536 * (inp_poly_29 * inp_poly_29)
+    eqmod (65536 * (inp_poly_29 * inp_poly_29))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -56680,7 +56680,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 314],
     (* inp_poly_30 *)
-    eqmod 65536 * (inp_poly_30 * inp_poly_30)
+    eqmod (65536 * (inp_poly_30 * inp_poly_30))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -56813,7 +56813,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 3050],
     (* inp_poly_31 *)
-    eqmod 65536 * (inp_poly_31 * inp_poly_31)
+    eqmod (65536 * (inp_poly_31 * inp_poly_31))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -56946,7 +56946,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 279],
     (* inp_poly_32 *)
-    eqmod 65536 * (inp_poly_32 * inp_poly_32)
+    eqmod (65536 * (inp_poly_32 * inp_poly_32))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -57079,7 +57079,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 1703],
     (* inp_poly_33 *)
-    eqmod 65536 * (inp_poly_33 * inp_poly_33)
+    eqmod (65536 * (inp_poly_33 * inp_poly_33))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -57212,7 +57212,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 1626],
     (* inp_poly_34 *)
-    eqmod 65536 * (inp_poly_34 * inp_poly_34)
+    eqmod (65536 * (inp_poly_34 * inp_poly_34))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -57345,7 +57345,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 1651],
     (* inp_poly_35 *)
-    eqmod 65536 * (inp_poly_35 * inp_poly_35)
+    eqmod (65536 * (inp_poly_35 * inp_poly_35))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -57478,7 +57478,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 1678],
     (* inp_poly_36 *)
-    eqmod 65536 * (inp_poly_36 * inp_poly_36)
+    eqmod (65536 * (inp_poly_36 * inp_poly_36))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -57611,7 +57611,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 2789],
     (* inp_poly_37 *)
-    eqmod 65536 * (inp_poly_37 * inp_poly_37)
+    eqmod (65536 * (inp_poly_37 * inp_poly_37))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -57744,7 +57744,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 540],
     (* inp_poly_38 *)
-    eqmod 65536 * (inp_poly_38 * inp_poly_38)
+    eqmod (65536 * (inp_poly_38 * inp_poly_38))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -57877,7 +57877,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 1789],
     (* inp_poly_39 *)
-    eqmod 65536 * (inp_poly_39 * inp_poly_39)
+    eqmod (65536 * (inp_poly_39 * inp_poly_39))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -58010,7 +58010,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 1540],
     (* inp_poly_40 *)
-    eqmod 65536 * (inp_poly_40 * inp_poly_40)
+    eqmod (65536 * (inp_poly_40 * inp_poly_40))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -58143,7 +58143,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 1847],
     (* inp_poly_41 *)
-    eqmod 65536 * (inp_poly_41 * inp_poly_41)
+    eqmod (65536 * (inp_poly_41 * inp_poly_41))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -58276,7 +58276,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 1482],
     (* inp_poly_42 *)
-    eqmod 65536 * (inp_poly_42 * inp_poly_42)
+    eqmod (65536 * (inp_poly_42 * inp_poly_42))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -58409,7 +58409,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 952],
     (* inp_poly_43 *)
-    eqmod 65536 * (inp_poly_43 * inp_poly_43)
+    eqmod (65536 * (inp_poly_43 * inp_poly_43))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -58542,7 +58542,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 2377],
     (* inp_poly_44 *)
-    eqmod 65536 * (inp_poly_44 * inp_poly_44)
+    eqmod (65536 * (inp_poly_44 * inp_poly_44))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -58675,7 +58675,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 1461],
     (* inp_poly_45 *)
-    eqmod 65536 * (inp_poly_45 * inp_poly_45)
+    eqmod (65536 * (inp_poly_45 * inp_poly_45))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -58808,7 +58808,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 1868],
     (* inp_poly_46 *)
-    eqmod 65536 * (inp_poly_46 * inp_poly_46)
+    eqmod (65536 * (inp_poly_46 * inp_poly_46))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -58941,7 +58941,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 2687],
     (* inp_poly_47 *)
-    eqmod 65536 * (inp_poly_47 * inp_poly_47)
+    eqmod (65536 * (inp_poly_47 * inp_poly_47))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -59074,7 +59074,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 642],
     (* inp_poly_48 *)
-    eqmod 65536 * (inp_poly_48 * inp_poly_48)
+    eqmod (65536 * (inp_poly_48 * inp_poly_48))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -59207,7 +59207,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 939],
     (* inp_poly_49 *)
-    eqmod 65536 * (inp_poly_49 * inp_poly_49)
+    eqmod (65536 * (inp_poly_49 * inp_poly_49))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -59340,7 +59340,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 2390],
     (* inp_poly_50 *)
-    eqmod 65536 * (inp_poly_50 * inp_poly_50)
+    eqmod (65536 * (inp_poly_50 * inp_poly_50))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -59473,7 +59473,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 2308],
     (* inp_poly_51 *)
-    eqmod 65536 * (inp_poly_51 * inp_poly_51)
+    eqmod (65536 * (inp_poly_51 * inp_poly_51))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -59606,7 +59606,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 1021],
     (* inp_poly_52 *)
-    eqmod 65536 * (inp_poly_52 * inp_poly_52)
+    eqmod (65536 * (inp_poly_52 * inp_poly_52))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -59739,7 +59739,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 2437],
     (* inp_poly_53 *)
-    eqmod 65536 * (inp_poly_53 * inp_poly_53)
+    eqmod (65536 * (inp_poly_53 * inp_poly_53))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -59872,7 +59872,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 892],
     (* inp_poly_54 *)
-    eqmod 65536 * (inp_poly_54 * inp_poly_54)
+    eqmod (65536 * (inp_poly_54 * inp_poly_54))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -60005,7 +60005,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 2388],
     (* inp_poly_55 *)
-    eqmod 65536 * (inp_poly_55 * inp_poly_55)
+    eqmod (65536 * (inp_poly_55 * inp_poly_55))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -60138,7 +60138,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 941],
     (* inp_poly_56 *)
-    eqmod 65536 * (inp_poly_56 * inp_poly_56)
+    eqmod (65536 * (inp_poly_56 * inp_poly_56))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -60271,7 +60271,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 733],
     (* inp_poly_57 *)
-    eqmod 65536 * (inp_poly_57 * inp_poly_57)
+    eqmod (65536 * (inp_poly_57 * inp_poly_57))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -60404,7 +60404,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 2596],
     (* inp_poly_58 *)
-    eqmod 65536 * (inp_poly_58 * inp_poly_58)
+    eqmod (65536 * (inp_poly_58 * inp_poly_58))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -60537,7 +60537,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 2337],
     (* inp_poly_59 *)
-    eqmod 65536 * (inp_poly_59 * inp_poly_59)
+    eqmod (65536 * (inp_poly_59 * inp_poly_59))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -60670,7 +60670,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 992],
     (* inp_poly_60 *)
-    eqmod 65536 * (inp_poly_60 * inp_poly_60)
+    eqmod (65536 * (inp_poly_60 * inp_poly_60))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -60803,7 +60803,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 268],
     (* inp_poly_61 *)
-    eqmod 65536 * (inp_poly_61 * inp_poly_61)
+    eqmod (65536 * (inp_poly_61 * inp_poly_61))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -60936,7 +60936,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 3061],
     (* inp_poly_62 *)
-    eqmod 65536 * (inp_poly_62 * inp_poly_62)
+    eqmod (65536 * (inp_poly_62 * inp_poly_62))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -61069,7 +61069,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 641],
     (* inp_poly_63 *)
-    eqmod 65536 * (inp_poly_63 * inp_poly_63)
+    eqmod (65536 * (inp_poly_63 * inp_poly_63))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -61202,7 +61202,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 2688],
     (* inp_poly_64 *)
-    eqmod 65536 * (inp_poly_64 * inp_poly_64)
+    eqmod (65536 * (inp_poly_64 * inp_poly_64))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -61335,7 +61335,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 1584],
     (* inp_poly_65 *)
-    eqmod 65536 * (inp_poly_65 * inp_poly_65)
+    eqmod (65536 * (inp_poly_65 * inp_poly_65))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -61468,7 +61468,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 1745],
     (* inp_poly_66 *)
-    eqmod 65536 * (inp_poly_66 * inp_poly_66)
+    eqmod (65536 * (inp_poly_66 * inp_poly_66))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -61601,7 +61601,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 2298],
     (* inp_poly_67 *)
-    eqmod 65536 * (inp_poly_67 * inp_poly_67)
+    eqmod (65536 * (inp_poly_67 * inp_poly_67))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -61734,7 +61734,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 1031],
     (* inp_poly_68 *)
-    eqmod 65536 * (inp_poly_68 * inp_poly_68)
+    eqmod (65536 * (inp_poly_68 * inp_poly_68))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -61867,7 +61867,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 2037],
     (* inp_poly_69 *)
-    eqmod 65536 * (inp_poly_69 * inp_poly_69)
+    eqmod (65536 * (inp_poly_69 * inp_poly_69))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -62000,7 +62000,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 1292],
     (* inp_poly_70 *)
-    eqmod 65536 * (inp_poly_70 * inp_poly_70)
+    eqmod (65536 * (inp_poly_70 * inp_poly_70))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -62133,7 +62133,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 3220],
     (* inp_poly_71 *)
-    eqmod 65536 * (inp_poly_71 * inp_poly_71)
+    eqmod (65536 * (inp_poly_71 * inp_poly_71))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -62266,7 +62266,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 109],
     (* inp_poly_72 *)
-    eqmod 65536 * (inp_poly_72 * inp_poly_72)
+    eqmod (65536 * (inp_poly_72 * inp_poly_72))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -62399,7 +62399,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 375],
     (* inp_poly_73 *)
-    eqmod 65536 * (inp_poly_73 * inp_poly_73)
+    eqmod (65536 * (inp_poly_73 * inp_poly_73))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -62532,7 +62532,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 2954],
     (* inp_poly_74 *)
-    eqmod 65536 * (inp_poly_74 * inp_poly_74)
+    eqmod (65536 * (inp_poly_74 * inp_poly_74))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -62665,7 +62665,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 2549],
     (* inp_poly_75 *)
-    eqmod 65536 * (inp_poly_75 * inp_poly_75)
+    eqmod (65536 * (inp_poly_75 * inp_poly_75))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -62798,7 +62798,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 780],
     (* inp_poly_76 *)
-    eqmod 65536 * (inp_poly_76 * inp_poly_76)
+    eqmod (65536 * (inp_poly_76 * inp_poly_76))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -62931,7 +62931,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 2090],
     (* inp_poly_77 *)
-    eqmod 65536 * (inp_poly_77 * inp_poly_77)
+    eqmod (65536 * (inp_poly_77 * inp_poly_77))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -63064,7 +63064,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 1239],
     (* inp_poly_78 *)
-    eqmod 65536 * (inp_poly_78 * inp_poly_78)
+    eqmod (65536 * (inp_poly_78 * inp_poly_78))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -63197,7 +63197,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 1645],
     (* inp_poly_79 *)
-    eqmod 65536 * (inp_poly_79 * inp_poly_79)
+    eqmod (65536 * (inp_poly_79 * inp_poly_79))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -63330,7 +63330,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 1684],
     (* inp_poly_80 *)
-    eqmod 65536 * (inp_poly_80 * inp_poly_80)
+    eqmod (65536 * (inp_poly_80 * inp_poly_80))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -63463,7 +63463,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 1063],
     (* inp_poly_81 *)
-    eqmod 65536 * (inp_poly_81 * inp_poly_81)
+    eqmod (65536 * (inp_poly_81 * inp_poly_81))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -63596,7 +63596,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 2266],
     (* inp_poly_82 *)
-    eqmod 65536 * (inp_poly_82 * inp_poly_82)
+    eqmod (65536 * (inp_poly_82 * inp_poly_82))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -63729,7 +63729,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 319],
     (* inp_poly_83 *)
-    eqmod 65536 * (inp_poly_83 * inp_poly_83)
+    eqmod (65536 * (inp_poly_83 * inp_poly_83))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -63862,7 +63862,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 3010],
     (* inp_poly_84 *)
-    eqmod 65536 * (inp_poly_84 * inp_poly_84)
+    eqmod (65536 * (inp_poly_84 * inp_poly_84))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -63995,7 +63995,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 2773],
     (* inp_poly_85 *)
-    eqmod 65536 * (inp_poly_85 * inp_poly_85)
+    eqmod (65536 * (inp_poly_85 * inp_poly_85))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -64128,7 +64128,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 556],
     (* inp_poly_86 *)
-    eqmod 65536 * (inp_poly_86 * inp_poly_86)
+    eqmod (65536 * (inp_poly_86 * inp_poly_86))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -64261,7 +64261,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 757],
     (* inp_poly_87 *)
-    eqmod 65536 * (inp_poly_87 * inp_poly_87)
+    eqmod (65536 * (inp_poly_87 * inp_poly_87))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -64394,7 +64394,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 2572],
     (* inp_poly_88 *)
-    eqmod 65536 * (inp_poly_88 * inp_poly_88)
+    eqmod (65536 * (inp_poly_88 * inp_poly_88))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -64527,7 +64527,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 2099],
     (* inp_poly_89 *)
-    eqmod 65536 * (inp_poly_89 * inp_poly_89)
+    eqmod (65536 * (inp_poly_89 * inp_poly_89))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -64660,7 +64660,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 1230],
     (* inp_poly_90 *)
-    eqmod 65536 * (inp_poly_90 * inp_poly_90)
+    eqmod (65536 * (inp_poly_90 * inp_poly_90))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -64793,7 +64793,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 561],
     (* inp_poly_91 *)
-    eqmod 65536 * (inp_poly_91 * inp_poly_91)
+    eqmod (65536 * (inp_poly_91 * inp_poly_91))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -64926,7 +64926,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 2768],
     (* inp_poly_92 *)
-    eqmod 65536 * (inp_poly_92 * inp_poly_92)
+    eqmod (65536 * (inp_poly_92 * inp_poly_92))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -65059,7 +65059,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 2466],
     (* inp_poly_93 *)
-    eqmod 65536 * (inp_poly_93 * inp_poly_93)
+    eqmod (65536 * (inp_poly_93 * inp_poly_93))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -65192,7 +65192,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 863],
     (* inp_poly_94 *)
-    eqmod 65536 * (inp_poly_94 * inp_poly_94)
+    eqmod (65536 * (inp_poly_94 * inp_poly_94))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -65325,7 +65325,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 2594],
     (* inp_poly_95 *)
-    eqmod 65536 * (inp_poly_95 * inp_poly_95)
+    eqmod (65536 * (inp_poly_95 * inp_poly_95))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -65458,7 +65458,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 735],
     (* inp_poly_96 *)
-    eqmod 65536 * (inp_poly_96 * inp_poly_96)
+    eqmod (65536 * (inp_poly_96 * inp_poly_96))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -65591,7 +65591,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 2804],
     (* inp_poly_97 *)
-    eqmod 65536 * (inp_poly_97 * inp_poly_97)
+    eqmod (65536 * (inp_poly_97 * inp_poly_97))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -65724,7 +65724,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 525],
     (* inp_poly_98 *)
-    eqmod 65536 * (inp_poly_98 * inp_poly_98)
+    eqmod (65536 * (inp_poly_98 * inp_poly_98))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -65857,7 +65857,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 1092],
     (* inp_poly_99 *)
-    eqmod 65536 * (inp_poly_99 * inp_poly_99)
+    eqmod (65536 * (inp_poly_99 * inp_poly_99))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -65990,7 +65990,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 2237],
     (* inp_poly_100 *)
-    eqmod 65536 * (inp_poly_100 * inp_poly_100)
+    eqmod (65536 * (inp_poly_100 * inp_poly_100))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -66123,7 +66123,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 403],
     (* inp_poly_101 *)
-    eqmod 65536 * (inp_poly_101 * inp_poly_101)
+    eqmod (65536 * (inp_poly_101 * inp_poly_101))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -66256,7 +66256,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 2926],
     (* inp_poly_102 *)
-    eqmod 65536 * (inp_poly_102 * inp_poly_102)
+    eqmod (65536 * (inp_poly_102 * inp_poly_102))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -66389,7 +66389,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 1026],
     (* inp_poly_103 *)
-    eqmod 65536 * (inp_poly_103 * inp_poly_103)
+    eqmod (65536 * (inp_poly_103 * inp_poly_103))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -66522,7 +66522,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 2303],
     (* inp_poly_104 *)
-    eqmod 65536 * (inp_poly_104 * inp_poly_104)
+    eqmod (65536 * (inp_poly_104 * inp_poly_104))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -66655,7 +66655,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 1143],
     (* inp_poly_105 *)
-    eqmod 65536 * (inp_poly_105 * inp_poly_105)
+    eqmod (65536 * (inp_poly_105 * inp_poly_105))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -66788,7 +66788,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 2186],
     (* inp_poly_106 *)
-    eqmod 65536 * (inp_poly_106 * inp_poly_106)
+    eqmod (65536 * (inp_poly_106 * inp_poly_106))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -66921,7 +66921,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 2150],
     (* inp_poly_107 *)
-    eqmod 65536 * (inp_poly_107 * inp_poly_107)
+    eqmod (65536 * (inp_poly_107 * inp_poly_107))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -67054,7 +67054,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 1179],
     (* inp_poly_108 *)
-    eqmod 65536 * (inp_poly_108 * inp_poly_108)
+    eqmod (65536 * (inp_poly_108 * inp_poly_108))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -67187,7 +67187,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 2775],
     (* inp_poly_109 *)
-    eqmod 65536 * (inp_poly_109 * inp_poly_109)
+    eqmod (65536 * (inp_poly_109 * inp_poly_109))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -67320,7 +67320,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 554],
     (* inp_poly_110 *)
-    eqmod 65536 * (inp_poly_110 * inp_poly_110)
+    eqmod (65536 * (inp_poly_110 * inp_poly_110))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -67453,7 +67453,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 886],
     (* inp_poly_111 *)
-    eqmod 65536 * (inp_poly_111 * inp_poly_111)
+    eqmod (65536 * (inp_poly_111 * inp_poly_111))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -67586,7 +67586,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 2443],
     (* inp_poly_112 *)
-    eqmod 65536 * (inp_poly_112 * inp_poly_112)
+    eqmod (65536 * (inp_poly_112 * inp_poly_112))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -67719,7 +67719,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 1722],
     (* inp_poly_113 *)
-    eqmod 65536 * (inp_poly_113 * inp_poly_113)
+    eqmod (65536 * (inp_poly_113 * inp_poly_113))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -67852,7 +67852,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 1607],
     (* inp_poly_114 *)
-    eqmod 65536 * (inp_poly_114 * inp_poly_114)
+    eqmod (65536 * (inp_poly_114 * inp_poly_114))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -67985,7 +67985,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 1212],
     (* inp_poly_115 *)
-    eqmod 65536 * (inp_poly_115 * inp_poly_115)
+    eqmod (65536 * (inp_poly_115 * inp_poly_115))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -68118,7 +68118,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 2117],
     (* inp_poly_116 *)
-    eqmod 65536 * (inp_poly_116 * inp_poly_116)
+    eqmod (65536 * (inp_poly_116 * inp_poly_116))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -68251,7 +68251,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 1874],
     (* inp_poly_117 *)
-    eqmod 65536 * (inp_poly_117 * inp_poly_117)
+    eqmod (65536 * (inp_poly_117 * inp_poly_117))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -68384,7 +68384,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 1455],
     (* inp_poly_118 *)
-    eqmod 65536 * (inp_poly_118 * inp_poly_118)
+    eqmod (65536 * (inp_poly_118 * inp_poly_118))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -68517,7 +68517,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 1029],
     (* inp_poly_119 *)
-    eqmod 65536 * (inp_poly_119 * inp_poly_119)
+    eqmod (65536 * (inp_poly_119 * inp_poly_119))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -68650,7 +68650,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 2300],
     (* inp_poly_120 *)
-    eqmod 65536 * (inp_poly_120 * inp_poly_120)
+    eqmod (65536 * (inp_poly_120 * inp_poly_120))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -68783,7 +68783,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 2110],
     (* inp_poly_121 *)
-    eqmod 65536 * (inp_poly_121 * inp_poly_121)
+    eqmod (65536 * (inp_poly_121 * inp_poly_121))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -68916,7 +68916,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 1219],
     (* inp_poly_122 *)
-    eqmod 65536 * (inp_poly_122 * inp_poly_122)
+    eqmod (65536 * (inp_poly_122 * inp_poly_122))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -69049,7 +69049,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 2935],
     (* inp_poly_123 *)
-    eqmod 65536 * (inp_poly_123 * inp_poly_123)
+    eqmod (65536 * (inp_poly_123 * inp_poly_123))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -69182,7 +69182,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 394],
     (* inp_poly_124 *)
-    eqmod 65536 * (inp_poly_124 * inp_poly_124)
+    eqmod (65536 * (inp_poly_124 * inp_poly_124))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -69315,7 +69315,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 885],
     (* inp_poly_125 *)
-    eqmod 65536 * (inp_poly_125 * inp_poly_125)
+    eqmod (65536 * (inp_poly_125 * inp_poly_125))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -69448,7 +69448,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 2444],
     (* inp_poly_126 *)
-    eqmod 65536 * (inp_poly_126 * inp_poly_126)
+    eqmod (65536 * (inp_poly_126 * inp_poly_126))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 
@@ -69581,7 +69581,7 @@ cut (* 52 *)
           )
           [3329, x**2 - 2154],
     (* inp_poly_127 *)
-    eqmod 65536 * (inp_poly_127 * inp_poly_127)
+    eqmod (65536 * (inp_poly_127 * inp_poly_127))
           (
             L0x2001a530 * (x**0) + L0x2001a532 * (x**1) + 
             L0x2001a534 * (x**2) + L0x2001a536 * (x**3) + 

@@ -132,7 +132,7 @@ sbbs carry rdx rdx 0@uint64 carry;
 mov carryC carry;
 
 assert true && (carryA - carryB + (carryB * carryC)) = 0@1;
-assume eq carryA - carryB + (carryB * carryC) 0 && true;
+assume eq (carryA - carryB + (carryB * carryC)) 0 && true;
 
 (* cmovb  %r14,%r8                                 #! PC = 0x93824992307394 *)
 cmov r8 carry r14 r8;
@@ -223,7 +223,7 @@ sbbs carry rdx rdx 0@uint64 carry;
 mov carryC carry;
 
 assert true && (carryA - carryB + (carryB * carryC)) = 0@1;
-assume eq carryA - carryB + (carryB * carryC) 0 && true;
+assume eq (carryA - carryB + (carryB * carryC)) 0 && true;
 
 (* cmovb  %r14,%r8                                 #! PC = 0x93824992307394 *)
 cmov r8 carry r14 r8;

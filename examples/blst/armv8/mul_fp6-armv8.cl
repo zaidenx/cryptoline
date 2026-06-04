@@ -1390,7 +1390,7 @@ rcut and [limbs 64 [L0x40008298d0, L0x40008298d8, L0x40008298e0,
           m0 = 0xb9feffffffffaaab@64, m1 = 0x1eabfffeb153ffff@64,
           m2 = 0x6730d2a0f6b0f624@64, m3 = 0x64774b84f38512bf@64,
           m4 = 0x4b1ba7b6434bacd7@64, m5 = 0x1a0111ea397fe69a@64
-     ] prove with precondition;
+     ] prove with [precondition];
 
 ghost L0x4000829b68o@uint64, L0x4000829b70o@uint64, L0x4000829b78o@uint64,
       L0x4000829b80o@uint64, L0x4000829b88o@uint64, L0x4000829b90o@uint64,
@@ -1754,7 +1754,7 @@ rcut and [limbs 64 [L0x40008298d0, L0x40008298d8, L0x40008298e0,
           limbs 64[b30,b31,b32,b33,b34,b35] <u limbs 64[m0,m1,m2,m3,m4,m5],
           limbs 64[b40,b41,b42,b43,b44,b45] <u limbs 64[m0,m1,m2,m3,m4,m5],
           limbs 64[b50,b51,b52,b53,b54,b55] <u limbs 64[m0,m1,m2,m3,m4,m5]
-     ] prove with all cuts, precondition;
+     ] prove with [all cuts, precondition];
 
 ghost L0x4000829b08o@uint64, L0x4000829b10o@uint64, L0x4000829b18o@uint64,
       L0x4000829b20o@uint64, L0x4000829b28o@uint64, L0x4000829b30o@uint64,
@@ -3139,7 +3139,7 @@ rcut and [limbs 64 [L0x40008298d0, L0x40008298d8, L0x40008298e0,
           m0 = 0xb9feffffffffaaab@64, m1 = 0x1eabfffeb153ffff@64,
           m2 = 0x6730d2a0f6b0f624@64, m3 = 0x64774b84f38512bf@64,
           m4 = 0x4b1ba7b6434bacd7@64, m5 = 0x1a0111ea397fe69a@64
-     ] prove with precondition;
+     ] prove with [precondition];
 
 ghost L0x4000829c28o@uint64, L0x4000829c30o@uint64, L0x4000829c38o@uint64,
       L0x4000829c40o@uint64, L0x4000829c48o@uint64, L0x4000829c50o@uint64,
@@ -3497,7 +3497,7 @@ rcut and [limbs 64 [L0x40008298d0, L0x40008298d8, L0x40008298e0,
           limbs 64[b30,b31,b32,b33,b34,b35] <u limbs 64[m0,m1,m2,m3,m4,m5],
           limbs 64[b40,b41,b42,b43,b44,b45] <u limbs 64[m0,m1,m2,m3,m4,m5],
           limbs 64[b50,b51,b52,b53,b54,b55] <u limbs 64[m0,m1,m2,m3,m4,m5]
-     ] prove with all cuts, precondition;
+     ] prove with [all cuts, precondition];
 
 ghost L0x4000829bc8o@uint64, L0x4000829bd0o@uint64, L0x4000829bd8o@uint64,
       L0x4000829be0o@uint64, L0x4000829be8o@uint64, L0x4000829bf0o@uint64,
@@ -4888,7 +4888,7 @@ rcut and [limbs 64 [L0x40008298d0, L0x40008298d8, L0x40008298e0,
           m0 = 0xb9feffffffffaaab@64, m1 = 0x1eabfffeb153ffff@64,
           m2 = 0x6730d2a0f6b0f624@64, m3 = 0x64774b84f38512bf@64,
           m4 = 0x4b1ba7b6434bacd7@64, m5 = 0x1a0111ea397fe69a@64
-     ] prove with precondition;
+     ] prove with [precondition];
 
 ghost L0x4000829ce8o@uint64, L0x4000829cf0o@uint64, L0x4000829cf8o@uint64,
       L0x4000829d00o@uint64, L0x4000829d08o@uint64, L0x4000829d10o@uint64,
@@ -5235,7 +5235,7 @@ rcut and [limbs 64 [L0x40008298d0, L0x40008298d8, L0x40008298e0,
           m0 = 0xb9feffffffffaaab@64, m1 = 0x1eabfffeb153ffff@64,
           m2 = 0x6730d2a0f6b0f624@64, m3 = 0x64774b84f38512bf@64,
           m4 = 0x4b1ba7b6434bacd7@64, m5 = 0x1a0111ea397fe69a@64
-     ] prove with all cuts;
+     ] prove with [all cuts];
 
 ghost L0x4000829c88o@uint64, L0x4000829c90o@uint64, L0x4000829c98o@uint64,
       L0x4000829ca0o@uint64, L0x4000829ca8o@uint64, L0x4000829cb0o@uint64,
@@ -5490,7 +5490,7 @@ rcut and [limbs 64 [L0x400082a0a8, L0x400082a0b0, L0x400082a0b8,
           m0 = 0xb9feffffffffaaab@64, m1 = 0x1eabfffeb153ffff@64,
           m2 = 0x6730d2a0f6b0f624@64, m3 = 0x64774b84f38512bf@64,
           m4 = 0x4b1ba7b6434bacd7@64, m5 = 0x1a0111ea397fe69a@64
-     ] prove with precondition;
+     ] prove with [precondition];
 
 (* mov	x1, x22                                     #! PC = 0x274877950316 *)
 mov x1 x22;
@@ -6024,7 +6024,7 @@ rcut and [limbs 64 [L0x4000829a48, L0x4000829a50, L0x4000829a58,
           m0 = 0xb9feffffffffaaab@64, m1 = 0x1eabfffeb153ffff@64,
           m2 = 0x6730d2a0f6b0f624@64, m3 = 0x64774b84f38512bf@64,
           m4 = 0x4b1ba7b6434bacd7@64, m5 = 0x1a0111ea397fe69a@64
-     ] prove with precondition;
+     ] prove with [precondition];
 
 (* #paciasp                                         #! PC = 0x274877989824 *)
 #paciasp                                         #! 0x274877989824 = 0x274877989824;
@@ -7518,7 +7518,7 @@ rcut and [limbs 64 [L0x40008298d0, L0x40008298d8, L0x40008298e0,
           m0 = 0xb9feffffffffaaab@64, m1 = 0x1eabfffeb153ffff@64,
           m2 = 0x6730d2a0f6b0f624@64, m3 = 0x64774b84f38512bf@64,
           m4 = 0x4b1ba7b6434bacd7@64, m5 = 0x1a0111ea397fe69a@64
-     ] prove with all cuts;
+     ] prove with [all cuts];
 
 ghost L0x4000829d98o@uint64, L0x4000829da0o@uint64, L0x4000829da8o@uint64,
       L0x4000829db0o@uint64, L0x4000829db8o@uint64, L0x4000829dc0o@uint64,
@@ -7800,7 +7800,7 @@ rcut and [limbs 64 [L0x4000829dc8, L0x4000829dd0, L0x4000829dd8,
           m0 = 0xb9feffffffffaaab@64, m1 = 0x1eabfffeb153ffff@64,
           m2 = 0x6730d2a0f6b0f624@64, m3 = 0x64774b84f38512bf@64,
           m4 = 0x4b1ba7b6434bacd7@64, m5 = 0x1a0111ea397fe69a@64
-     ] prove with all cuts, precondition;
+     ] prove with [all cuts, precondition];
 
 ghost L0x4000829d98q@uint64, L0x4000829da0q@uint64, L0x4000829da8q@uint64,
       L0x4000829db0q@uint64, L0x4000829db8q@uint64, L0x4000829dc0q@uint64,
@@ -8204,7 +8204,7 @@ rcut and [limbs 64 [L0x4000829dc8, L0x4000829dd0, L0x4000829dd8,
           m0 = 0xb9feffffffffaaab@64, m1 = 0x1eabfffeb153ffff@64,
           m2 = 0x6730d2a0f6b0f624@64, m3 = 0x64774b84f38512bf@64,
           m4 = 0x4b1ba7b6434bacd7@64, m5 = 0x1a0111ea397fe69a@64
-     ] prove with all cuts, precondition;
+     ] prove with [all cuts, precondition];
 
 ghost L0x4000829d98r@uint64, L0x4000829da0r@uint64, L0x4000829da8r@uint64,
       L0x4000829db0r@uint64, L0x4000829db8r@uint64, L0x4000829dc0r@uint64,
@@ -9072,7 +9072,7 @@ rcut and [limbs 64 [L0x4000829e88, L0x4000829e90, L0x4000829e98,
           m0 = 0xb9feffffffffaaab@64, m1 = 0x1eabfffeb153ffff@64,
           m2 = 0x6730d2a0f6b0f624@64, m3 = 0x64774b84f38512bf@64,
           m4 = 0x4b1ba7b6434bacd7@64, m5 = 0x1a0111ea397fe69a@64
-     ] prove with all cuts, precondition;
+     ] prove with [all cuts, precondition];
 
 (* stp	x29, x30, [sp, #-64]!                       #! EA = L0x4000829950; PC = 0x274877984292 *)
 mov L0x4000829950 x29;
@@ -9504,7 +9504,7 @@ ecut and [eqmod (limbs 64 [L0x4000829a48r0, L0x4000829a50r0, L0x4000829a58r0,
                  (limbs 64 [b00, b01, b02, b03, b04, b05] +
                   limbs 64 [b10, b11, b12, b13, b14, b15] * U))
                 [limbs 64 [0, 0, 0, 0, 0, 0, m0, m1, m2, m3, m4, m5],
-                 U * U + 1]] prove with precondition;
+                 U * U + 1]] prove with [precondition];
 *)
 
 (* mov	x3, x19                                     #! PC = 0x274877950576 *)
@@ -9546,7 +9546,7 @@ rcut and [limbs 64 [L0x4000829dc8, L0x4000829dd0, L0x4000829dd8,
           m0 = 0xb9feffffffffaaab@64, m1 = 0x1eabfffeb153ffff@64,
           m2 = 0x6730d2a0f6b0f624@64, m3 = 0x64774b84f38512bf@64,
           m4 = 0x4b1ba7b6434bacd7@64, m5 = 0x1a0111ea397fe69a@64
-     ] prove with precondition;
+     ] prove with [precondition];
 
 (* stp	x29, x30, [sp, #-48]!                       #! EA = L0x4000829960; PC = 0x274877979620 *)
 mov L0x4000829960 x29;
@@ -11189,7 +11189,7 @@ rcut and [limbs 64 [L0x40008298d0, L0x40008298d8, L0x40008298e0,
           m0 = 0xb9feffffffffaaab@64, m1 = 0x1eabfffeb153ffff@64,
           m2 = 0x6730d2a0f6b0f624@64, m3 = 0x64774b84f38512bf@64,
           m4 = 0x4b1ba7b6434bacd7@64, m5 = 0x1a0111ea397fe69a@64
-     ] prove with precondition;
+     ] prove with [precondition];
 
 ghost L0x4000829eb8o@uint64, L0x4000829ec0o@uint64, L0x4000829ec8o@uint64,
       L0x4000829ed0o@uint64, L0x4000829ed8o@uint64, L0x4000829ee0o@uint64,
@@ -11535,7 +11535,7 @@ rcut and [limbs 64 [L0x40008298d0, L0x40008298d8, L0x40008298e0,
           m0 = 0xb9feffffffffaaab@64, m1 = 0x1eabfffeb153ffff@64,
           m2 = 0x6730d2a0f6b0f624@64, m3 = 0x64774b84f38512bf@64,
           m4 = 0x4b1ba7b6434bacd7@64, m5 = 0x1a0111ea397fe69a@64
-     ] prove with all cuts;
+     ] prove with [all cuts];
 
 ghost L0x4000829e58o@uint64, L0x4000829e60o@uint64, L0x4000829e68o@uint64,
       L0x4000829e70o@uint64, L0x4000829e78o@uint64, L0x4000829e80o@uint64,
@@ -11788,7 +11788,7 @@ rcut and [limbs 64 [L0x4000829e88, L0x4000829e90, L0x4000829e98,
           m0 = 0xb9feffffffffaaab@64, m1 = 0x1eabfffeb153ffff@64,
           m2 = 0x6730d2a0f6b0f624@64, m3 = 0x64774b84f38512bf@64,
           m4 = 0x4b1ba7b6434bacd7@64, m5 = 0x1a0111ea397fe69a@64
-     ] prove with all cuts, precondition;
+     ] prove with [all cuts, precondition];
 
 ghost L0x4000829e58p@uint64, L0x4000829e60p@uint64, L0x4000829e68p@uint64,
       L0x4000829e70p@uint64, L0x4000829e78p@uint64, L0x4000829e80p@uint64,
@@ -12222,7 +12222,7 @@ rcut and [limbs 64 [L0x4000829e88, L0x4000829e90, L0x4000829e98,
           m0 = 0xb9feffffffffaaab@64, m1 = 0x1eabfffeb153ffff@64,
           m2 = 0x6730d2a0f6b0f624@64, m3 = 0x64774b84f38512bf@64,
           m4 = 0x4b1ba7b6434bacd7@64, m5 = 0x1a0111ea397fe69a@64
-     ] prove with all cuts, precondition;
+     ] prove with [all cuts, precondition];
 
 ghost L0x4000829e58r@uint64, L0x4000829e60r@uint64, L0x4000829e68r@uint64,
       L0x4000829e70r@uint64, L0x4000829e78r@uint64, L0x4000829e80r@uint64,
@@ -12659,7 +12659,7 @@ rcut and [limbs 64 [L0x4000829cb8, L0x4000829cc0, L0x4000829cc8,
           m0 = 0xb9feffffffffaaab@64, m1 = 0x1eabfffeb153ffff@64,
           m2 = 0x6730d2a0f6b0f624@64, m3 = 0x64774b84f38512bf@64,
           m4 = 0x4b1ba7b6434bacd7@64, m5 = 0x1a0111ea397fe69a@64
-     ] prove with all cuts, precondition;
+     ] prove with [all cuts, precondition];
 
 (* stp	x29, x30, [sp, #-64]!                       #! EA = L0x4000829950; PC = 0x274877984580 *)
 mov L0x4000829950 x29;
@@ -13064,7 +13064,7 @@ rcut and [limbs 64 [L0x4000829e88, L0x4000829e90, L0x4000829e98,
           m0 = 0xb9feffffffffaaab@64, m1 = 0x1eabfffeb153ffff@64,
           m2 = 0x6730d2a0f6b0f624@64, m3 = 0x64774b84f38512bf@64,
           m4 = 0x4b1ba7b6434bacd7@64, m5 = 0x1a0111ea397fe69a@64
-     ] prove with all cuts, precondition;
+     ] prove with [all cuts, precondition];
 
 ghost L0x4000829e58s@uint64, L0x4000829e60s@uint64, L0x4000829e68s@uint64,
       L0x4000829e70s@uint64, L0x4000829e78s@uint64, L0x4000829e80s@uint64,
@@ -13525,7 +13525,7 @@ ecut and [eqmod (limbs 64 [L0x4000829a48r1, L0x4000829a50r1, L0x4000829a58r1,
                   limbs 64 [b50, b51, b52, b53, b54, b55] * U) *
                  (U + 1))
            [limbs 64 [0, 0, 0, 0, 0, 0, m0, m1, m2, m3, m4, m5],
-            U * U + 1]] prove with precondition;
+            U * U + 1]] prove with [precondition];
 *)
 
 rcut and [limbs 64 [L0x4000829e88, L0x4000829e90, L0x4000829e98,
@@ -13554,7 +13554,7 @@ rcut and [limbs 64 [L0x4000829e88, L0x4000829e90, L0x4000829e98,
           m0 = 0xb9feffffffffaaab@64, m1 = 0x1eabfffeb153ffff@64,
           m2 = 0x6730d2a0f6b0f624@64, m3 = 0x64774b84f38512bf@64,
           m4 = 0x4b1ba7b6434bacd7@64, m5 = 0x1a0111ea397fe69a@64
-     ] prove with precondition;
+     ] prove with [precondition];
 
 (* mov	x3, x19                                     #! PC = 0x274877950800 *)
 mov x3 x19;
@@ -15180,7 +15180,7 @@ rcut and [limbs 64 [L0x40008298d0, L0x40008298d8, L0x40008298e0,
           m0 = 0xb9feffffffffaaab@64, m1 = 0x1eabfffeb153ffff@64,
           m2 = 0x6730d2a0f6b0f624@64, m3 = 0x64774b84f38512bf@64,
           m4 = 0x4b1ba7b6434bacd7@64, m5 = 0x1a0111ea397fe69a@64
-     ] prove with precondition;
+     ] prove with [precondition];
 
 ghost L0x4000829f78o@uint64, L0x4000829f80o@uint64, L0x4000829f88o@uint64,
       L0x4000829f90o@uint64, L0x4000829f98o@uint64, L0x4000829fa0o@uint64,
@@ -15526,7 +15526,7 @@ rcut and [limbs 64 [L0x40008298d0, L0x40008298d8, L0x40008298e0,
           m0 = 0xb9feffffffffaaab@64, m1 = 0x1eabfffeb153ffff@64,
           m2 = 0x6730d2a0f6b0f624@64, m3 = 0x64774b84f38512bf@64,
           m4 = 0x4b1ba7b6434bacd7@64, m5 = 0x1a0111ea397fe69a@64
-     ] prove with all cuts;
+     ] prove with [all cuts];
 
 ghost L0x4000829f18o@uint64, L0x4000829f20o@uint64, L0x4000829f28o@uint64,
       L0x4000829f30o@uint64, L0x4000829f38o@uint64, L0x4000829f40o@uint64,
@@ -15769,7 +15769,7 @@ rcut and [limbs 64 [L0x4000829b38, L0x4000829b40, L0x4000829b48,
           m0 = 0xb9feffffffffaaab@64, m1 = 0x1eabfffeb153ffff@64,
           m2 = 0x6730d2a0f6b0f624@64, m3 = 0x64774b84f38512bf@64,
           m4 = 0x4b1ba7b6434bacd7@64, m5 = 0x1a0111ea397fe69a@64
-     ] prove with all cuts;
+     ] prove with [all cuts];
 
 ghost L0x4000829f18q@uint64, L0x4000829f20q@uint64, L0x4000829f28q@uint64,
       L0x4000829f30q@uint64, L0x4000829f38q@uint64, L0x4000829f40q@uint64,
@@ -16214,7 +16214,7 @@ rcut and [limbs 64 [L0x4000829cb8, L0x4000829cc0, L0x4000829cc8,
           m0 = 0xb9feffffffffaaab@64, m1 = 0x1eabfffeb153ffff@64,
           m2 = 0x6730d2a0f6b0f624@64, m3 = 0x64774b84f38512bf@64,
           m4 = 0x4b1ba7b6434bacd7@64, m5 = 0x1a0111ea397fe69a@64
-     ] prove with all cuts;
+     ] prove with [all cuts];
 
 ghost L0x4000829f18r@uint64, L0x4000829f20r@uint64, L0x4000829f28r@uint64,
       L0x4000829f30r@uint64, L0x4000829f38r@uint64, L0x4000829f40r@uint64,
@@ -16646,7 +16646,7 @@ rcut and [limbs 64 [L0x4000829bf8, L0x4000829c00, L0x4000829c08,
           m0 = 0xb9feffffffffaaab@64, m1 = 0x1eabfffeb153ffff@64,
           m2 = 0x6730d2a0f6b0f624@64, m3 = 0x64774b84f38512bf@64,
           m4 = 0x4b1ba7b6434bacd7@64, m5 = 0x1a0111ea397fe69a@64
-     ] prove with all cuts;
+     ] prove with [all cuts];
 
 ghost L0x4000829f18s@uint64, L0x4000829f20s@uint64, L0x4000829f28s@uint64,
       L0x4000829f30s@uint64, L0x4000829f38s@uint64, L0x4000829f40s@uint64,
@@ -17458,7 +17458,7 @@ cut and [m0 = 0xb9feffffffffaaab, m1 = 0x1eabfffeb153ffff,
          limbs 64 [L0x4000829fa8, L0x4000829fb0, L0x4000829fb8,
                    L0x4000829fc0, L0x4000829fc8, L0x4000829fd0] <u
          limbs 64 [m0, m1, m2, m3, m4, m5]
-    ] prove with all cuts;
+    ] prove with [all cuts];
 
 (* NOTE: start Montgomery reduction *)
 
@@ -17899,7 +17899,7 @@ cut and [eqmod (limbs 64 [0, 0, 0, 0, 0, 0, x11, x12, x13, x14, x15, x16])
          
          x5 = m0, x6 = m1, x7 = m2, x8 = m3, x9 = m4, x10 = m5,
          limbs 64 [x11, x12, x13, x14, x15, x16] <=u
-         limbs 64 [m0, m1, m2, m3, m4, m5]] prove with all cuts;
+         limbs 64 [m0, m1, m2, m3, m4, m5]] prove with [all cuts];
 
 ghost x11o@uint64, x12o@uint64, x13o@uint64,
       x14o@uint64, x15o@uint64, x16o@uint64 :
@@ -18442,7 +18442,7 @@ cut and [eqmod (limbs 64 [0, 0, 0, 0, 0, 0,
 
          x5 = m0, x6 = m1, x7 = m2, x8 = m3, x9 = m4, x10 = m5,
          limbs 64 [x11, x12, x13, x14, x15, x16] <=u
-         limbs 64 [m0, m1, m2, m3, m4, m5]] prove with all cuts;
+         limbs 64 [m0, m1, m2, m3, m4, m5]] prove with [all cuts];
 
 ghost x11p@uint64, x12p@uint64, x13p@uint64,
       x14p@uint64, x15p@uint64, x16p@uint64 :
@@ -18987,7 +18987,7 @@ cut and [eqmod (limbs 64 [0, 0, 0, 0, 0, 0,
     
          x5 = m0, x6 = m1, x7 = m2, x8 = m3, x9 = m4, x10 = m5,
          limbs 64 [x11, x12, x13, x14, x15, x16] <=u
-         limbs 64 [m0, m1, m2, m3, m4, m5]] prove with all cuts;
+         limbs 64 [m0, m1, m2, m3, m4, m5]] prove with [all cuts];
        
 ghost x11q@uint64, x12q@uint64, x13q@uint64,
       x14q@uint64, x15q@uint64, x16q@uint64 :
@@ -19532,7 +19532,7 @@ cut and [eqmod (limbs 64 [0, 0, 0, 0, 0, 0,
     
          x5 = m0, x6 = m1, x7 = m2, x8 = m3, x9 = m4, x10 = m5,
          limbs 64 [x11, x12, x13, x14, x15, x16] <=u
-         limbs 64 [m0, m1, m2, m3, m4, m5]] prove with all cuts;
+         limbs 64 [m0, m1, m2, m3, m4, m5]] prove with [all cuts];
 
 ghost x11r@uint64, x12r@uint64, x13r@uint64,
       x14r@uint64, x15r@uint64, x16r@uint64 :
@@ -20076,7 +20076,7 @@ cut and [eqmod (limbs 64 [0, 0, 0, 0, 0, 0,
     
          x5 = m0, x6 = m1, x7 = m2, x8 = m3, x9 = m4, x10 = m5,
          limbs 64 [x11, x12, x13, x14, x15, x16] <=u
-         limbs 64 [m0, m1, m2, m3, m4, m5]] prove with all cuts;
+         limbs 64 [m0, m1, m2, m3, m4, m5]] prove with [all cuts];
 
 ghost x11s@uint64, x12s@uint64, x13s@uint64,
       x14s@uint64, x15s@uint64, x16s@uint64 :
@@ -20618,7 +20618,7 @@ cut and [eqmod (limbs 64 [0, 0, 0, 0, 0, 0,
     
          x5 = m0, x6 = m1, x7 = m2, x8 = m3, x9 = m4, x10 = m5,
          limbs 64 [x11, x12, x13, x14, x15, x16] <=u
-         limbs 64 [m0, m1, m2, m3, m4, m5]] prove with all cuts;
+         limbs 64 [m0, m1, m2, m3, m4, m5]] prove with [all cuts];
 
 ghost x11t@uint64, x12t@uint64, x13t@uint64,
       x14t@uint64, x15t@uint64, x16t@uint64 :
@@ -20736,7 +20736,7 @@ cut and [eqmod (limbs 64 [0, 0, 0, 0, 0, 0,
          m0 = 0xb9feffffffffaaab@64, m1 = 0x1eabfffeb153ffff@64,
          m2 = 0x6730d2a0f6b0f624@64, m3 = 0x64774b84f38512bf@64,
          m4 = 0x4b1ba7b6434bacd7@64, m5 = 0x1a0111ea397fe69a@64]
-    prove with all cuts;
+    prove with [all cuts];
 
 ecut and [m0 = 0xb9feffffffffaaab, m1 = 0x1eabfffeb153ffff,
           m2 = 0x6730d2a0f6b0f624, m3 = 0x64774b84f38512bf,
@@ -20943,7 +20943,7 @@ ecut and [m0 = 0xb9feffffffffaaab, m1 = 0x1eabfffeb153ffff,
                   limbs 64 [b30, b31, b32, b33, b34, b35] * U))
                 [limbs 64 [0, 0, 0, 0, 0, 0, m0, m1, m2, m3, m4, m5],
                  U * U + 1]
-    ] prove with all cuts;
+    ] prove with [all cuts];
 
 mov c00 L0x400082a048; mov c01 L0x400082a050; mov c02 L0x400082a058;
 mov c03 L0x400082a060; mov c04 L0x400082a068; mov c05 L0x400082a070;

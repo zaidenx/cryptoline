@@ -14,7 +14,7 @@ Verification result:                    [OK]            1.582044 seconds
 *)
 proc main (sint64 f0, sint64 g0, sint64 delta, sint64 f, sint64 g, sint64 r, sint64 u, sint64 v, sint64 q, sint64 M) =
 {
-  eqmod 2**(61) 0 M
+  eqmod (2**(61)) 0 M
   &&
   and[ const 64 (-(2**63)) <s delta, delta <s const 64 (2**63) - 1@64,
        eqmod f const 64 1 const 64 2, 
@@ -140,23 +140,23 @@ assume
       and[
       eqmod f 1 2,
       eqmod
-      u * f0 + v * g0
+      (u * f0 + v * g0)
       0
       M0,
       eqmod
-      q * f0 + r * g0
+      (q * f0 + r * g0)
       0
       M0,
       eqmod
-      u * f0 + v * g0
-      f * M0
-      2**(64),
+      (u * f0 + v * g0)
+      (f * M0)
+      (2**(64)),
       eqmod
-      q * f0 + r * g0
-      g * M0
-      2**(64),
+      (q * f0 + r * g0)
+      (g * M0)
+      (2**(64)),
       M = M0 * 2,
-      eqmod 2**(61) 0 M0] && true;
+      eqmod (2**(61)) 0 M0] && true;
 
 
 nondet pos@uint1;
@@ -168,9 +168,9 @@ assume
 
 ssplit Hg LSB_g g 1;
 assert true &&
-  and[eqmod g - LSB_g 0@64 2@64];
+  and[eqmod (g - LSB_g) 0@64 2@64];
 assume
-  and[eqmod g - LSB_g 0 2] && true;
+  and[eqmod (g - LSB_g) 0 2] && true;
 
 nondet Xh@sint64;
 
@@ -210,19 +210,19 @@ assume pos = 0 && true;
 
 ecut and[
       eqmod
-      U * f0 + V * g0
+      (U * f0 + V * g0)
       0
       M,
       eqmod
-      Q1 * f0 + R1 * g0
+      (Q1 * f0 + R1 * g0)
       0
       M,
       eqmod
-      U * f0 + V * g0
-      F * M
-      2**(64),
+      (U * f0 + V * g0)
+      (F * M)
+      (2**(64)),
       eqmod
-      Q1 * f0 + R1 * g0
-      G1 * M
-      2**(64),
+      (Q1 * f0 + R1 * g0)
+      (G1 * M)
+      (2**(64)),
       M = M0 * 2];

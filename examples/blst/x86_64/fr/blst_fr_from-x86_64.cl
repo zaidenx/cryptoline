@@ -415,7 +415,7 @@ assume eqmod (limbs 64 [q0, q1, q2, q3])
              (limbs 64 [m0, m1, m2, m3]) && true;
 
 {
-  eqmod (limbs 64 [c0, c1, c2, c3]) * (2**256)
+  eqmod ((limbs 64 [c0, c1, c2, c3]) * (2**256))
         (limbs 64 [x0, x1, x2, x3])
         (limbs 64 [m0, m1, m2, m3])
 &&

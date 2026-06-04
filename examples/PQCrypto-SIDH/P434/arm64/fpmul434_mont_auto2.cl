@@ -643,10 +643,10 @@ assume carry = 0 && true;
 //end MUL256_KARATSUBA_COMBA
 
 //mul1
-assert eqmod limbs 64 [x8, x9, x30, x19, x10, x15, x16, x17]
-             (limbs 64 [a0, a1, a2, a3] + limbs 64 [a4, a5, a6, 0]) *
-             (limbs 64 [b0, b1, b2, b3] + limbs 64 [b4, b5, b6, 0])
-             2**512 && true;
+assert eqmod (limbs 64 [x8, x9, x30, x19, x10, x15, x16, x17])
+             ((limbs 64 [a0, a1, a2, a3] + limbs 64 [a4, a5, a6, 0]) *
+             (limbs 64 [b0, b1, b2, b3] + limbs 64 [b4, b5, b6, 0]))
+             (2**512) && true;
 assume limbs 64 [x8, x9, x30, x19, x10, x15, x16, x17] =
        (limbs 64 [a0, a1, a2, a3] + limbs 64 [a4, a5, a6, 0]) *
        (limbs 64 [b0, b1, b2, b3] + limbs 64 [b4, b5, b6, 0]) && true;
@@ -692,11 +692,11 @@ sbcs carry x16 x16 x26 carry;
 (* sbc	x17, x17, x27                               #! PC = 0xaaaaaaab55d8 *)
 sbcs dontcare x17 x17 x27 carry;
 
-assert eqmod limbs 64 [x8, x9, x30, x19, x10, x15, x16, x17]
-             (limbs 64 [a0, a1, a2, a3] + limbs 64 [a4, a5, a6, 0]) *
+assert eqmod (limbs 64 [x8, x9, x30, x19, x10, x15, x16, x17])
+             ((limbs 64 [a0, a1, a2, a3] + limbs 64 [a4, a5, a6, 0]) *
              (limbs 64 [b0, b1, b2, b3] + limbs 64 [b4, b5, b6, 0]) -
-             limbs 64 [a0, a1, a2, a3] * limbs 64 [b0, b1, b2, b3]
-             2**512 && true;
+             limbs 64 [a0, a1, a2, a3] * limbs 64 [b0, b1, b2, b3])
+             (2**512) && true;
 assume limbs 64 [x8, x9, x30, x19, x10, x15, x16, x17] =
        (limbs 64 [a0, a1, a2, a3] + limbs 64 [a4, a5, a6, 0]) *
        (limbs 64 [b0, b1, b2, b3] + limbs 64 [b4, b5, b6, 0]) -
@@ -1302,11 +1302,11 @@ mov r6 L0xffffffffea00;
 
 {
   
-  eqmod limbs 64 [ 0,  0,  0,  0,  0,  0,  0,
-                  r0, r1, r2, r3, r4, r5, r6]
-        limbs 64 [a0, a1, a2, a3, a4, a5, a6] *
-        limbs 64 [b0, b1, b2, b3, b4, b5, b6]
-        limbs 64 [p_0, p_1, p_2, p_3, p_4, p_5, p_6]
+  eqmod (limbs 64 [ 0,  0,  0,  0,  0,  0,  0,
+                  r0, r1, r2, r3, r4, r5, r6])
+        (limbs 64 [a0, a1, a2, a3, a4, a5, a6] *
+        limbs 64 [b0, b1, b2, b3, b4, b5, b6])
+        (limbs 64 [p_0, p_1, p_2, p_3, p_4, p_5, p_6])
 
   && 
   limbs 64 [r0, r1, r2, r3, r4, r5, r6] <u limbs 64 [px2_0, px2_1, px2_2, px2_3, px2_4, px2_5, px2_6]

@@ -1954,7 +1954,7 @@ cut and [
       limbs 64 [L0x400082a9b0, L0x400082a9b8, L0x400082a9c0,
                 L0x400082a9c8, L0x400082a9d0, L0x400082a9d8] <u
       limbs 64 [m0, m1, m2, m3, m4, m5]
-    ] prove with precondition;
+    ] prove with [precondition];
 
 (* NOTE: simplify assumptions just for reduction *)
 
@@ -2380,7 +2380,7 @@ rcut and [
 
       limbs 64 [x11, x12, x13, x14, x15, x16] <=u
       limbs 64 [m0, m1, m2, m3, m4, m5]
-    ] prove with precondition;
+    ] prove with [precondition];
 
 ghost x11o@uint64, x12o@uint64, x13o@uint64,
       x14o@uint64, x15o@uint64, x16o@uint64 :
@@ -3024,7 +3024,7 @@ ecut and [
                         L0x400082a9b0, L0x400082a9b8, L0x400082a9c0,
                         L0x400082a9c8, L0x400082a9d0, L0x400082a9d8])
              (limbs 64 [m0, m1, m2, m3, m4, m5])
-     ] prove with all cuts;
+     ] prove with [all cuts];
 
 (* #ldr	x30, [x29, #8]                              #! EA = L0x400082a9e8; Value = 0x0044004000010168; PC = 0x274877985260 *)
 #ldr	%%x30, %%L0x400082a9e8                              #! L0x400082a9e8 = L0x400082a9e8; 0x0044004000010168 = 0x0044004000010168; 0x274877985260 = 0x274877985260;
