@@ -14,33 +14,31 @@ module IntMap = Map.Make(Int)
 (** [get_rewrite_pattern e] tries to find v = e' in a complicated
     expression [e] *)
 let get_rewrite_pattern ?(moduli=[]) e =
-  (* find variables linearly appearing in expression [e], storing the
-     linear variables in the set [vs] *)
-  let rec linear_variables e vs =
-    match e with
-    | Evar v -> VS.add v vs
-    | Econst _ -> vs
-    | Eunop (_, e1) -> linear_variables e1 vs
-    | Ebinop (op, e1, e2) when op = Eadd || op = Esub ->
-      linear_variables e2 (linear_variables e1 vs)
-    | _ -> vs in
-  (* count the occurrences of variables [vs] in expression [e], storing
-     the counts in the map [counts] *)
-  let rec count_occurrences vs e counts =
-    match e with
-    | Evar x ->
-      if VS.mem x vs then
-        let c = match VM.find_opt x counts with Some n -> n | None -> 0 in
-        VM.add x (c + 1) counts
-      else counts
-    | Econst _ -> counts
-    | Eunop (_, e1) -> count_occurrences vs e1 counts
-    | Ebinop (_, e1, e2) -> count_occurrences vs e2 (count_occurrences vs e1 counts) in
-  (* return true if variable [v] has count 1 in map [m] *)
-  let has_count_one m v =
-    match VM.find_opt v m with
-    | Some 1 -> true
-    | _ -> false in
+  (* Find candicates for rewriting. A candidate must satisfy the following
+     two conditions:
+     - It must appear linearly in the expression.
+     - It must appear exactly once. *)
+  let find_candidates e =
+    let rec helper (noncandidates, candidates) linear e =
+      match e with
+      | Evar v ->
+        (* not first visit *)
+        if VS.mem v noncandidates then
+          (noncandidates, candidates)
+        else if VS.mem v candidates then
+          (VS.add v noncandidates, VS.remove v candidates)
+        (* first visit *)
+        else if linear then
+          (noncandidates, VS.add v candidates)
+        else
+          (VS.add v noncandidates, candidates)
+      | Econst _ -> (noncandidates, candidates)
+      | Eunop (_, e1) -> helper (noncandidates, candidates) linear e1
+      | Ebinop (op, e1, e2) when op = Eadd || op = Esub ->
+        helper (helper (noncandidates, candidates) linear e1) linear e2
+      | Ebinop (_, e1, e2) ->
+        helper (helper (noncandidates, candidates) false e1) false e2 in
+    helper (VS.empty, VS.empty) true e |> snd in
   (* try to deduce expresion v = pat' from the expression e = pat *)
   let rec separate v e pat =
     match e with
@@ -59,18 +57,13 @@ let get_rewrite_pattern ?(moduli=[]) e =
       separate v has_v (eadd pat add_pat)
     | _ -> failwith "Impossible case in get_rewrite_pattern." in
   (* *)
-  let initial_candidates = linear_variables e VS.empty in
-  if VS.is_empty initial_candidates
-  then None
+  let candidates = find_candidates e in
+  if VS.is_empty candidates then
+    None
   else
-    let candidates =
-      let all_counts = count_occurrences initial_candidates e VM.empty in
-      VS.filter (has_count_one all_counts) initial_candidates in
-    if VS.is_empty candidates then None
-    else
-      let v = VS.min_elt candidates in
-      let pat = separate v e (econst Z.zero) |> simplify_eexp ~moduli:moduli in
-      Some (v, pat)
+    let v = VS.min_elt candidates in
+    let pat = separate v e (econst Z.zero) |> simplify_eexp ~moduli:moduli in
+    Some (v, pat)
 
 let get_rewrite_pattern' e others =
   let rec num_occurrence sub e =
